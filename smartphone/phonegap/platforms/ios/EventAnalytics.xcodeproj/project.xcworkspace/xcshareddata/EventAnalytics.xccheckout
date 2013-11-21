@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>B1D43AA7-3462-4063-BE6D-CB4AE0A7BA3B</string>
+	<key>IDESourceControlProjectName</key>
+	<string>EventAnalytics</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>80325BAD-4AAC-417A-9CC0-012859A1A322</key>
+		<string>https://github.com/cobookman/evitics.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>platforms/ios/EventAnalytics.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>80325BAD-4AAC-417A-9CC0-012859A1A322</key>
+		<string>../../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/cobookman/evitics.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>80325BAD-4AAC-417A-9CC0-012859A1A322</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>80325BAD-4AAC-417A-9CC0-012859A1A322</string>
+			<key>IDESourceControlWCCName</key>
+			<string>phonegap</string>
+		</dict>
+	</array>
+</dict>
+</plist>

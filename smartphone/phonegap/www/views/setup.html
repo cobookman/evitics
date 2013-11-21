@@ -1,0 +1,48 @@
+<article id="setup" class="component">
+  <header>
+    <h2>Select a Bluetooth Peripheral</h2>
+  </header>
+  <section id="peripherals">
+    <img class="loading" src="img/loading.gif" alt="Loading..."></img>
+    <div id="peripheralList">
+    </div>
+  </section>
+  <footer>
+  </footer>
+</article>
+
+<script>
+  ble.outputPeripherals = function(peripherals) {
+    var peripheralList = document.getElementById('peripherals');
+    var length = 0;
+    var html = '';
+    for(var uuid in peripherals) {
+      ++length;
+      html += "<button onclick=\"ble.connect('"+uuid+"');\" >" + peripherals[uuid].name + '</button>';
+    }
+    if(length > 0) {
+      peripheralList.innerHTML = html;
+      $(".loading:hidden").show();
+    } else {
+      peripheralList.innerHTML = "";
+      $(".loading:visible").hide();
+    }
+  };
+  ble.onconnect = function() {
+    clearInterval(ble.listInterval);
+    bluetoothSerial.subscribe("\n", ble.onmessage, function() { alert("NOPE"); });    
+  };
+  ble.ondisconnect = function(reason) {
+    alert('DISCONNECTED: ' + JSON.stringify(reason));
+    ble.listInterval = setInterval(ble.list, 2000);
+  };
+
+  ble.list();
+  ble.listInterval = setInterval(ble.list, 2000);
+ </script>
+
+ <style>
+  .peripheralList {
+    list-style-type: none;
+  }
+ </style>

@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<!--
+    Licensed to the Apache Software Foundation (ASF) under one
+    or more contributor license agreements.  See the NOTICE file
+    distributed with this work for additional information
+    regarding copyright ownership.  The ASF licenses this file
+    to you under the Apache License, Version 2.0 (the
+    "License"); you may not use this file except in compliance
+    with the License.  You may obtain a copy of the License at
+
+    http://www.apache.org/licenses/LICENSE-2.0
+
+    Unless required by applicable law or agreed to in writing,
+    software distributed under the License is distributed on an
+    "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+     KIND, either express or implied.  See the License for the
+    specific language governing permissions and limitations
+    under the License.
+-->
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <meta name="format-detection" content="telephone=no" />
+        <!-- WARNING: for iOS 7, remove the width=device-width and height=device-height attributes. See https://issues.apache.org/jira/browse/CB-4323 -->
+        <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, target-densitydpi=device-dpi" />
+
+        <link rel="stylesheet" type="text/css" href="font/stylesheet.css">
+        <link rel="stylesheet" type="text/css" href="css/topcoat-mobile-dark.min.css">
+        <link rel="stylesheet" type="text/css" href="css/main.css" >
+        <link rel="stylesheet" type="text/css" href="css/brackets.css" >
+        <link rel="stylesheet" type="text/css" href="css/index.css" >
+        <title>Event Analytics - Connector</title>
+    </head>
+<body class="dark">
+    <div id="wrapper">
+      <div class="max-width max-height">
+        <div id="sideNav">
+          <nav class="site">
+            <ul>
+              <!-- All hashes must correlate to a .html file in views/ -->
+              <li><a href="#login">Login</a></li>
+              <li><a href="#setup">Setup</a></li>
+              <li><a href="#newevent">New Event</a></li>
+              <li><a href="#analytics">Analytics</a></li>
+              <li><a href="#marketing">Marketing</a></li>
+              <li><a href="#faq">FAQ</a></li>
+            </ul>
+          </nav>
+          <div id="pageNav">
+            <ul>
+              <li><a href="#event1">Event 1</a></li>
+              <li><a href="#event2">Event 2</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div id="site">
+        <header id="main-header">
+          <div class="max-width">
+            <hgroup>
+              <h1><a href="http://topcoat.io">Evitics</a></h1>
+              <p>An Event Analytics Platform</p>
+            </hgroup>
+            <nav>
+              <ul>
+                <li><a href="#analytics">Analytics</a></li>
+                <li><a href="#marketing">Marketing</a></li>
+                <li><a href="#faq">FAQ</a></li>
+                <li><a href="#login">Login</a></li>
+              </ul>
+            </nav><a id="slide-menu-button" class="topcoat-icon-button--large--quiet"><span class="topcoat-icon--large topcoat-icon--menu-stack"></span></a>
+          </div>
+        </header>
+        <div id="content" class="max-width" style="min-height: 100%">
+          <!-- TEMPLATES LOAD HERE -->
+        </div>
+      </div>
+    </div>
+
+    <script type="text/javascript" src="js/jQuery.min.js"></script>
+    <script type="text/javascript" src="cordova.js"></script>
+    <script type="text/javascript" src="js/plugins/bluetoothSerial.js"></script>
+    <!-- <script type="text/javascript" src="js/handlebars.js"></script>  -->
+    <!-- LOAD MODULES -->
+    <script type="text/javascript" src="js/modules/bluetooth.js"></script>
+    <script type="text/javascript" src="js/modules/template.js"></script>
+    <script type="text/javascript" src="js/modules/user.js"></script>
+
+    <script type="text/javascript" src="js/eventHandler.js"></script>
+  </body>
+</html>

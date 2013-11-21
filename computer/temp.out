@@ -1,0 +1,5 @@
+on -> stateChange: poweredOn
+on -> scanStart
+Connected to read characteristic: {"uuid":"713d0002503e4c75ba943148f18d941e","name":null,"type":null,"properties":["notify"]}
+Connected to write characteristic: {"uuid":"713d0003503e4c75ba943148f18d941e","name":null,"type":null,"properties":["writeWithoutResponse"]}
+{"uuid":"713d0003503e4c75ba943148f18d941e","handle":15,"valueHandle":16,"properties":["writeWithoutResponse"]}
