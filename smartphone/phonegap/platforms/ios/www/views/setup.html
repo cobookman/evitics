@@ -22,22 +22,17 @@
     }
     if(length > 0) {
       peripheralList.innerHTML = html;
-      $(".loading:hidden").show();
+      $(".loading").hide();
     } else {
       peripheralList.innerHTML = "";
-      $(".loading:visible").hide();
+      $(".loading").show();
     }
   };
   ble.onconnect = function() {
     clearInterval(ble.listInterval);
-    bluetoothSerial.subscribe("\n", ble.onmessage, function() { alert("NOPE"); });
-    ble.sendData("AA");
-    alert("SEND ABCD");
-    
+    ble.sendData("44\n");
+    //bluetoothSerial.subscribe("\n", ble.onmessage, function() { alert("NOPE"); });    
   };
-  ble.onmessage = function(message) {
-    alert("GOT MESSAGE!: " +message);
-  }
   ble.ondisconnect = function(reason) {
     alert('DISCONNECTED: ' + JSON.stringify(reason));
     ble.listInterval = setInterval(ble.list, 2000);

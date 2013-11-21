@@ -39,6 +39,7 @@ var ble = (function() {
         // bluetoothSerial.write(text, success);
         // return false;
         bluetoothSerial.write(text, function() {
+            $("#content").html("Sent: " + text);
         });
     },
     peripherals : [],
@@ -48,7 +49,6 @@ var ble = (function() {
           ble.peripherals[devices[i].uuid] = devices[i];
         }
       }
-
       if(devices.length > 0) {
         ble.outputPeripherals(ble.peripherals);
       }
@@ -77,8 +77,10 @@ var ble = (function() {
         //alert("ondisconnect");
     },
     onmessage: function(message) {
+        alert('MSG');
         // messages.value += "Them: " + message;
         // messages.scrollTop = messages.scrollHeight;
+        $("#content").html(message);
         alert("onmessage: " + message);
     },
     setStatus: function(message) { // setStatus
@@ -118,4 +120,5 @@ var ble = (function() {
     }
   };
 })();
-ble.deviceready();
+
+document.addEventListener('deviceready', ble.deviceready, false);
