@@ -4,7 +4,7 @@
   </header>
   <form class="newevent-form" onsubmit="return false;">
     <div class="errmsg"><!-- ERROR MESSAGE HERE --> </div>
-    <input id="name" type="text" class="topcoat-text-input--large" placeholder="Event Name">
+    <input id="name" type="text" placeholder="Event Name">
     <select id="organization" class="docNav">
         <option value="">--Select a Club--</option>
         <option value="ECE4894">ECE 4894</option>
@@ -14,9 +14,9 @@
         <option value="other">Other</option>
     </select>
     <!-- TODO GUEST LIST STUFFS -->
-    <input id="guestList" type="text" class="topcoat-text-input--large" placeholder="Guest list in format of: [134, 234, 234]">
+    <input id="guestList" type="text" placeholder="Guest list in format of: [134, 234, 234]">
     <!--                        -->
-    <button onclick="newevent.submit()" class="topcoat-button--cta" >Create Event</button>
+    <button onclick="newevent.submit();" >Create Event</button>
   </form>
   <footer>
   </footer>

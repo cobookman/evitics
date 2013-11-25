@@ -7,3 +7,15 @@ form > input, form > select {
   color: rgb(236, 81, 78);
   font-size: 1.3rem;
 }
+html {
+	padding-top: 20px;
+}
+html, body, .off-canvas-wrap, .inner-wrap, .main-section {
+	height: 100%;
+}
+.main-section {
+	overflow-y: auto;
+}
+.hide {
+	display: none;
+}

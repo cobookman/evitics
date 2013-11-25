@@ -1,0 +1,12 @@
+<div class="row">
+    <div id="data" class="small-10 small-push-1 columns">
+    </div>
+</div>
+
+<script>
+ble.onmessage: function(message) {
+	alert(message);
+	document.getElementById("data").innerHTML +=message + "<br/>";
+
+}
+</script>

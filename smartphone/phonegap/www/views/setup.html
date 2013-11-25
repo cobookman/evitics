@@ -6,41 +6,13 @@
     <img class="loading" src="img/loading.gif" alt="Loading..."></img>
     <div id="peripheralList">
     </div>
+    <div id="content">
+    </div>
   </section>
   <footer>
   </footer>
 </article>
-
-<script>
-  ble.outputPeripherals = function(peripherals) {
-    var peripheralList = document.getElementById('peripherals');
-    var length = 0;
-    var html = '';
-    for(var uuid in peripherals) {
-      ++length;
-      html += "<button onclick=\"ble.connect('"+uuid+"');\" >" + peripherals[uuid].name + '</button>';
-    }
-    if(length > 0) {
-      peripheralList.innerHTML = html;
-      $(".loading").hide();
-    } else {
-      peripheralList.innerHTML = "";
-      $(".loading").show();
-    }
-  };
-  ble.onconnect = function() {
-    clearInterval(ble.listInterval);
-    ble.sendData("44\n");
-    //bluetoothSerial.subscribe("\n", ble.onmessage, function() { alert("NOPE"); });    
-  };
-  ble.ondisconnect = function(reason) {
-    alert('DISCONNECTED: ' + JSON.stringify(reason));
-    ble.listInterval = setInterval(ble.list, 2000);
-  };
-
-  ble.list();
-  ble.listInterval = setInterval(ble.list, 2000);
- </script>
+<script src="js/controllers/setup.js"></script>
 
  <style>
   .peripheralList {

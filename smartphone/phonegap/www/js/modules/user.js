@@ -1,19 +1,22 @@
 var user = {
   attempts : 0,
   username : undefined,
-  login : function() {
+  login : function(success, fail) {
     var credentials = {
       username : document.getElementById("username").value,
       password : document.getElementById("password").value
     };
     if(loginUser(credentials)) {
-      isLoggedIn();
+      user.username = credentials.username;
+      user.attempts = 0;
+      change2logout();
+      success();
     } else {
-      notLoggedIn();
+      ++user.attempts;
+      fail();
     }
     return;
 
-    /// HELPER FUNCTIONS ///
     function loginUser(credentials) {
       if(credentials.username == "test" && credentials.password == "test") {
         return true;
@@ -22,35 +25,37 @@ var user = {
       }
     }
 
-    function isLoggedIn() {
-      user.attempts = 0;
-      user.username = credentials.username;
-
+    function change2logout() {
       /*  Convert 'login' to 'logout' */
       var loginButtons = document.querySelectorAll('a[href="#login"]');
       for(var i = 0; i < loginButtons.length; ++i) {
-        loginButtons[i].outerHTML = '<a href="#logout">Logout</a>';
+        loginButtons[i].setAttribute("href", "#logout");
+        loginButtons[i].text = "Logout";
       }
-
-      /*  Load setup template */
-      template.load('setup');
-    }
-    
-    function notLoggedIn() {
-      ++user.attempts;
-      var errmsgDiv = document.querySelector("#content > article > form > div.errmsg");
-      errmsgDiv.innerHTML = "Wrong login credential<br>this is your: " + user.attempts + " attempt";
     }
   },
   logout : function() {
     user.username = undefined;
-    /* Change 'logout' to 'login' */
-    var logoutButtons = document.querySelectorAll('a[href="#logout"]');
+    change2login();
+    template.goto('login');
+
+    function change2login() {
+      /* Convert 'logout' to 'login' */
+      var logoutButtons = document.querySelectorAll('a[href="#logout"]');
       for(var i = 0; i < logoutButtons.length; ++i) {
-        logoutButtons[i].outerHTML = '<a href="#login">Login</a>';
+        logoutButtons[i].setAttribute("href", "#login");
+        logoutButtons[i].text = "Login";
+      }
     }
-    /* Load Logout template */
-    template.load('login');
+  },
+  isLoggedIn : function() {
+    if(typeof user.username !== "undefined" &&
+       user.username.length > 1 &&
+       user.username !== null) {
+      return false;
+    } else {
+      return true;
+    }
   }
 };
 
