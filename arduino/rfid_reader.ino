@@ -8,20 +8,27 @@
  
  http://www.midwestbas.com/store/media/pdf/infinias/customer_wiegand_card_formats.pdf
  Standard corp 1k
- */
-/*      CONFIGURATION      */
-//RFID Reader
-#define beeperPin 12
-#define redPin 11 // Red LED
-#define greenPin 10 // GREN LED
-#define holdPin 9 //Stop the RFID Reader
+*/
+/*      
+  PIN # decleration
+*/
+#define beeperPin 4
+#define redPin 5 // Red LED
+#define greenPin 6 // GREN LED
+#define holdPin 7 //Stop the RFID Reader
+
+/*
+  RFID parsing information
+*/
 #define id_start_bit 14 //The starting bit of the buzzcardID
 #define id_bit_length 20 //Bit Length of buzzcardID
 
-//RFID Data - Holds
-volatile byte RFID_Data[35]; //Have to store raw RFID data as array as its too long to fit in a natural arduino datatype
-volatile int RFID_bitsRead = 0; //How many bits have we read so far?
-int hold = false;
+/*
+  Static Globals
+*/
+static volatile byte RFID_Data[35]; //Have to store raw RFID data as array as its too long to fit in a natural arduino datatype
+static volatile int RFID_bitsRead = 0; //How many bits have we read so far?
+static int hold = false;
 
 #include <SPI.h>
 #include <boards.h>
@@ -37,58 +44,31 @@ void setup()
   attachInterrupt(0, dataZero_High, RISING);//DATA0 to pin 2 - data
   attachInterrupt(4, dataOne_High, RISING); //DATA1 to pin 3 - clock
   delay(10);
-
-  //  pinMode(beeperPin, OUTPUT);
-  //  digitalWrite(beeperPin, HIGH);
-  //  pinMode(redPin, OUTPUT);
-  //  digitalWrite(redPin, HIGH);
-  //  pinMode(greenPin, OUTPUT);
-  //  digitalWrite(greenPin, HIGH);
-  //  pinMode(holdPin, OUTPUT);
-  //  digitalWrite(holdPin, HIGH);
+  
+  /* Beeper Setup */
+  pinMode(beeperPin, OUTPUT);
+  digitalWrite(beeperPin, HIGH);
+  /* Red LED Setup */
+  pinMode(redPin, OUTPUT);
+  digitalWrite(redPin, HIGH);
+  /* Green LED Setup */
+  pinMode(greenPin, OUTPUT);
+  digitalWrite(greenPin, HIGH);
+  /* RFID Hold Setup */
+  pinMode(holdPin, OUTPUT);
+  digitalWrite(holdPin, HIGH);
 
   // put the reader input variables to zero
   for(int i = 0; i < 35; i++) {
     RFID_Data[i] = 0x00;
   }
   RFID_bitsRead = 0;
-
-
 }
 
 void loop() {
-  while(ble_available()) {
-    byte temp = ble_read();
-    Serial.print(temp, HEX);
-    ble_write(temp);
-  }
-  if(RFID_bitsRead >= 35) { //HID Corporate 1000 (BuzzCard) uses 35 bits, all RFID data is read at this point
-    //Parse out only the data we want
-    unsigned long Card_Data = 0; //Interger was having overflow
-    for(int i = id_start_bit; i < (id_start_bit + id_bit_length); i++) {
-      Card_Data <<= 1;
-      Card_Data |= RFID_Data[i] & 0x1; //RFID data stored in first bit
-      RFID_Data[i] = 0x00; //RESET RFID DATA
-    }
-    Serial.print(Card_Data);
-    ble_write(0x42);
-      //RESET RFID
-    RFID_bitsRead = 0;
-    RFID_UNLOCK(); //Resume RFID hardware interrupts will resume
-
-    //When not reading rfid data, send/receive data from 2nd arduino
-  } 
-  else if (RFID_bitsRead == 0) {
-    //    Wire.requestFrom(0x2, 6); //Request 6 bytes from device id 0x2
-    //Slave doesn't need to send all 6 bytes
-    //  while(Wire.available()){
-    //  char c = Wire.read();
-    ///   Serial.print(c);
-    // }
-    // delay(500);
-  }
+  RFID_do_events();
   if(!hold) {
-   ble_do_events();
+    ble_do_events();
   }
 }
 
@@ -101,7 +81,7 @@ void dataZero_High(void) { //Binary0
   ++RFID_bitsRead;
   //Put on a hold
   if(!hold) {
-    RFID_LOCK();
+    RFID_lock();
   }
 }
 
@@ -110,25 +90,71 @@ void dataOne_High(void) { //Binary1
   ++RFID_bitsRead;
   //Put on a hold
   if(!hold) {
-    RFID_LOCK();
+    RFID_lock();
   }
 }
-/* 
- HELPER Functions 
- */
-void RFID_LOCK() {
-  Serial.println("Hold engaged");
-  hold = true;
-//  digitalWrite(holdPin, LOW);
-//  digitalWrite(greenPin, LOW);
-//  digitalWrite(redPin, HIGH);
+/*
+  Functions
+*/
+void RFID_do_events() {
+  if(RFID_bitsRead >= 35) { 
+    unsigned long Card_Data = parseId();
+    Serial.println(Card_Data);
+
+    sendId(Card_Data);
+    RFID_reset();
+  }
 }
 
-void RFID_UNLOCK() {
+void RFID_lock() {
+  Serial.println("Hold engaged");
+  hold = true;
+  digitalWrite(holdPin, LOW);
+  digitalWrite(greenPin, LOW);
+  digitalWrite(redPin, HIGH);
+}
+
+void RFID_reset() {
+  RFID_bitsRead = 0;
+  RFID_unlock(); //Resume RFID hardware interrupts will resume
+}
+
+void RFID_unlock() {
   Serial.println("Hold dis-engaged");
   hold = false;
-//  digitalWrite(holdPin, HIGH);
-//  digitalWrite(redPin, LOW);
-//  digitalWrite(greenPin, HIGH);
+  digitalWrite(holdPin, HIGH);
+  digitalWrite(redPin, LOW);
+  digitalWrite(greenPin, HIGH);
+}
+
+
+
+
+unsigned long parseId() {
+  unsigned long parsedId = 0;
+  for(int i = id_start_bit; i < (id_start_bit + id_bit_length); i++) {
+      parsedId <<= 1;
+      parsedId |= RFID_Data[i] & 0x1; //RFID data stored in first bit
+      RFID_Data[i] = 0x00; //RESET RFID DATA
+  }
+  return parsedId;
+}
+/*
+  Convert buzzcard ID to a string, with a newline terminator
+*/
+int id2str(char * destination, unsigned long id) {
+ int length = sprintf(destination, "%lu\n", id);
+ return length;
+}
+
+/*
+  Send the buzzcard ID through Bluetooth LE
+*/
+void sendId(unsigned long id) {
+  char buffer[11]; //max unsinged long = '4294967295\n'
+  int length = id2str(buffer, id);
+  for(int i = 0; i < length; ++i) {
+    ble_write(buffer[i]);
+  }
 }
 
