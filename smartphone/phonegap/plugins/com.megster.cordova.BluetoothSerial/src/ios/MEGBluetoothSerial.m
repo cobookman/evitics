@@ -85,8 +85,9 @@
     
     CDVPluginResult *pluginResult = nil;
     NSString *delimiter = [command.arguments objectAtIndex:0];
-    
+
     if (delimiter != nil) {
+        NSLog(@"Subscribing callback");
         pluginResult = [CDVPluginResult resultWithStatus:CDVCommandStatus_NO_RESULT];
         [pluginResult setKeepCallbackAsBool:TRUE];
         _subscribeCallbackId = [command.callbackId copy];
@@ -210,7 +211,10 @@
     [_buffer appendString:s];
     
     if (_subscribeCallbackId) {
+        NSLog(@"Sending data to callback");
         [self sendDataToSubscriber];
+    } else {
+        NSLog(@"Not sending data to subscription callback");
     }
 }
 

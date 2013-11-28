@@ -1,0 +1,1172 @@
+TCordovaLib
+v6
+r1
+cCheck dependencies
+cCpHeader Classes/NSDictionary+Extensions.h /Users/colin/srv/event\ analyitics/smartphone/phonegap/platforms/ios/build/device/include/Cordova/NSDictionary+Extensions.h
+cCpHeader Classes/CDVInvokedUrlCommand.h /Users/colin/srv/event\ analyitics/smartphone/phonegap/platforms/ios/build/device/include/Cordova/CDVInvokedUrlCommand.h
+cCpHeader Classes/NSData+Base64.h /Users/colin/srv/event\ analyitics/smartphone/phonegap/platforms/ios/build/device/include/Cordova/NSData+Base64.h
+cCpHeader Classes/CDVPluginResult.h /Users/colin/srv/event\ analyitics/smartphone/phonegap/platforms/ios/build/device/include/Cordova/CDVPluginResult.h
+cCpHeader Classes/CDVPlugin.h /Users/colin/srv/event\ analyitics/smartphone/phonegap/platforms/ios/build/device/include/Cordova/CDVPlugin.h
+cCpHeader Classes/CDVDebug.h /Users/colin/srv/event\ analyitics/smartphone/phonegap/platforms/ios/build/device/include/Cordova/CDVDebug.h
+cCpHeader Classes/NSMutableArray+QueueAdditions.h /Users/colin/srv/event\ analyitics/smartphone/phonegap/platforms/ios/build/device/include/Cordova/NSMutableArray+QueueAdditions.h
+cCpHeader Classes/CDVWhitelist.h /Users/colin/srv/event\ analyitics/smartphone/phonegap/platforms/ios/build/device/include/Cordova/CDVWhitelist.h
+cCpHeader Classes/CDVURLProtocol.h /Users/colin/srv/event\ analyitics/smartphone/phonegap/platforms/ios/build/device/include/Cordova/CDVURLProtocol.h
+cCpHeader Classes/CDVViewController.h /Users/colin/srv/event\ analyitics/smartphone/phonegap/platforms/ios/build/device/include/Cordova/CDVViewController.h
+cCpHeader Classes/CDVCommandDelegate.h /Users/colin/srv/event\ analyitics/smartphone/phonegap/platforms/ios/build/device/include/Cordova/CDVCommandDelegate.h
+cCpHeader Classes/CDV.h /Users/colin/srv/event\ analyitics/smartphone/phonegap/platforms/ios/build/device/include/Cordova/CDV.h
+cCpHeader Classes/CDVAvailability.h /Users/colin/srv/event\ analyitics/smartphone/phonegap/platforms/ios/build/device/include/Cordova/CDVAvailability.h
+cCpHeader Classes/CDVLocalStorage.h /Users/colin/srv/event\ analyitics/smartphone/phonegap/platforms/ios/build/device/include/Cordova/CDVLocalStorage.h
+cCpHeader Classes/UIDevice+Extensions.h /Users/colin/srv/event\ analyitics/smartphone/phonegap/platforms/ios/build/device/include/Cordova/UIDevice+Extensions.h
+cCpHeader Classes/NSArray+Comparisons.h /Users/colin/srv/event\ analyitics/smartphone/phonegap/platforms/ios/build/device/include/Cordova/NSArray+Comparisons.h
+cCpHeader Classes/CDVCommandQueue.h /Users/colin/srv/event\ analyitics/smartphone/phonegap/platforms/ios/build/device/include/Cordova/CDVCommandQueue.h
+cCpHeader Classes/CDVCommandDelegateImpl.h /Users/colin/srv/event\ analyitics/smartphone/phonegap/platforms/ios/build/device/include/Cordova/CDVCommandDelegateImpl.h
+cCpHeader Classes/CDVShared.h /Users/colin/srv/event\ analyitics/smartphone/phonegap/platforms/ios/build/device/include/Cordova/CDVShared.h
+cCpHeader Classes/CDVScreenOrientationDelegate.h /Users/colin/srv/event\ analyitics/smartphone/phonegap/platforms/ios/build/device/include/Cordova/CDVScreenOrientationDelegate.h
+cCpHeader Classes/CDVConfigParser.h /Users/colin/srv/event\ analyitics/smartphone/phonegap/platforms/ios/build/device/include/Cordova/CDVConfigParser.h
+cCpHeader Classes/CDVJSON.h /Users/colin/srv/event\ analyitics/smartphone/phonegap/platforms/ios/build/device/include/Cordova/CDVJSON.h
+cCpHeader Classes/CDVUserAgentUtil.h /Users/colin/srv/event\ analyitics/smartphone/phonegap/platforms/ios/build/device/include/Cordova/CDVUserAgentUtil.h
+cCpHeader Classes/CDVWebViewDelegate.h /Users/colin/srv/event\ analyitics/smartphone/phonegap/platforms/ios/build/device/include/Cordova/CDVWebViewDelegate.h
+cCpHeader Classes/CDVTimer.h /Users/colin/srv/event\ analyitics/smartphone/phonegap/platforms/ios/build/device/include/Cordova/CDVTimer.h
+cProcessPCH /var/folders/hy/zyhhclmj3fg98nf3lhsc0jhm0000gn/C/com.apple.DeveloperTools/5.0.2-5A3005/Xcode/SharedPrecompiledHeaders/CordovaLib_Prefix-erenkgwcwhwkhbcidwkyqsxykrnk/CordovaLib_Prefix.pch.pch CordovaLib_Prefix.pch normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/NSDictionary+Extensions.o /Users/colin/srv/event\ analyitics/smartphone/phonegap/platforms/ios/CordovaLib/Classes/NSDictionary+Extensions.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/CDVInvokedUrlCommand.o /Users/colin/srv/event\ analyitics/smartphone/phonegap/platforms/ios/CordovaLib/Classes/CDVInvokedUrlCommand.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/NSData+Base64.o /Users/colin/srv/event\ analyitics/smartphone/phonegap/platforms/ios/CordovaLib/Classes/NSData+Base64.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/CDVPluginResult.o /Users/colin/srv/event\ analyitics/smartphone/phonegap/platforms/ios/CordovaLib/Classes/CDVPluginResult.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/CDVPlugin.o /Users/colin/srv/event\ analyitics/smartphone/phonegap/platforms/ios/CordovaLib/Classes/CDVPlugin.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/NSMutableArray+QueueAdditions.o /Users/colin/srv/event\ analyitics/smartphone/phonegap/platforms/ios/CordovaLib/Classes/NSMutableArray+QueueAdditions.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/CDVWhitelist.o /Users/colin/srv/event\ analyitics/smartphone/phonegap/platforms/ios/CordovaLib/Classes/CDVWhitelist.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/CDVURLProtocol.o /Users/colin/srv/event\ analyitics/smartphone/phonegap/platforms/ios/CordovaLib/Classes/CDVURLProtocol.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/CDVViewController.o /Users/colin/srv/event\ analyitics/smartphone/phonegap/platforms/ios/CordovaLib/Classes/CDVViewController.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/CDVLocalStorage.o /Users/colin/srv/event\ analyitics/smartphone/phonegap/platforms/ios/CordovaLib/Classes/CDVLocalStorage.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/UIDevice+Extensions.o /Users/colin/srv/event\ analyitics/smartphone/phonegap/platforms/ios/CordovaLib/Classes/UIDevice+Extensions.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/NSArray+Comparisons.o /Users/colin/srv/event\ analyitics/smartphone/phonegap/platforms/ios/CordovaLib/Classes/NSArray+Comparisons.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/CDVCommandQueue.o /Users/colin/srv/event\ analyitics/smartphone/phonegap/platforms/ios/CordovaLib/Classes/CDVCommandQueue.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/CDVCommandDelegateImpl.o /Users/colin/srv/event\ analyitics/smartphone/phonegap/platforms/ios/CordovaLib/Classes/CDVCommandDelegateImpl.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/CDVConfigParser.o /Users/colin/srv/event\ analyitics/smartphone/phonegap/platforms/ios/CordovaLib/Classes/CDVConfigParser.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/CDVJSON.o /Users/colin/srv/event\ analyitics/smartphone/phonegap/platforms/ios/CordovaLib/Classes/CDVJSON.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/CDVUserAgentUtil.o /Users/colin/srv/event\ analyitics/smartphone/phonegap/platforms/ios/CordovaLib/Classes/CDVUserAgentUtil.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/CDVWebViewDelegate.o /Users/colin/srv/event\ analyitics/smartphone/phonegap/platforms/ios/CordovaLib/Classes/CDVWebViewDelegate.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/CDVTimer.o /Users/colin/srv/event\ analyitics/smartphone/phonegap/platforms/ios/CordovaLib/Classes/CDVTimer.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/CDVShared.o /Users/colin/srv/event\ analyitics/smartphone/phonegap/platforms/ios/CordovaLib/Classes/CDVShared.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cLibtool /Users/colin/srv/event\ analyitics/smartphone/phonegap/platforms/ios/build/device/libCordova.a normal armv7
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk
+c0000000052823CAF0000000000000110
+t1384266927
+s272
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/SDKSettings.plist
+c0000000052671AC3000000000000036B
+t1382488771
+s875
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/System/Library/CoreServices/SystemVersion.plist
+c0000000052671AC300000000000001A0
+t1382488771
+s416
+
+N/Users/colin/srv/event analyitics/smartphone/phonegap/platforms/ios/CordovaLib/Classes/CDV.h
+c00000000528980680000000000000516
+t1384743016
+s1302
+
+N/Users/colin/srv/event analyitics/smartphone/phonegap/platforms/ios/CordovaLib/Classes/CDVAvailability.h
+c00000000528980680000000000000C83
+t1384743016
+s3203
+
+N/Users/colin/srv/event analyitics/smartphone/phonegap/platforms/ios/CordovaLib/Classes/CDVCommandDelegate.h
+c000000005289806800000000000008BA
+t1384743016
+s2234
+
+N/Users/colin/srv/event analyitics/smartphone/phonegap/platforms/ios/CordovaLib/Classes/CDVCommandDelegateImpl.h
+c00000000528980680000000000000473
+t1384743016
+s1139
+
+N/Users/colin/srv/event analyitics/smartphone/phonegap/platforms/ios/CordovaLib/Classes/CDVCommandDelegateImpl.m
+c0000000052898068000000000000126E
+t1384743016
+s4718
+
+N/Users/colin/srv/event analyitics/smartphone/phonegap/platforms/ios/CordovaLib/Classes/CDVCommandQueue.h
+c00000000528980680000000000000501
+t1384743016
+s1281
+
+N/Users/colin/srv/event analyitics/smartphone/phonegap/platforms/ios/CordovaLib/Classes/CDVCommandQueue.m
+c0000000052898068000000000000158B
+t1384743016
+s5515
+
+N/Users/colin/srv/event analyitics/smartphone/phonegap/platforms/ios/CordovaLib/Classes/CDVConfigParser.h
+c000000005289806800000000000004CB
+t1384743016
+s1227
+
+N/Users/colin/srv/event analyitics/smartphone/phonegap/platforms/ios/CordovaLib/Classes/CDVConfigParser.m
+c00000000528980680000000000000EB2
+t1384743016
+s3762
+
+N/Users/colin/srv/event analyitics/smartphone/phonegap/platforms/ios/CordovaLib/Classes/CDVDebug.h
+c00000000528980680000000000000401
+t1384743016
+s1025
+
+N/Users/colin/srv/event analyitics/smartphone/phonegap/platforms/ios/CordovaLib/Classes/CDVInvokedUrlCommand.h
+c000000005289806800000000000007E6
+t1384743016
+s2022
+
+N/Users/colin/srv/event analyitics/smartphone/phonegap/platforms/ios/CordovaLib/Classes/CDVInvokedUrlCommand.m
+c00000000528980680000000000000DDE
+t1384743016
+s3550
+
+N/Users/colin/srv/event analyitics/smartphone/phonegap/platforms/ios/CordovaLib/Classes/CDVJSON.h
+c000000005289806800000000000003DA
+t1384743016
+s986
+
+N/Users/colin/srv/event analyitics/smartphone/phonegap/platforms/ios/CordovaLib/Classes/CDVJSON.m
+c0000000052898068000000000000098E
+t1384743016
+s2446
+
+N/Users/colin/srv/event analyitics/smartphone/phonegap/platforms/ios/CordovaLib/Classes/CDVLocalStorage.h
+c000000005289806800000000000006CF
+t1384743016
+s1743
+
+N/Users/colin/srv/event analyitics/smartphone/phonegap/platforms/ios/CordovaLib/Classes/CDVLocalStorage.m
+c00000000528980680000000000004C7E
+t1384743016
+s19582
+
+N/Users/colin/srv/event analyitics/smartphone/phonegap/platforms/ios/CordovaLib/Classes/CDVPlugin.h
+c00000000528980680000000000000892
+t1384743016
+s2194
+
+N/Users/colin/srv/event analyitics/smartphone/phonegap/platforms/ios/CordovaLib/Classes/CDVPlugin.m
+c000000005289806800000000000016AE
+t1384743016
+s5806
+
+N/Users/colin/srv/event analyitics/smartphone/phonegap/platforms/ios/CordovaLib/Classes/CDVPluginResult.h
+c00000000528980680000000000000C13
+t1384743016
+s3091
+
+N/Users/colin/srv/event analyitics/smartphone/phonegap/platforms/ios/CordovaLib/Classes/CDVPluginResult.m
+c00000000528980680000000000001B29
+t1384743016
+s6953
+
+N/Users/colin/srv/event analyitics/smartphone/phonegap/platforms/ios/CordovaLib/Classes/CDVScreenOrientationDelegate.h
+c00000000528980680000000000000408
+t1384743016
+s1032
+
+N/Users/colin/srv/event analyitics/smartphone/phonegap/platforms/ios/CordovaLib/Classes/CDVShared.h
+c000000005289806800000000000003E6
+t1384743016
+s998
+
+N/Users/colin/srv/event analyitics/smartphone/phonegap/platforms/ios/CordovaLib/Classes/CDVShared.m
+c000000005289806800000000000006B6
+t1384743016
+s1718
+
+N/Users/colin/srv/event analyitics/smartphone/phonegap/platforms/ios/CordovaLib/Classes/CDVTimer.h
+c0000000052898068000000000000038D
+t1384743016
+s909
+
+N/Users/colin/srv/event analyitics/smartphone/phonegap/platforms/ios/CordovaLib/Classes/CDVTimer.m
+c00000000528980680000000000000AA2
+t1384743016
+s2722
+
+N/Users/colin/srv/event analyitics/smartphone/phonegap/platforms/ios/CordovaLib/Classes/CDVURLProtocol.h
+c0000000052898068000000000000041C
+t1384743016
+s1052
+
+N/Users/colin/srv/event analyitics/smartphone/phonegap/platforms/ios/CordovaLib/Classes/CDVURLProtocol.m
+c00000000528980680000000000002514
+t1384743016
+s9492
+
+N/Users/colin/srv/event analyitics/smartphone/phonegap/platforms/ios/CordovaLib/Classes/CDVUserAgentUtil.h
+c00000000528980680000000000000421
+t1384743016
+s1057
+
+N/Users/colin/srv/event analyitics/smartphone/phonegap/platforms/ios/CordovaLib/Classes/CDVUserAgentUtil.m
+c000000005289806800000000000012A2
+t1384743016
+s4770
+
+N/Users/colin/srv/event analyitics/smartphone/phonegap/platforms/ios/CordovaLib/Classes/CDVViewController.h
+c00000000528980680000000000000ACC
+t1384743016
+s2764
+
+N/Users/colin/srv/event analyitics/smartphone/phonegap/platforms/ios/CordovaLib/Classes/CDVViewController.m
+c00000000528980680000000000009F3C
+t1384743016
+s40764
+
+N/Users/colin/srv/event analyitics/smartphone/phonegap/platforms/ios/CordovaLib/Classes/CDVWebViewDelegate.h
+c000000005289806800000000000005A2
+t1384743016
+s1442
+
+N/Users/colin/srv/event analyitics/smartphone/phonegap/platforms/ios/CordovaLib/Classes/CDVWebViewDelegate.m
+c000000005289806800000000000037C6
+t1384743016
+s14278
+
+N/Users/colin/srv/event analyitics/smartphone/phonegap/platforms/ios/CordovaLib/Classes/CDVWhitelist.h
+c000000005289806800000000000004B4
+t1384743016
+s1204
+
+N/Users/colin/srv/event analyitics/smartphone/phonegap/platforms/ios/CordovaLib/Classes/CDVWhitelist.m
+c000000005289806800000000000027D3
+t1384743016
+s10195
+
+N/Users/colin/srv/event analyitics/smartphone/phonegap/platforms/ios/CordovaLib/Classes/NSArray+Comparisons.h
+c00000000528980680000000000000392
+t1384743016
+s914
+
+N/Users/colin/srv/event analyitics/smartphone/phonegap/platforms/ios/CordovaLib/Classes/NSArray+Comparisons.m
+c000000005289806800000000000004D8
+t1384743016
+s1240
+
+N/Users/colin/srv/event analyitics/smartphone/phonegap/platforms/ios/CordovaLib/Classes/NSData+Base64.h
+c0000000052898068000000000000037D
+t1384743016
+s893
+
+N/Users/colin/srv/event analyitics/smartphone/phonegap/platforms/ios/CordovaLib/Classes/NSData+Base64.m
+c000000005289806800000000000022CC
+t1384743016
+s8908
+
+N/Users/colin/srv/event analyitics/smartphone/phonegap/platforms/ios/CordovaLib/Classes/NSDictionary+Extensions.h
+c000000005289806800000000000005DA
+t1384743016
+s1498
+
+N/Users/colin/srv/event analyitics/smartphone/phonegap/platforms/ios/CordovaLib/Classes/NSDictionary+Extensions.m
+c00000000528980680000000000001059
+t1384743016
+s4185
+
+N/Users/colin/srv/event analyitics/smartphone/phonegap/platforms/ios/CordovaLib/Classes/NSMutableArray+QueueAdditions.h
+c000000005289806800000000000003A0
+t1384743016
+s928
+
+N/Users/colin/srv/event analyitics/smartphone/phonegap/platforms/ios/CordovaLib/Classes/NSMutableArray+QueueAdditions.m
+c00000000528980680000000000000584
+t1384743016
+s1412
+
+N/Users/colin/srv/event analyitics/smartphone/phonegap/platforms/ios/CordovaLib/Classes/UIDevice+Extensions.h
+c00000000528980680000000000000476
+t1384743016
+s1142
+
+N/Users/colin/srv/event analyitics/smartphone/phonegap/platforms/ios/CordovaLib/Classes/UIDevice+Extensions.m
+c00000000528980680000000000000620
+t1384743016
+s1568
+
+N/Users/colin/srv/event analyitics/smartphone/phonegap/platforms/ios/CordovaLib/CordovaLib_Prefix.pch
+c00000000528980680000000000000346
+t1384743016
+s838
+
+N/Users/colin/srv/event analyitics/smartphone/phonegap/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/CDVCommandDelegateImpl.o
+t1385605262
+s63876
+
+N/Users/colin/srv/event analyitics/smartphone/phonegap/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/CDVCommandQueue.o
+t1385605262
+s60432
+
+N/Users/colin/srv/event analyitics/smartphone/phonegap/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/CDVConfigParser.o
+t1385605261
+s29396
+
+N/Users/colin/srv/event analyitics/smartphone/phonegap/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/CDVInvokedUrlCommand.o
+t1385605261
+s18696
+
+N/Users/colin/srv/event analyitics/smartphone/phonegap/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/CDVJSON.o
+t1385605262
+s11164
+
+N/Users/colin/srv/event analyitics/smartphone/phonegap/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/CDVLocalStorage.o
+t1385605261
+s112484
+
+N/Users/colin/srv/event analyitics/smartphone/phonegap/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/CDVPlugin.o
+t1385605261
+s59092
+
+N/Users/colin/srv/event analyitics/smartphone/phonegap/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/CDVPluginResult.o
+t1385605261
+s37076
+
+N/Users/colin/srv/event analyitics/smartphone/phonegap/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/CDVShared.o
+t1385605262
+s9444
+
+N/Users/colin/srv/event analyitics/smartphone/phonegap/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/CDVTimer.o
+t1385605262
+s23180
+
+N/Users/colin/srv/event analyitics/smartphone/phonegap/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/CDVURLProtocol.o
+t1385605261
+s72848
+
+N/Users/colin/srv/event analyitics/smartphone/phonegap/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/CDVUserAgentUtil.o
+t1385605262
+s54400
+
+N/Users/colin/srv/event analyitics/smartphone/phonegap/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/CDVViewController.o
+t1385605262
+s201480
+
+N/Users/colin/srv/event analyitics/smartphone/phonegap/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/CDVWebViewDelegate.o
+t1385605262
+s74848
+
+N/Users/colin/srv/event analyitics/smartphone/phonegap/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/CDVWhitelist.o
+t1385605261
+s44728
+
+N/Users/colin/srv/event analyitics/smartphone/phonegap/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/Cordova.LinkFileList
+c000000005296A88D0000000000000D93
+t1385605261
+s3475
+
+N/Users/colin/srv/event analyitics/smartphone/phonegap/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/NSArray+Comparisons.o
+t1385605261
+s7596
+
+N/Users/colin/srv/event analyitics/smartphone/phonegap/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/NSData+Base64.o
+t1385605261
+s10620
+
+N/Users/colin/srv/event analyitics/smartphone/phonegap/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/NSDictionary+Extensions.o
+t1385605261
+s17528
+
+N/Users/colin/srv/event analyitics/smartphone/phonegap/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/NSMutableArray+QueueAdditions.o
+t1385605261
+s7032
+
+N/Users/colin/srv/event analyitics/smartphone/phonegap/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/UIDevice+Extensions.o
+t1385605261
+s9784
+
+N/Users/colin/srv/event analyitics/smartphone/phonegap/platforms/ios/build/device/include/Cordova/CDV.h
+t2
+s0
+
+N/Users/colin/srv/event analyitics/smartphone/phonegap/platforms/ios/build/device/include/Cordova/CDVAvailability.h
+t2
+s0
+
+N/Users/colin/srv/event analyitics/smartphone/phonegap/platforms/ios/build/device/include/Cordova/CDVCommandDelegate.h
+t2
+s0
+
+N/Users/colin/srv/event analyitics/smartphone/phonegap/platforms/ios/build/device/include/Cordova/CDVCommandDelegateImpl.h
+t2
+s0
+
+N/Users/colin/srv/event analyitics/smartphone/phonegap/platforms/ios/build/device/include/Cordova/CDVCommandQueue.h
+t2
+s0
+
+N/Users/colin/srv/event analyitics/smartphone/phonegap/platforms/ios/build/device/include/Cordova/CDVConfigParser.h
+t2
+s0
+
+N/Users/colin/srv/event analyitics/smartphone/phonegap/platforms/ios/build/device/include/Cordova/CDVDebug.h
+t2
+s0
+
+N/Users/colin/srv/event analyitics/smartphone/phonegap/platforms/ios/build/device/include/Cordova/CDVInvokedUrlCommand.h
+t2
+s0
+
+N/Users/colin/srv/event analyitics/smartphone/phonegap/platforms/ios/build/device/include/Cordova/CDVJSON.h
+t2
+s0
+
+N/Users/colin/srv/event analyitics/smartphone/phonegap/platforms/ios/build/device/include/Cordova/CDVLocalStorage.h
+t2
+s0
+
+N/Users/colin/srv/event analyitics/smartphone/phonegap/platforms/ios/build/device/include/Cordova/CDVPlugin.h
+t2
+s0
+
+N/Users/colin/srv/event analyitics/smartphone/phonegap/platforms/ios/build/device/include/Cordova/CDVPluginResult.h
+t2
+s0
+
+N/Users/colin/srv/event analyitics/smartphone/phonegap/platforms/ios/build/device/include/Cordova/CDVScreenOrientationDelegate.h
+t2
+s0
+
+N/Users/colin/srv/event analyitics/smartphone/phonegap/platforms/ios/build/device/include/Cordova/CDVShared.h
+t2
+s0
+
+N/Users/colin/srv/event analyitics/smartphone/phonegap/platforms/ios/build/device/include/Cordova/CDVTimer.h
+t2
+s0
+
+N/Users/colin/srv/event analyitics/smartphone/phonegap/platforms/ios/build/device/include/Cordova/CDVURLProtocol.h
+t2
+s0
+
+N/Users/colin/srv/event analyitics/smartphone/phonegap/platforms/ios/build/device/include/Cordova/CDVUserAgentUtil.h
+t2
+s0
+
+N/Users/colin/srv/event analyitics/smartphone/phonegap/platforms/ios/build/device/include/Cordova/CDVViewController.h
+t2
+s0
+
+N/Users/colin/srv/event analyitics/smartphone/phonegap/platforms/ios/build/device/include/Cordova/CDVWebViewDelegate.h
+t2
+s0
+
+N/Users/colin/srv/event analyitics/smartphone/phonegap/platforms/ios/build/device/include/Cordova/CDVWhitelist.h
+t2
+s0
+
+N/Users/colin/srv/event analyitics/smartphone/phonegap/platforms/ios/build/device/include/Cordova/NSArray+Comparisons.h
+t2
+s0
+
+N/Users/colin/srv/event analyitics/smartphone/phonegap/platforms/ios/build/device/include/Cordova/NSData+Base64.h
+t2
+s0
+
+N/Users/colin/srv/event analyitics/smartphone/phonegap/platforms/ios/build/device/include/Cordova/NSDictionary+Extensions.h
+t2
+s0
+
+N/Users/colin/srv/event analyitics/smartphone/phonegap/platforms/ios/build/device/include/Cordova/NSMutableArray+QueueAdditions.h
+t2
+s0
+
+N/Users/colin/srv/event analyitics/smartphone/phonegap/platforms/ios/build/device/include/Cordova/UIDevice+Extensions.h
+t2
+s0
+
+N/Users/colin/srv/event analyitics/smartphone/phonegap/platforms/ios/build/device/libCordova.a
+t2
+s0
+
+N/var/folders/hy/zyhhclmj3fg98nf3lhsc0jhm0000gn/C/com.apple.DeveloperTools/5.0.2-5A3005/Xcode/SharedPrecompiledHeaders/CordovaLib_Prefix-erenkgwcwhwkhbcidwkyqsxykrnk/CordovaLib_Prefix.pch.pch
+t1384743025
+s3146148
+
+CCheck dependencies
+r0
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies18"Check dependencies1e703d0de046b841^cc24520de046b841^---0#1#1#--18"Check dependencies36"B0F313D4-4F59-43B6-963C-8959CF5CC880-
+
+CCompileC build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/CDVCommandDelegateImpl.o /Users/colin/srv/event\ analyitics/smartphone/phonegap/platforms/ios/CordovaLib/Classes/CDVCommandDelegateImpl.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s407298061.834336
+e407298062.057282
+r1
+xCompileC
+xbuild/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/CDVCommandDelegateImpl.o
+x/Users/colin/srv/event analyitics/smartphone/phonegap/platforms/ios/CordovaLib/Classes/CDVCommandDelegateImpl.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/colin/srv/event analyitics/smartphone/phonegap/platforms/ios/CordovaLib/Classes/CDVCommandDelegateImpl.m
+d/Users/colin/srv/event analyitics/smartphone/phonegap/platforms/ios/CordovaLib/Classes/CDVCommandDelegateImpl.h
+d/Users/colin/srv/event analyitics/smartphone/phonegap/platforms/ios/CordovaLib/Classes/CDVCommandDelegate.h
+d/Users/colin/srv/event analyitics/smartphone/phonegap/platforms/ios/CordovaLib/Classes/CDVAvailability.h
+d/Users/colin/srv/event analyitics/smartphone/phonegap/platforms/ios/CordovaLib/Classes/CDVInvokedUrlCommand.h
+d/Users/colin/srv/event analyitics/smartphone/phonegap/platforms/ios/CordovaLib/Classes/CDVJSON.h
+d/Users/colin/srv/event analyitics/smartphone/phonegap/platforms/ios/CordovaLib/Classes/CDVCommandQueue.h
+d/Users/colin/srv/event analyitics/smartphone/phonegap/platforms/ios/CordovaLib/Classes/CDVPluginResult.h
+d/Users/colin/srv/event analyitics/smartphone/phonegap/platforms/ios/CordovaLib/Classes/CDVViewController.h
+d/Users/colin/srv/event analyitics/smartphone/phonegap/platforms/ios/CordovaLib/Classes/CDVWhitelist.h
+d/Users/colin/srv/event analyitics/smartphone/phonegap/platforms/ios/CordovaLib/Classes/CDVScreenOrientationDelegate.h
+d/Users/colin/srv/event analyitics/smartphone/phonegap/platforms/ios/CordovaLib/Classes/CDVPlugin.h
+d/Users/colin/srv/event analyitics/smartphone/phonegap/platforms/ios/CordovaLib/Classes/NSMutableArray+QueueAdditions.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection119"Compile /Users/colin/srv/event analyitics/smartphone/phonegap/platforms/ios/CordovaLib/Classes/CDVCommandDelegateImpl.m211"CompileC build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/CDVCommandDelegateImpl.o Classes/CDVCommandDelegateImpl.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compilerf1bbd50de046b841^efab0e0ee046b841^---0#0#1#-19%DVTDocumentLocation2@120"file:///Users/colin/srv/event%20analyitics/smartphone/phonegap/platforms/ios/CordovaLib/Classes/CDVCommandDelegateImpl.m0000000000000000^3833"CompileC build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/CDVCommandDelegateImpl.o Classes/CDVCommandDelegateImpl.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd "/Users/colin/srv/event analyitics/smartphone/phonegap/platforms/ios/CordovaLib"    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/X11/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=c99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -miphoneos-version-min=5.0 -iquote /Users/colin/srv/event\ analyitics/smartphone/phonegap/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Cordova-generated-files.hmap -I/Users/colin/srv/event\ analyitics/smartphone/phonegap/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Cordova-own-target-headers.hmap -I/Users/colin/srv/event\ analyitics/smartphone/phonegap/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Cordova-all-target-headers.hmap -iquote /Users/colin/srv/event\ analyitics/smartphone/phonegap/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Cordova-project-headers.hmap -I/Users/colin/srv/event\ analyitics/smartphone/phonegap/platforms/ios/build/device/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/colin/srv/event\ analyitics/smartphone/phonegap/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/DerivedSources/armv7 -I/Users/colin/srv/event\ analyitics/smartphone/phonegap/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/DerivedSources -F/Users/colin/srv/event\ analyitics/smartphone/phonegap/platforms/ios/build/device -DDEBUG -include /var/folders/hy/zyhhclmj3fg98nf3lhsc0jhm0000gn/C/com.apple.DeveloperTools/5.0.2-5A3005/Xcode/SharedPrecompiledHeaders/CordovaLib_Prefix-erenkgwcwhwkhbcidwkyqsxykrnk/CordovaLib_Prefix.pch -MMD -MT dependencies -MF /Users/colin/srv/event\ analyitics/smartphone/phonegap/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/CDVCommandDelegateImpl.d --serialize-diagnostics /Users/colin/srv/event\ analyitics/smartphone/phonegap/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/CDVCommandDelegateImpl.dia -c /Users/colin/srv/event\ analyitics/smartphone/phonegap/platforms/ios/CordovaLib/Classes/CDVCommandDelegateImpl.m -o /Users/colin/srv/event\ analyitics/smartphone/phonegap/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/CDVCommandDelegateImpl.o36"5D2F143B-3DCD-4492-80F9-679D53D6DBE9-
+b6E23E51B-5993-4D70-A809-A5BADC5385CE
+
+CCompileC build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/CDVCommandQueue.o /Users/colin/srv/event\ analyitics/smartphone/phonegap/platforms/ios/CordovaLib/Classes/CDVCommandQueue.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s407298061.811726
+e407298062.046380
+r1
+xCompileC
+xbuild/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/CDVCommandQueue.o
+x/Users/colin/srv/event analyitics/smartphone/phonegap/platforms/ios/CordovaLib/Classes/CDVCommandQueue.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/colin/srv/event analyitics/smartphone/phonegap/platforms/ios/CordovaLib/Classes/CDVCommandQueue.m
+d/Users/colin/srv/event analyitics/smartphone/phonegap/platforms/ios/CordovaLib/Classes/CDV.h
+d/Users/colin/srv/event analyitics/smartphone/phonegap/platforms/ios/CordovaLib/Classes/CDVAvailability.h
+d/Users/colin/srv/event analyitics/smartphone/phonegap/platforms/ios/CordovaLib/Classes/CDVPlugin.h
+d/Users/colin/srv/event analyitics/smartphone/phonegap/platforms/ios/CordovaLib/Classes/CDVPluginResult.h
+d/Users/colin/srv/event analyitics/smartphone/phonegap/platforms/ios/CordovaLib/Classes/NSMutableArray+QueueAdditions.h
+d/Users/colin/srv/event analyitics/smartphone/phonegap/platforms/ios/CordovaLib/Classes/CDVCommandDelegate.h
+d/Users/colin/srv/event analyitics/smartphone/phonegap/platforms/ios/CordovaLib/Classes/CDVInvokedUrlCommand.h
+d/Users/colin/srv/event analyitics/smartphone/phonegap/platforms/ios/CordovaLib/Classes/CDVViewController.h
+d/Users/colin/srv/event analyitics/smartphone/phonegap/platforms/ios/CordovaLib/Classes/CDVCommandQueue.h
+d/Users/colin/srv/event analyitics/smartphone/phonegap/platforms/ios/CordovaLib/Classes/CDVWhitelist.h
+d/Users/colin/srv/event analyitics/smartphone/phonegap/platforms/ios/CordovaLib/Classes/CDVScreenOrientationDelegate.h
+d/Users/colin/srv/event analyitics/smartphone/phonegap/platforms/ios/CordovaLib/Classes/CDVURLProtocol.h
+d/Users/colin/srv/event analyitics/smartphone/phonegap/platforms/ios/CordovaLib/Classes/CDVDebug.h
+d/Users/colin/srv/event analyitics/smartphone/phonegap/platforms/ios/CordovaLib/Classes/CDVLocalStorage.h
+d/Users/colin/srv/event analyitics/smartphone/phonegap/platforms/ios/CordovaLib/Classes/CDVTimer.h
+d/Users/colin/srv/event analyitics/smartphone/phonegap/platforms/ios/CordovaLib/Classes/NSArray+Comparisons.h
+d/Users/colin/srv/event analyitics/smartphone/phonegap/platforms/ios/CordovaLib/Classes/NSData+Base64.h
+d/Users/colin/srv/event analyitics/smartphone/phonegap/platforms/ios/CordovaLib/Classes/NSDictionary+Extensions.h
+d/Users/colin/srv/event analyitics/smartphone/phonegap/platforms/ios/CordovaLib/Classes/UIDevice+Extensions.h
+d/Users/colin/srv/event analyitics/smartphone/phonegap/platforms/ios/CordovaLib/Classes/CDVJSON.h
+d/Users/colin/srv/event analyitics/smartphone/phonegap/platforms/ios/CordovaLib/Classes/CDVCommandDelegateImpl.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection112"Compile /Users/colin/srv/event analyitics/smartphone/phonegap/platforms/ios/CordovaLib/Classes/CDVCommandQueue.m197"CompileC build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/CDVCommandQueue.o Classes/CDVCommandQueue.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler28f3cf0de046b841^f8370c0ee046b841^---0#0#1#-19%DVTDocumentLocation2@113"file:///Users/colin/srv/event%20analyitics/smartphone/phonegap/platforms/ios/CordovaLib/Classes/CDVCommandQueue.m0000000000000000^3791"CompileC build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/CDVCommandQueue.o Classes/CDVCommandQueue.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd "/Users/colin/srv/event analyitics/smartphone/phonegap/platforms/ios/CordovaLib"    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/X11/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=c99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -miphoneos-version-min=5.0 -iquote /Users/colin/srv/event\ analyitics/smartphone/phonegap/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Cordova-generated-files.hmap -I/Users/colin/srv/event\ analyitics/smartphone/phonegap/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Cordova-own-target-headers.hmap -I/Users/colin/srv/event\ analyitics/smartphone/phonegap/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Cordova-all-target-headers.hmap -iquote /Users/colin/srv/event\ analyitics/smartphone/phonegap/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Cordova-project-headers.hmap -I/Users/colin/srv/event\ analyitics/smartphone/phonegap/platforms/ios/build/device/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/colin/srv/event\ analyitics/smartphone/phonegap/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/DerivedSources/armv7 -I/Users/colin/srv/event\ analyitics/smartphone/phonegap/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/DerivedSources -F/Users/colin/srv/event\ analyitics/smartphone/phonegap/platforms/ios/build/device -DDEBUG -include /var/folders/hy/zyhhclmj3fg98nf3lhsc0jhm0000gn/C/com.apple.DeveloperTools/5.0.2-5A3005/Xcode/SharedPrecompiledHeaders/CordovaLib_Prefix-erenkgwcwhwkhbcidwkyqsxykrnk/CordovaLib_Prefix.pch -MMD -MT dependencies -MF /Users/colin/srv/event\ analyitics/smartphone/phonegap/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/CDVCommandQueue.d --serialize-diagnostics /Users/colin/srv/event\ analyitics/smartphone/phonegap/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/CDVCommandQueue.dia -c /Users/colin/srv/event\ analyitics/smartphone/phonegap/platforms/ios/CordovaLib/Classes/CDVCommandQueue.m -o /Users/colin/srv/event\ analyitics/smartphone/phonegap/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/CDVCommandQueue.o36"7F64D862-B148-466E-B180-D6DA783A79FF-
+b6E23E51B-5993-4D70-A809-A5BADC5385CE
+
+CCompileC build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/CDVConfigParser.o /Users/colin/srv/event\ analyitics/smartphone/phonegap/platforms/ios/CordovaLib/Classes/CDVConfigParser.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s407298061.934565
+e407298061.992699
+r1
+xCompileC
+xbuild/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/CDVConfigParser.o
+x/Users/colin/srv/event analyitics/smartphone/phonegap/platforms/ios/CordovaLib/Classes/CDVConfigParser.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/colin/srv/event analyitics/smartphone/phonegap/platforms/ios/CordovaLib/Classes/CDVConfigParser.m
+d/Users/colin/srv/event analyitics/smartphone/phonegap/platforms/ios/CordovaLib/Classes/CDVConfigParser.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection112"Compile /Users/colin/srv/event analyitics/smartphone/phonegap/platforms/ios/CordovaLib/Classes/CDVConfigParser.m197"CompileC build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/CDVConfigParser.o Classes/CDVConfigParser.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compilerba65ef0de046b841^e52afe0de046b841^---0#0#1#-19%DVTDocumentLocation2@113"file:///Users/colin/srv/event%20analyitics/smartphone/phonegap/platforms/ios/CordovaLib/Classes/CDVConfigParser.m0000000000000000^3791"CompileC build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/CDVConfigParser.o Classes/CDVConfigParser.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd "/Users/colin/srv/event analyitics/smartphone/phonegap/platforms/ios/CordovaLib"    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/X11/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=c99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -miphoneos-version-min=5.0 -iquote /Users/colin/srv/event\ analyitics/smartphone/phonegap/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Cordova-generated-files.hmap -I/Users/colin/srv/event\ analyitics/smartphone/phonegap/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Cordova-own-target-headers.hmap -I/Users/colin/srv/event\ analyitics/smartphone/phonegap/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Cordova-all-target-headers.hmap -iquote /Users/colin/srv/event\ analyitics/smartphone/phonegap/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Cordova-project-headers.hmap -I/Users/colin/srv/event\ analyitics/smartphone/phonegap/platforms/ios/build/device/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/colin/srv/event\ analyitics/smartphone/phonegap/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/DerivedSources/armv7 -I/Users/colin/srv/event\ analyitics/smartphone/phonegap/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/DerivedSources -F/Users/colin/srv/event\ analyitics/smartphone/phonegap/platforms/ios/build/device -DDEBUG -include /var/folders/hy/zyhhclmj3fg98nf3lhsc0jhm0000gn/C/com.apple.DeveloperTools/5.0.2-5A3005/Xcode/SharedPrecompiledHeaders/CordovaLib_Prefix-erenkgwcwhwkhbcidwkyqsxykrnk/CordovaLib_Prefix.pch -MMD -MT dependencies -MF /Users/colin/srv/event\ analyitics/smartphone/phonegap/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/CDVConfigParser.d --serialize-diagnostics /Users/colin/srv/event\ analyitics/smartphone/phonegap/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/CDVConfigParser.dia -c /Users/colin/srv/event\ analyitics/smartphone/phonegap/platforms/ios/CordovaLib/Classes/CDVConfigParser.m -o /Users/colin/srv/event\ analyitics/smartphone/phonegap/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/CDVConfigParser.o36"4A5A0DB3-EF6C-4B8D-89AB-4EB138A19AF8-
+b6E23E51B-5993-4D70-A809-A5BADC5385CE
+
+CCompileC build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/CDVInvokedUrlCommand.o /Users/colin/srv/event\ analyitics/smartphone/phonegap/platforms/ios/CordovaLib/Classes/CDVInvokedUrlCommand.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s407298061.345152
+e407298061.395087
+r1
+xCompileC
+xbuild/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/CDVInvokedUrlCommand.o
+x/Users/colin/srv/event analyitics/smartphone/phonegap/platforms/ios/CordovaLib/Classes/CDVInvokedUrlCommand.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/colin/srv/event analyitics/smartphone/phonegap/platforms/ios/CordovaLib/Classes/CDVInvokedUrlCommand.m
+d/Users/colin/srv/event analyitics/smartphone/phonegap/platforms/ios/CordovaLib/Classes/CDVInvokedUrlCommand.h
+d/Users/colin/srv/event analyitics/smartphone/phonegap/platforms/ios/CordovaLib/Classes/CDVJSON.h
+d/Users/colin/srv/event analyitics/smartphone/phonegap/platforms/ios/CordovaLib/Classes/NSData+Base64.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection117"Compile /Users/colin/srv/event analyitics/smartphone/phonegap/platforms/ios/CordovaLib/Classes/CDVInvokedUrlCommand.m207"CompileC build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/CDVInvokedUrlCommand.o Classes/CDVInvokedUrlCommand.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compilercf86580de046b841^73696c0de046b841^---0#0#1#-19%DVTDocumentLocation2@118"file:///Users/colin/srv/event%20analyitics/smartphone/phonegap/platforms/ios/CordovaLib/Classes/CDVInvokedUrlCommand.m0000000000000000^3821"CompileC build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/CDVInvokedUrlCommand.o Classes/CDVInvokedUrlCommand.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd "/Users/colin/srv/event analyitics/smartphone/phonegap/platforms/ios/CordovaLib"    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/X11/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=c99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -miphoneos-version-min=5.0 -iquote /Users/colin/srv/event\ analyitics/smartphone/phonegap/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Cordova-generated-files.hmap -I/Users/colin/srv/event\ analyitics/smartphone/phonegap/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Cordova-own-target-headers.hmap -I/Users/colin/srv/event\ analyitics/smartphone/phonegap/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Cordova-all-target-headers.hmap -iquote /Users/colin/srv/event\ analyitics/smartphone/phonegap/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Cordova-project-headers.hmap -I/Users/colin/srv/event\ analyitics/smartphone/phonegap/platforms/ios/build/device/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/colin/srv/event\ analyitics/smartphone/phonegap/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/DerivedSources/armv7 -I/Users/colin/srv/event\ analyitics/smartphone/phonegap/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/DerivedSources -F/Users/colin/srv/event\ analyitics/smartphone/phonegap/platforms/ios/build/device -DDEBUG -include /var/folders/hy/zyhhclmj3fg98nf3lhsc0jhm0000gn/C/com.apple.DeveloperTools/5.0.2-5A3005/Xcode/SharedPrecompiledHeaders/CordovaLib_Prefix-erenkgwcwhwkhbcidwkyqsxykrnk/CordovaLib_Prefix.pch -MMD -MT dependencies -MF /Users/colin/srv/event\ analyitics/smartphone/phonegap/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/CDVInvokedUrlCommand.d --serialize-diagnostics /Users/colin/srv/event\ analyitics/smartphone/phonegap/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/CDVInvokedUrlCommand.dia -c /Users/colin/srv/event\ analyitics/smartphone/phonegap/platforms/ios/CordovaLib/Classes/CDVInvokedUrlCommand.m -o /Users/colin/srv/event\ analyitics/smartphone/phonegap/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/CDVInvokedUrlCommand.o36"7B194B82-BA36-4A89-BC3E-8FECEA7562A7-
+b6E23E51B-5993-4D70-A809-A5BADC5385CE
+
+CCompileC build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/CDVJSON.o /Users/colin/srv/event\ analyitics/smartphone/phonegap/platforms/ios/CordovaLib/Classes/CDVJSON.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s407298061.993329
+e407298062.029780
+r1
+xCompileC
+xbuild/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/CDVJSON.o
+x/Users/colin/srv/event analyitics/smartphone/phonegap/platforms/ios/CordovaLib/Classes/CDVJSON.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/colin/srv/event analyitics/smartphone/phonegap/platforms/ios/CordovaLib/Classes/CDVJSON.m
+d/Users/colin/srv/event analyitics/smartphone/phonegap/platforms/ios/CordovaLib/Classes/CDVJSON.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection104"Compile /Users/colin/srv/event analyitics/smartphone/phonegap/platforms/ios/CordovaLib/Classes/CDVJSON.m181"CompileC build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/CDVJSON.o Classes/CDVJSON.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compilerc170fe0de046b841^ea5e070ee046b841^---0#0#1#-19%DVTDocumentLocation2@105"file:///Users/colin/srv/event%20analyitics/smartphone/phonegap/platforms/ios/CordovaLib/Classes/CDVJSON.m0000000000000000^3743"CompileC build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/CDVJSON.o Classes/CDVJSON.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd "/Users/colin/srv/event analyitics/smartphone/phonegap/platforms/ios/CordovaLib"    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/X11/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=c99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -miphoneos-version-min=5.0 -iquote /Users/colin/srv/event\ analyitics/smartphone/phonegap/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Cordova-generated-files.hmap -I/Users/colin/srv/event\ analyitics/smartphone/phonegap/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Cordova-own-target-headers.hmap -I/Users/colin/srv/event\ analyitics/smartphone/phonegap/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Cordova-all-target-headers.hmap -iquote /Users/colin/srv/event\ analyitics/smartphone/phonegap/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Cordova-project-headers.hmap -I/Users/colin/srv/event\ analyitics/smartphone/phonegap/platforms/ios/build/device/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/colin/srv/event\ analyitics/smartphone/phonegap/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/DerivedSources/armv7 -I/Users/colin/srv/event\ analyitics/smartphone/phonegap/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/DerivedSources -F/Users/colin/srv/event\ analyitics/smartphone/phonegap/platforms/ios/build/device -DDEBUG -include /var/folders/hy/zyhhclmj3fg98nf3lhsc0jhm0000gn/C/com.apple.DeveloperTools/5.0.2-5A3005/Xcode/SharedPrecompiledHeaders/CordovaLib_Prefix-erenkgwcwhwkhbcidwkyqsxykrnk/CordovaLib_Prefix.pch -MMD -MT dependencies -MF /Users/colin/srv/event\ analyitics/smartphone/phonegap/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/CDVJSON.d --serialize-diagnostics /Users/colin/srv/event\ analyitics/smartphone/phonegap/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/CDVJSON.dia -c /Users/colin/srv/event\ analyitics/smartphone/phonegap/platforms/ios/CordovaLib/Classes/CDVJSON.m -o /Users/colin/srv/event\ analyitics/smartphone/phonegap/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/CDVJSON.o36"083A64EC-EF5E-4C1D-8B97-2F91EE08DBAA-
+b6E23E51B-5993-4D70-A809-A5BADC5385CE
+
+CCompileC build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/CDVLocalStorage.o /Users/colin/srv/event\ analyitics/smartphone/phonegap/platforms/ios/CordovaLib/Classes/CDVLocalStorage.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s407298061.515391
+e407298061.933529
+r1
+xCompileC
+xbuild/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/CDVLocalStorage.o
+x/Users/colin/srv/event analyitics/smartphone/phonegap/platforms/ios/CordovaLib/Classes/CDVLocalStorage.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/colin/srv/event analyitics/smartphone/phonegap/platforms/ios/CordovaLib/Classes/CDVLocalStorage.m
+d/Users/colin/srv/event analyitics/smartphone/phonegap/platforms/ios/CordovaLib/Classes/CDVLocalStorage.h
+d/Users/colin/srv/event analyitics/smartphone/phonegap/platforms/ios/CordovaLib/Classes/CDVPlugin.h
+d/Users/colin/srv/event analyitics/smartphone/phonegap/platforms/ios/CordovaLib/Classes/CDVPluginResult.h
+d/Users/colin/srv/event analyitics/smartphone/phonegap/platforms/ios/CordovaLib/Classes/NSMutableArray+QueueAdditions.h
+d/Users/colin/srv/event analyitics/smartphone/phonegap/platforms/ios/CordovaLib/Classes/CDVCommandDelegate.h
+d/Users/colin/srv/event analyitics/smartphone/phonegap/platforms/ios/CordovaLib/Classes/CDVAvailability.h
+d/Users/colin/srv/event analyitics/smartphone/phonegap/platforms/ios/CordovaLib/Classes/CDVInvokedUrlCommand.h
+d/Users/colin/srv/event analyitics/smartphone/phonegap/platforms/ios/CordovaLib/Classes/CDV.h
+d/Users/colin/srv/event analyitics/smartphone/phonegap/platforms/ios/CordovaLib/Classes/CDVViewController.h
+d/Users/colin/srv/event analyitics/smartphone/phonegap/platforms/ios/CordovaLib/Classes/CDVCommandQueue.h
+d/Users/colin/srv/event analyitics/smartphone/phonegap/platforms/ios/CordovaLib/Classes/CDVWhitelist.h
+d/Users/colin/srv/event analyitics/smartphone/phonegap/platforms/ios/CordovaLib/Classes/CDVScreenOrientationDelegate.h
+d/Users/colin/srv/event analyitics/smartphone/phonegap/platforms/ios/CordovaLib/Classes/CDVURLProtocol.h
+d/Users/colin/srv/event analyitics/smartphone/phonegap/platforms/ios/CordovaLib/Classes/CDVDebug.h
+d/Users/colin/srv/event analyitics/smartphone/phonegap/platforms/ios/CordovaLib/Classes/CDVTimer.h
+d/Users/colin/srv/event analyitics/smartphone/phonegap/platforms/ios/CordovaLib/Classes/NSArray+Comparisons.h
+d/Users/colin/srv/event analyitics/smartphone/phonegap/platforms/ios/CordovaLib/Classes/NSData+Base64.h
+d/Users/colin/srv/event analyitics/smartphone/phonegap/platforms/ios/CordovaLib/Classes/NSDictionary+Extensions.h
+d/Users/colin/srv/event analyitics/smartphone/phonegap/platforms/ios/CordovaLib/Classes/UIDevice+Extensions.h
+d/Users/colin/srv/event analyitics/smartphone/phonegap/platforms/ios/CordovaLib/Classes/CDVJSON.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection112"Compile /Users/colin/srv/event analyitics/smartphone/phonegap/platforms/ios/CordovaLib/Classes/CDVLocalStorage.m197"CompileC build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/CDVLocalStorage.o Classes/CDVLocalStorage.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compilerec17840de046b841^4cffee0de046b841^---0#0#1#-19%DVTDocumentLocation2@113"file:///Users/colin/srv/event%20analyitics/smartphone/phonegap/platforms/ios/CordovaLib/Classes/CDVLocalStorage.m0000000000000000^3791"CompileC build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/CDVLocalStorage.o Classes/CDVLocalStorage.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd "/Users/colin/srv/event analyitics/smartphone/phonegap/platforms/ios/CordovaLib"    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/X11/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=c99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -miphoneos-version-min=5.0 -iquote /Users/colin/srv/event\ analyitics/smartphone/phonegap/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Cordova-generated-files.hmap -I/Users/colin/srv/event\ analyitics/smartphone/phonegap/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Cordova-own-target-headers.hmap -I/Users/colin/srv/event\ analyitics/smartphone/phonegap/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Cordova-all-target-headers.hmap -iquote /Users/colin/srv/event\ analyitics/smartphone/phonegap/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Cordova-project-headers.hmap -I/Users/colin/srv/event\ analyitics/smartphone/phonegap/platforms/ios/build/device/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/colin/srv/event\ analyitics/smartphone/phonegap/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/DerivedSources/armv7 -I/Users/colin/srv/event\ analyitics/smartphone/phonegap/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/DerivedSources -F/Users/colin/srv/event\ analyitics/smartphone/phonegap/platforms/ios/build/device -DDEBUG -include /var/folders/hy/zyhhclmj3fg98nf3lhsc0jhm0000gn/C/com.apple.DeveloperTools/5.0.2-5A3005/Xcode/SharedPrecompiledHeaders/CordovaLib_Prefix-erenkgwcwhwkhbcidwkyqsxykrnk/CordovaLib_Prefix.pch -MMD -MT dependencies -MF /Users/colin/srv/event\ analyitics/smartphone/phonegap/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/CDVLocalStorage.d --serialize-diagnostics /Users/colin/srv/event\ analyitics/smartphone/phonegap/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/CDVLocalStorage.dia -c /Users/colin/srv/event\ analyitics/smartphone/phonegap/platforms/ios/CordovaLib/Classes/CDVLocalStorage.m -o /Users/colin/srv/event\ analyitics/smartphone/phonegap/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/CDVLocalStorage.o36"083EA337-E398-48EC-91B3-830D3F8563C8-
+b6E23E51B-5993-4D70-A809-A5BADC5385CE
+
+CCompileC build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/CDVPlugin.o /Users/colin/srv/event\ analyitics/smartphone/phonegap/platforms/ios/CordovaLib/Classes/CDVPlugin.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s407298061.395052
+e407298061.634101
+r1
+xCompileC
+xbuild/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/CDVPlugin.o
+x/Users/colin/srv/event analyitics/smartphone/phonegap/platforms/ios/CordovaLib/Classes/CDVPlugin.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/colin/srv/event analyitics/smartphone/phonegap/platforms/ios/CordovaLib/Classes/CDVPlugin.m
+d/Users/colin/srv/event analyitics/smartphone/phonegap/platforms/ios/CordovaLib/Classes/CDVPlugin.h
+d/Users/colin/srv/event analyitics/smartphone/phonegap/platforms/ios/CordovaLib/Classes/CDVPluginResult.h
+d/Users/colin/srv/event analyitics/smartphone/phonegap/platforms/ios/CordovaLib/Classes/NSMutableArray+QueueAdditions.h
+d/Users/colin/srv/event analyitics/smartphone/phonegap/platforms/ios/CordovaLib/Classes/CDVCommandDelegate.h
+d/Users/colin/srv/event analyitics/smartphone/phonegap/platforms/ios/CordovaLib/Classes/CDVAvailability.h
+d/Users/colin/srv/event analyitics/smartphone/phonegap/platforms/ios/CordovaLib/Classes/CDVInvokedUrlCommand.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection106"Compile /Users/colin/srv/event analyitics/smartphone/phonegap/platforms/ios/CordovaLib/Classes/CDVPlugin.m185"CompileC build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/CDVPlugin.o Classes/CDVPlugin.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compilerdc7e650de046b841^475aa20de046b841^---0#0#1#-19%DVTDocumentLocation2@107"file:///Users/colin/srv/event%20analyitics/smartphone/phonegap/platforms/ios/CordovaLib/Classes/CDVPlugin.m0000000000000000^3755"CompileC build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/CDVPlugin.o Classes/CDVPlugin.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd "/Users/colin/srv/event analyitics/smartphone/phonegap/platforms/ios/CordovaLib"    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/X11/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=c99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -miphoneos-version-min=5.0 -iquote /Users/colin/srv/event\ analyitics/smartphone/phonegap/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Cordova-generated-files.hmap -I/Users/colin/srv/event\ analyitics/smartphone/phonegap/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Cordova-own-target-headers.hmap -I/Users/colin/srv/event\ analyitics/smartphone/phonegap/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Cordova-all-target-headers.hmap -iquote /Users/colin/srv/event\ analyitics/smartphone/phonegap/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Cordova-project-headers.hmap -I/Users/colin/srv/event\ analyitics/smartphone/phonegap/platforms/ios/build/device/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/colin/srv/event\ analyitics/smartphone/phonegap/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/DerivedSources/armv7 -I/Users/colin/srv/event\ analyitics/smartphone/phonegap/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/DerivedSources -F/Users/colin/srv/event\ analyitics/smartphone/phonegap/platforms/ios/build/device -DDEBUG -include /var/folders/hy/zyhhclmj3fg98nf3lhsc0jhm0000gn/C/com.apple.DeveloperTools/5.0.2-5A3005/Xcode/SharedPrecompiledHeaders/CordovaLib_Prefix-erenkgwcwhwkhbcidwkyqsxykrnk/CordovaLib_Prefix.pch -MMD -MT dependencies -MF /Users/colin/srv/event\ analyitics/smartphone/phonegap/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/CDVPlugin.d --serialize-diagnostics /Users/colin/srv/event\ analyitics/smartphone/phonegap/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/CDVPlugin.dia -c /Users/colin/srv/event\ analyitics/smartphone/phonegap/platforms/ios/CordovaLib/Classes/CDVPlugin.m -o /Users/colin/srv/event\ analyitics/smartphone/phonegap/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/CDVPlugin.o36"11D5C5C4-393B-4EE9-9611-B1AA28E69BFA-
+b6E23E51B-5993-4D70-A809-A5BADC5385CE
+
+CCompileC build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/CDVPluginResult.o /Users/colin/srv/event\ analyitics/smartphone/phonegap/platforms/ios/CordovaLib/Classes/CDVPluginResult.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s407298061.346957
+e407298061.451463
+r1
+xCompileC
+xbuild/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/CDVPluginResult.o
+x/Users/colin/srv/event analyitics/smartphone/phonegap/platforms/ios/CordovaLib/Classes/CDVPluginResult.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/colin/srv/event analyitics/smartphone/phonegap/platforms/ios/CordovaLib/Classes/CDVPluginResult.m
+d/Users/colin/srv/event analyitics/smartphone/phonegap/platforms/ios/CordovaLib/Classes/CDVPluginResult.h
+d/Users/colin/srv/event analyitics/smartphone/phonegap/platforms/ios/CordovaLib/Classes/CDVJSON.h
+d/Users/colin/srv/event analyitics/smartphone/phonegap/platforms/ios/CordovaLib/Classes/CDVDebug.h
+d/Users/colin/srv/event analyitics/smartphone/phonegap/platforms/ios/CordovaLib/Classes/NSData+Base64.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection112"Compile /Users/colin/srv/event analyitics/smartphone/phonegap/platforms/ios/CordovaLib/Classes/CDVPluginResult.m197"CompileC build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/CDVPluginResult.o Classes/CDVPluginResult.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler2521590de046b841^83a4730de046b841^---0#0#1#-19%DVTDocumentLocation2@113"file:///Users/colin/srv/event%20analyitics/smartphone/phonegap/platforms/ios/CordovaLib/Classes/CDVPluginResult.m0000000000000000^3791"CompileC build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/CDVPluginResult.o Classes/CDVPluginResult.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd "/Users/colin/srv/event analyitics/smartphone/phonegap/platforms/ios/CordovaLib"    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/X11/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=c99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -miphoneos-version-min=5.0 -iquote /Users/colin/srv/event\ analyitics/smartphone/phonegap/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Cordova-generated-files.hmap -I/Users/colin/srv/event\ analyitics/smartphone/phonegap/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Cordova-own-target-headers.hmap -I/Users/colin/srv/event\ analyitics/smartphone/phonegap/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Cordova-all-target-headers.hmap -iquote /Users/colin/srv/event\ analyitics/smartphone/phonegap/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Cordova-project-headers.hmap -I/Users/colin/srv/event\ analyitics/smartphone/phonegap/platforms/ios/build/device/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/colin/srv/event\ analyitics/smartphone/phonegap/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/DerivedSources/armv7 -I/Users/colin/srv/event\ analyitics/smartphone/phonegap/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/DerivedSources -F/Users/colin/srv/event\ analyitics/smartphone/phonegap/platforms/ios/build/device -DDEBUG -include /var/folders/hy/zyhhclmj3fg98nf3lhsc0jhm0000gn/C/com.apple.DeveloperTools/5.0.2-5A3005/Xcode/SharedPrecompiledHeaders/CordovaLib_Prefix-erenkgwcwhwkhbcidwkyqsxykrnk/CordovaLib_Prefix.pch -MMD -MT dependencies -MF /Users/colin/srv/event\ analyitics/smartphone/phonegap/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/CDVPluginResult.d --serialize-diagnostics /Users/colin/srv/event\ analyitics/smartphone/phonegap/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/CDVPluginResult.dia -c /Users/colin/srv/event\ analyitics/smartphone/phonegap/platforms/ios/CordovaLib/Classes/CDVPluginResult.m -o /Users/colin/srv/event\ analyitics/smartphone/phonegap/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/CDVPluginResult.o36"AB12D187-E04D-44F7-8AB4-5BCDC8E88F83-
+b6E23E51B-5993-4D70-A809-A5BADC5385CE
+
+CCompileC build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/CDVShared.o /Users/colin/srv/event\ analyitics/smartphone/phonegap/platforms/ios/CordovaLib/Classes/CDVShared.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s407298062.112640
+e407298062.152870
+r1
+xCompileC
+xbuild/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/CDVShared.o
+x/Users/colin/srv/event analyitics/smartphone/phonegap/platforms/ios/CordovaLib/Classes/CDVShared.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/colin/srv/event analyitics/smartphone/phonegap/platforms/ios/CordovaLib/Classes/CDVShared.m
+d/Users/colin/srv/event analyitics/smartphone/phonegap/platforms/ios/CordovaLib/Classes/CDVShared.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection106"Compile /Users/colin/srv/event analyitics/smartphone/phonegap/platforms/ios/CordovaLib/Classes/CDVShared.m185"CompileC build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/CDVShared.o Classes/CDVShared.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler1af91c0ee046b841^153a270ee046b841^---0#0#1#-19%DVTDocumentLocation2@107"file:///Users/colin/srv/event%20analyitics/smartphone/phonegap/platforms/ios/CordovaLib/Classes/CDVShared.m0000000000000000^3755"CompileC build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/CDVShared.o Classes/CDVShared.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd "/Users/colin/srv/event analyitics/smartphone/phonegap/platforms/ios/CordovaLib"    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/X11/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=c99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -miphoneos-version-min=5.0 -iquote /Users/colin/srv/event\ analyitics/smartphone/phonegap/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Cordova-generated-files.hmap -I/Users/colin/srv/event\ analyitics/smartphone/phonegap/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Cordova-own-target-headers.hmap -I/Users/colin/srv/event\ analyitics/smartphone/phonegap/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Cordova-all-target-headers.hmap -iquote /Users/colin/srv/event\ analyitics/smartphone/phonegap/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Cordova-project-headers.hmap -I/Users/colin/srv/event\ analyitics/smartphone/phonegap/platforms/ios/build/device/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/colin/srv/event\ analyitics/smartphone/phonegap/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/DerivedSources/armv7 -I/Users/colin/srv/event\ analyitics/smartphone/phonegap/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/DerivedSources -F/Users/colin/srv/event\ analyitics/smartphone/phonegap/platforms/ios/build/device -DDEBUG -include /var/folders/hy/zyhhclmj3fg98nf3lhsc0jhm0000gn/C/com.apple.DeveloperTools/5.0.2-5A3005/Xcode/SharedPrecompiledHeaders/CordovaLib_Prefix-erenkgwcwhwkhbcidwkyqsxykrnk/CordovaLib_Prefix.pch -MMD -MT dependencies -MF /Users/colin/srv/event\ analyitics/smartphone/phonegap/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/CDVShared.d --serialize-diagnostics /Users/colin/srv/event\ analyitics/smartphone/phonegap/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/CDVShared.dia -c /Users/colin/srv/event\ analyitics/smartphone/phonegap/platforms/ios/CordovaLib/Classes/CDVShared.m -o /Users/colin/srv/event\ analyitics/smartphone/phonegap/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/CDVShared.o36"10FE25E6-A9D2-48A1-81CA-E36DE4987657-
+b6E23E51B-5993-4D70-A809-A5BADC5385CE
+
+CCompileC build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/CDVTimer.o /Users/colin/srv/event\ analyitics/smartphone/phonegap/platforms/ios/CordovaLib/Classes/CDVTimer.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s407298062.058705
+e407298062.112302
+r1
+xCompileC
+xbuild/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/CDVTimer.o
+x/Users/colin/srv/event analyitics/smartphone/phonegap/platforms/ios/CordovaLib/Classes/CDVTimer.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/colin/srv/event analyitics/smartphone/phonegap/platforms/ios/CordovaLib/Classes/CDVTimer.m
+d/Users/colin/srv/event analyitics/smartphone/phonegap/platforms/ios/CordovaLib/Classes/CDVTimer.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection105"Compile /Users/colin/srv/event analyitics/smartphone/phonegap/platforms/ios/CordovaLib/Classes/CDVTimer.m183"CompileC build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/CDVTimer.o Classes/CDVTimer.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler882b0f0ee046b841^450e1d0ee046b841^---0#0#1#-19%DVTDocumentLocation2@106"file:///Users/colin/srv/event%20analyitics/smartphone/phonegap/platforms/ios/CordovaLib/Classes/CDVTimer.m0000000000000000^3749"CompileC build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/CDVTimer.o Classes/CDVTimer.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd "/Users/colin/srv/event analyitics/smartphone/phonegap/platforms/ios/CordovaLib"    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/X11/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=c99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -miphoneos-version-min=5.0 -iquote /Users/colin/srv/event\ analyitics/smartphone/phonegap/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Cordova-generated-files.hmap -I/Users/colin/srv/event\ analyitics/smartphone/phonegap/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Cordova-own-target-headers.hmap -I/Users/colin/srv/event\ analyitics/smartphone/phonegap/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Cordova-all-target-headers.hmap -iquote /Users/colin/srv/event\ analyitics/smartphone/phonegap/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Cordova-project-headers.hmap -I/Users/colin/srv/event\ analyitics/smartphone/phonegap/platforms/ios/build/device/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/colin/srv/event\ analyitics/smartphone/phonegap/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/DerivedSources/armv7 -I/Users/colin/srv/event\ analyitics/smartphone/phonegap/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/DerivedSources -F/Users/colin/srv/event\ analyitics/smartphone/phonegap/platforms/ios/build/device -DDEBUG -include /var/folders/hy/zyhhclmj3fg98nf3lhsc0jhm0000gn/C/com.apple.DeveloperTools/5.0.2-5A3005/Xcode/SharedPrecompiledHeaders/CordovaLib_Prefix-erenkgwcwhwkhbcidwkyqsxykrnk/CordovaLib_Prefix.pch -MMD -MT dependencies -MF /Users/colin/srv/event\ analyitics/smartphone/phonegap/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/CDVTimer.d --serialize-diagnostics /Users/colin/srv/event\ analyitics/smartphone/phonegap/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/CDVTimer.dia -c /Users/colin/srv/event\ analyitics/smartphone/phonegap/platforms/ios/CordovaLib/Classes/CDVTimer.m -o /Users/colin/srv/event\ analyitics/smartphone/phonegap/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/CDVTimer.o36"04514B72-49E7-4B1D-8B49-0598FD3C3310-
+b6E23E51B-5993-4D70-A809-A5BADC5385CE
+
+CCompileC build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/CDVURLProtocol.o /Users/colin/srv/event\ analyitics/smartphone/phonegap/platforms/ios/CordovaLib/Classes/CDVURLProtocol.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s407298061.438449
+e407298061.767260
+r1
+xCompileC
+xbuild/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/CDVURLProtocol.o
+x/Users/colin/srv/event analyitics/smartphone/phonegap/platforms/ios/CordovaLib/Classes/CDVURLProtocol.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/colin/srv/event analyitics/smartphone/phonegap/platforms/ios/CordovaLib/Classes/CDVURLProtocol.m
+d/Users/colin/srv/event analyitics/smartphone/phonegap/platforms/ios/CordovaLib/Classes/CDVURLProtocol.h
+d/Users/colin/srv/event analyitics/smartphone/phonegap/platforms/ios/CordovaLib/Classes/CDVAvailability.h
+d/Users/colin/srv/event analyitics/smartphone/phonegap/platforms/ios/CordovaLib/Classes/CDVCommandQueue.h
+d/Users/colin/srv/event analyitics/smartphone/phonegap/platforms/ios/CordovaLib/Classes/CDVWhitelist.h
+d/Users/colin/srv/event analyitics/smartphone/phonegap/platforms/ios/CordovaLib/Classes/CDVViewController.h
+d/Users/colin/srv/event analyitics/smartphone/phonegap/platforms/ios/CordovaLib/Classes/CDVInvokedUrlCommand.h
+d/Users/colin/srv/event analyitics/smartphone/phonegap/platforms/ios/CordovaLib/Classes/CDVCommandDelegate.h
+d/Users/colin/srv/event analyitics/smartphone/phonegap/platforms/ios/CordovaLib/Classes/CDVScreenOrientationDelegate.h
+d/Users/colin/srv/event analyitics/smartphone/phonegap/platforms/ios/CordovaLib/Classes/CDVPlugin.h
+d/Users/colin/srv/event analyitics/smartphone/phonegap/platforms/ios/CordovaLib/Classes/CDVPluginResult.h
+d/Users/colin/srv/event analyitics/smartphone/phonegap/platforms/ios/CordovaLib/Classes/NSMutableArray+QueueAdditions.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection111"Compile /Users/colin/srv/event analyitics/smartphone/phonegap/platforms/ios/CordovaLib/Classes/CDVURLProtocol.m195"CompileC build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/CDVURLProtocol.o Classes/CDVURLProtocol.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler4165700de046b841^446cc40de046b841^---0#0#1#-19%DVTDocumentLocation2@112"file:///Users/colin/srv/event%20analyitics/smartphone/phonegap/platforms/ios/CordovaLib/Classes/CDVURLProtocol.m0000000000000000^3785"CompileC build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/CDVURLProtocol.o Classes/CDVURLProtocol.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd "/Users/colin/srv/event analyitics/smartphone/phonegap/platforms/ios/CordovaLib"    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/X11/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=c99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -miphoneos-version-min=5.0 -iquote /Users/colin/srv/event\ analyitics/smartphone/phonegap/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Cordova-generated-files.hmap -I/Users/colin/srv/event\ analyitics/smartphone/phonegap/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Cordova-own-target-headers.hmap -I/Users/colin/srv/event\ analyitics/smartphone/phonegap/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Cordova-all-target-headers.hmap -iquote /Users/colin/srv/event\ analyitics/smartphone/phonegap/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Cordova-project-headers.hmap -I/Users/colin/srv/event\ analyitics/smartphone/phonegap/platforms/ios/build/device/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/colin/srv/event\ analyitics/smartphone/phonegap/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/DerivedSources/armv7 -I/Users/colin/srv/event\ analyitics/smartphone/phonegap/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/DerivedSources -F/Users/colin/srv/event\ analyitics/smartphone/phonegap/platforms/ios/build/device -DDEBUG -include /var/folders/hy/zyhhclmj3fg98nf3lhsc0jhm0000gn/C/com.apple.DeveloperTools/5.0.2-5A3005/Xcode/SharedPrecompiledHeaders/CordovaLib_Prefix-erenkgwcwhwkhbcidwkyqsxykrnk/CordovaLib_Prefix.pch -MMD -MT dependencies -MF /Users/colin/srv/event\ analyitics/smartphone/phonegap/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/CDVURLProtocol.d --serialize-diagnostics /Users/colin/srv/event\ analyitics/smartphone/phonegap/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/CDVURLProtocol.dia -c /Users/colin/srv/event\ analyitics/smartphone/phonegap/platforms/ios/CordovaLib/Classes/CDVURLProtocol.m -o /Users/colin/srv/event\ analyitics/smartphone/phonegap/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/CDVURLProtocol.o36"489B3A62-956C-464D-AB55-0DB21B635805-
+b6E23E51B-5993-4D70-A809-A5BADC5385CE
+
+CCompileC build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/CDVUserAgentUtil.o /Users/colin/srv/event\ analyitics/smartphone/phonegap/platforms/ios/CordovaLib/Classes/CDVUserAgentUtil.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s407298062.030143
+e407298062.218872
+r1
+xCompileC
+xbuild/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/CDVUserAgentUtil.o
+x/Users/colin/srv/event analyitics/smartphone/phonegap/platforms/ios/CordovaLib/Classes/CDVUserAgentUtil.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/colin/srv/event analyitics/smartphone/phonegap/platforms/ios/CordovaLib/Classes/CDVUserAgentUtil.m
+d/Users/colin/srv/event analyitics/smartphone/phonegap/platforms/ios/CordovaLib/Classes/CDVUserAgentUtil.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection113"Compile /Users/colin/srv/event analyitics/smartphone/phonegap/platforms/ios/CordovaLib/Classes/CDVUserAgentUtil.m199"CompileC build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/CDVUserAgentUtil.o Classes/CDVUserAgentUtil.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compilerb1db070ee046b841^3b1d380ee046b841^---0#0#1#-19%DVTDocumentLocation2@114"file:///Users/colin/srv/event%20analyitics/smartphone/phonegap/platforms/ios/CordovaLib/Classes/CDVUserAgentUtil.m0000000000000000^3797"CompileC build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/CDVUserAgentUtil.o Classes/CDVUserAgentUtil.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd "/Users/colin/srv/event analyitics/smartphone/phonegap/platforms/ios/CordovaLib"    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/X11/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=c99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -miphoneos-version-min=5.0 -iquote /Users/colin/srv/event\ analyitics/smartphone/phonegap/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Cordova-generated-files.hmap -I/Users/colin/srv/event\ analyitics/smartphone/phonegap/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Cordova-own-target-headers.hmap -I/Users/colin/srv/event\ analyitics/smartphone/phonegap/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Cordova-all-target-headers.hmap -iquote /Users/colin/srv/event\ analyitics/smartphone/phonegap/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Cordova-project-headers.hmap -I/Users/colin/srv/event\ analyitics/smartphone/phonegap/platforms/ios/build/device/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/colin/srv/event\ analyitics/smartphone/phonegap/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/DerivedSources/armv7 -I/Users/colin/srv/event\ analyitics/smartphone/phonegap/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/DerivedSources -F/Users/colin/srv/event\ analyitics/smartphone/phonegap/platforms/ios/build/device -DDEBUG -include /var/folders/hy/zyhhclmj3fg98nf3lhsc0jhm0000gn/C/com.apple.DeveloperTools/5.0.2-5A3005/Xcode/SharedPrecompiledHeaders/CordovaLib_Prefix-erenkgwcwhwkhbcidwkyqsxykrnk/CordovaLib_Prefix.pch -MMD -MT dependencies -MF /Users/colin/srv/event\ analyitics/smartphone/phonegap/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/CDVUserAgentUtil.d --serialize-diagnostics /Users/colin/srv/event\ analyitics/smartphone/phonegap/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/CDVUserAgentUtil.dia -c /Users/colin/srv/event\ analyitics/smartphone/phonegap/platforms/ios/CordovaLib/Classes/CDVUserAgentUtil.m -o /Users/colin/srv/event\ analyitics/smartphone/phonegap/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/CDVUserAgentUtil.o36"7F2CC1C7-7DA4-419F-9A21-E3B727A2DFD4-
+b6E23E51B-5993-4D70-A809-A5BADC5385CE
+
+CCompileC build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/CDVViewController.o /Users/colin/srv/event\ analyitics/smartphone/phonegap/platforms/ios/CordovaLib/Classes/CDVViewController.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s407298061.452942
+e407298062.157489
+r1
+xCompileC
+xbuild/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/CDVViewController.o
+x/Users/colin/srv/event analyitics/smartphone/phonegap/platforms/ios/CordovaLib/Classes/CDVViewController.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/colin/srv/event analyitics/smartphone/phonegap/platforms/ios/CordovaLib/Classes/CDVViewController.m
+d/Users/colin/srv/event analyitics/smartphone/phonegap/platforms/ios/CordovaLib/Classes/CDV.h
+d/Users/colin/srv/event analyitics/smartphone/phonegap/platforms/ios/CordovaLib/Classes/CDVAvailability.h
+d/Users/colin/srv/event analyitics/smartphone/phonegap/platforms/ios/CordovaLib/Classes/CDVPlugin.h
+d/Users/colin/srv/event analyitics/smartphone/phonegap/platforms/ios/CordovaLib/Classes/CDVPluginResult.h
+d/Users/colin/srv/event analyitics/smartphone/phonegap/platforms/ios/CordovaLib/Classes/NSMutableArray+QueueAdditions.h
+d/Users/colin/srv/event analyitics/smartphone/phonegap/platforms/ios/CordovaLib/Classes/CDVCommandDelegate.h
+d/Users/colin/srv/event analyitics/smartphone/phonegap/platforms/ios/CordovaLib/Classes/CDVInvokedUrlCommand.h
+d/Users/colin/srv/event analyitics/smartphone/phonegap/platforms/ios/CordovaLib/Classes/CDVViewController.h
+d/Users/colin/srv/event analyitics/smartphone/phonegap/platforms/ios/CordovaLib/Classes/CDVCommandQueue.h
+d/Users/colin/srv/event analyitics/smartphone/phonegap/platforms/ios/CordovaLib/Classes/CDVWhitelist.h
+d/Users/colin/srv/event analyitics/smartphone/phonegap/platforms/ios/CordovaLib/Classes/CDVScreenOrientationDelegate.h
+d/Users/colin/srv/event analyitics/smartphone/phonegap/platforms/ios/CordovaLib/Classes/CDVURLProtocol.h
+d/Users/colin/srv/event analyitics/smartphone/phonegap/platforms/ios/CordovaLib/Classes/CDVDebug.h
+d/Users/colin/srv/event analyitics/smartphone/phonegap/platforms/ios/CordovaLib/Classes/CDVLocalStorage.h
+d/Users/colin/srv/event analyitics/smartphone/phonegap/platforms/ios/CordovaLib/Classes/CDVTimer.h
+d/Users/colin/srv/event analyitics/smartphone/phonegap/platforms/ios/CordovaLib/Classes/NSArray+Comparisons.h
+d/Users/colin/srv/event analyitics/smartphone/phonegap/platforms/ios/CordovaLib/Classes/NSData+Base64.h
+d/Users/colin/srv/event analyitics/smartphone/phonegap/platforms/ios/CordovaLib/Classes/NSDictionary+Extensions.h
+d/Users/colin/srv/event analyitics/smartphone/phonegap/platforms/ios/CordovaLib/Classes/UIDevice+Extensions.h
+d/Users/colin/srv/event analyitics/smartphone/phonegap/platforms/ios/CordovaLib/Classes/CDVJSON.h
+d/Users/colin/srv/event analyitics/smartphone/phonegap/platforms/ios/CordovaLib/Classes/CDVCommandDelegateImpl.h
+d/Users/colin/srv/event analyitics/smartphone/phonegap/platforms/ios/CordovaLib/Classes/CDVConfigParser.h
+d/Users/colin/srv/event analyitics/smartphone/phonegap/platforms/ios/CordovaLib/Classes/CDVUserAgentUtil.h
+d/Users/colin/srv/event analyitics/smartphone/phonegap/platforms/ios/CordovaLib/Classes/CDVWebViewDelegate.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection114"Compile /Users/colin/srv/event analyitics/smartphone/phonegap/platforms/ios/CordovaLib/Classes/CDVViewController.m201"CompileC build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/CDVViewController.o Classes/CDVViewController.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compilerdf1a740de046b841^315d280ee046b841^---0#0#1#-19%DVTDocumentLocation2@115"file:///Users/colin/srv/event%20analyitics/smartphone/phonegap/platforms/ios/CordovaLib/Classes/CDVViewController.m0000000000000000^3803"CompileC build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/CDVViewController.o Classes/CDVViewController.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd "/Users/colin/srv/event analyitics/smartphone/phonegap/platforms/ios/CordovaLib"    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/X11/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=c99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -miphoneos-version-min=5.0 -iquote /Users/colin/srv/event\ analyitics/smartphone/phonegap/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Cordova-generated-files.hmap -I/Users/colin/srv/event\ analyitics/smartphone/phonegap/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Cordova-own-target-headers.hmap -I/Users/colin/srv/event\ analyitics/smartphone/phonegap/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Cordova-all-target-headers.hmap -iquote /Users/colin/srv/event\ analyitics/smartphone/phonegap/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Cordova-project-headers.hmap -I/Users/colin/srv/event\ analyitics/smartphone/phonegap/platforms/ios/build/device/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/colin/srv/event\ analyitics/smartphone/phonegap/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/DerivedSources/armv7 -I/Users/colin/srv/event\ analyitics/smartphone/phonegap/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/DerivedSources -F/Users/colin/srv/event\ analyitics/smartphone/phonegap/platforms/ios/build/device -DDEBUG -include /var/folders/hy/zyhhclmj3fg98nf3lhsc0jhm0000gn/C/com.apple.DeveloperTools/5.0.2-5A3005/Xcode/SharedPrecompiledHeaders/CordovaLib_Prefix-erenkgwcwhwkhbcidwkyqsxykrnk/CordovaLib_Prefix.pch -MMD -MT dependencies -MF /Users/colin/srv/event\ analyitics/smartphone/phonegap/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/CDVViewController.d --serialize-diagnostics /Users/colin/srv/event\ analyitics/smartphone/phonegap/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/CDVViewController.dia -c /Users/colin/srv/event\ analyitics/smartphone/phonegap/platforms/ios/CordovaLib/Classes/CDVViewController.m -o /Users/colin/srv/event\ analyitics/smartphone/phonegap/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/CDVViewController.o36"A8547A01-1E1C-4686-8DFA-1E1DB84A47A2-
+b6E23E51B-5993-4D70-A809-A5BADC5385CE
+
+CCompileC build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/CDVWebViewDelegate.o /Users/colin/srv/event\ analyitics/smartphone/phonegap/platforms/ios/CordovaLib/Classes/CDVWebViewDelegate.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s407298062.046638
+e407298062.231544
+r1
+xCompileC
+xbuild/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/CDVWebViewDelegate.o
+x/Users/colin/srv/event analyitics/smartphone/phonegap/platforms/ios/CordovaLib/Classes/CDVWebViewDelegate.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/colin/srv/event analyitics/smartphone/phonegap/platforms/ios/CordovaLib/Classes/CDVWebViewDelegate.m
+d/Users/colin/srv/event analyitics/smartphone/phonegap/platforms/ios/CordovaLib/Classes/CDVWebViewDelegate.h
+d/Users/colin/srv/event analyitics/smartphone/phonegap/platforms/ios/CordovaLib/Classes/CDVAvailability.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection115"Compile /Users/colin/srv/event analyitics/smartphone/phonegap/platforms/ios/CordovaLib/Classes/CDVWebViewDelegate.m203"CompileC build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/CDVWebViewDelegate.o Classes/CDVWebViewDelegate.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compilera9130c0ee046b841^b6473b0ee046b841^---0#0#1#-19%DVTDocumentLocation2@116"file:///Users/colin/srv/event%20analyitics/smartphone/phonegap/platforms/ios/CordovaLib/Classes/CDVWebViewDelegate.m0000000000000000^3809"CompileC build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/CDVWebViewDelegate.o Classes/CDVWebViewDelegate.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd "/Users/colin/srv/event analyitics/smartphone/phonegap/platforms/ios/CordovaLib"    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/X11/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=c99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -miphoneos-version-min=5.0 -iquote /Users/colin/srv/event\ analyitics/smartphone/phonegap/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Cordova-generated-files.hmap -I/Users/colin/srv/event\ analyitics/smartphone/phonegap/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Cordova-own-target-headers.hmap -I/Users/colin/srv/event\ analyitics/smartphone/phonegap/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Cordova-all-target-headers.hmap -iquote /Users/colin/srv/event\ analyitics/smartphone/phonegap/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Cordova-project-headers.hmap -I/Users/colin/srv/event\ analyitics/smartphone/phonegap/platforms/ios/build/device/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/colin/srv/event\ analyitics/smartphone/phonegap/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/DerivedSources/armv7 -I/Users/colin/srv/event\ analyitics/smartphone/phonegap/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/DerivedSources -F/Users/colin/srv/event\ analyitics/smartphone/phonegap/platforms/ios/build/device -DDEBUG -include /var/folders/hy/zyhhclmj3fg98nf3lhsc0jhm0000gn/C/com.apple.DeveloperTools/5.0.2-5A3005/Xcode/SharedPrecompiledHeaders/CordovaLib_Prefix-erenkgwcwhwkhbcidwkyqsxykrnk/CordovaLib_Prefix.pch -MMD -MT dependencies -MF /Users/colin/srv/event\ analyitics/smartphone/phonegap/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/CDVWebViewDelegate.d --serialize-diagnostics /Users/colin/srv/event\ analyitics/smartphone/phonegap/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/CDVWebViewDelegate.dia -c /Users/colin/srv/event\ analyitics/smartphone/phonegap/platforms/ios/CordovaLib/Classes/CDVWebViewDelegate.m -o /Users/colin/srv/event\ analyitics/smartphone/phonegap/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/CDVWebViewDelegate.o36"00416734-92B1-44DB-9203-86F752ECFC5E-
+b6E23E51B-5993-4D70-A809-A5BADC5385CE
+
+CCompileC build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/CDVWhitelist.o /Users/colin/srv/event\ analyitics/smartphone/phonegap/platforms/ios/CordovaLib/Classes/CDVWhitelist.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s407298061.404030
+e407298061.514956
+r1
+xCompileC
+xbuild/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/CDVWhitelist.o
+x/Users/colin/srv/event analyitics/smartphone/phonegap/platforms/ios/CordovaLib/Classes/CDVWhitelist.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/colin/srv/event analyitics/smartphone/phonegap/platforms/ios/CordovaLib/Classes/CDVWhitelist.m
+d/Users/colin/srv/event analyitics/smartphone/phonegap/platforms/ios/CordovaLib/Classes/CDVWhitelist.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection109"Compile /Users/colin/srv/event analyitics/smartphone/phonegap/platforms/ios/CordovaLib/Classes/CDVWhitelist.m191"CompileC build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/CDVWhitelist.o Classes/CDVWhitelist.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler6893670de046b841^2899840de046b841^---0#0#1#-19%DVTDocumentLocation2@110"file:///Users/colin/srv/event%20analyitics/smartphone/phonegap/platforms/ios/CordovaLib/Classes/CDVWhitelist.m0000000000000000^3773"CompileC build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/CDVWhitelist.o Classes/CDVWhitelist.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd "/Users/colin/srv/event analyitics/smartphone/phonegap/platforms/ios/CordovaLib"    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/X11/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=c99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -miphoneos-version-min=5.0 -iquote /Users/colin/srv/event\ analyitics/smartphone/phonegap/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Cordova-generated-files.hmap -I/Users/colin/srv/event\ analyitics/smartphone/phonegap/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Cordova-own-target-headers.hmap -I/Users/colin/srv/event\ analyitics/smartphone/phonegap/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Cordova-all-target-headers.hmap -iquote /Users/colin/srv/event\ analyitics/smartphone/phonegap/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Cordova-project-headers.hmap -I/Users/colin/srv/event\ analyitics/smartphone/phonegap/platforms/ios/build/device/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/colin/srv/event\ analyitics/smartphone/phonegap/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/DerivedSources/armv7 -I/Users/colin/srv/event\ analyitics/smartphone/phonegap/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/DerivedSources -F/Users/colin/srv/event\ analyitics/smartphone/phonegap/platforms/ios/build/device -DDEBUG -include /var/folders/hy/zyhhclmj3fg98nf3lhsc0jhm0000gn/C/com.apple.DeveloperTools/5.0.2-5A3005/Xcode/SharedPrecompiledHeaders/CordovaLib_Prefix-erenkgwcwhwkhbcidwkyqsxykrnk/CordovaLib_Prefix.pch -MMD -MT dependencies -MF /Users/colin/srv/event\ analyitics/smartphone/phonegap/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/CDVWhitelist.d --serialize-diagnostics /Users/colin/srv/event\ analyitics/smartphone/phonegap/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/CDVWhitelist.dia -c /Users/colin/srv/event\ analyitics/smartphone/phonegap/platforms/ios/CordovaLib/Classes/CDVWhitelist.m -o /Users/colin/srv/event\ analyitics/smartphone/phonegap/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/CDVWhitelist.o36"2BF89731-F440-4EB6-BB20-2A7223DD3EC0-
+b6E23E51B-5993-4D70-A809-A5BADC5385CE
+
+CCompileC build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/NSArray+Comparisons.o /Users/colin/srv/event\ analyitics/smartphone/phonegap/platforms/ios/CordovaLib/Classes/NSArray+Comparisons.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s407298061.767647
+e407298061.809790
+r1
+xCompileC
+xbuild/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/NSArray+Comparisons.o
+x/Users/colin/srv/event analyitics/smartphone/phonegap/platforms/ios/CordovaLib/Classes/NSArray+Comparisons.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/colin/srv/event analyitics/smartphone/phonegap/platforms/ios/CordovaLib/Classes/NSArray+Comparisons.m
+d/Users/colin/srv/event analyitics/smartphone/phonegap/platforms/ios/CordovaLib/Classes/NSArray+Comparisons.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection116"Compile /Users/colin/srv/event analyitics/smartphone/phonegap/platforms/ios/CordovaLib/Classes/NSArray+Comparisons.m205"CompileC build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/NSArray+Comparisons.o Classes/NSArray+Comparisons.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compileraca9c40de046b841^9a93cf0de046b841^---0#0#1#-19%DVTDocumentLocation2@117"file:///Users/colin/srv/event%20analyitics/smartphone/phonegap/platforms/ios/CordovaLib/Classes/NSArray+Comparisons.m0000000000000000^3815"CompileC build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/NSArray+Comparisons.o Classes/NSArray+Comparisons.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd "/Users/colin/srv/event analyitics/smartphone/phonegap/platforms/ios/CordovaLib"    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/X11/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=c99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -miphoneos-version-min=5.0 -iquote /Users/colin/srv/event\ analyitics/smartphone/phonegap/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Cordova-generated-files.hmap -I/Users/colin/srv/event\ analyitics/smartphone/phonegap/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Cordova-own-target-headers.hmap -I/Users/colin/srv/event\ analyitics/smartphone/phonegap/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Cordova-all-target-headers.hmap -iquote /Users/colin/srv/event\ analyitics/smartphone/phonegap/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Cordova-project-headers.hmap -I/Users/colin/srv/event\ analyitics/smartphone/phonegap/platforms/ios/build/device/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/colin/srv/event\ analyitics/smartphone/phonegap/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/DerivedSources/armv7 -I/Users/colin/srv/event\ analyitics/smartphone/phonegap/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/DerivedSources -F/Users/colin/srv/event\ analyitics/smartphone/phonegap/platforms/ios/build/device -DDEBUG -include /var/folders/hy/zyhhclmj3fg98nf3lhsc0jhm0000gn/C/com.apple.DeveloperTools/5.0.2-5A3005/Xcode/SharedPrecompiledHeaders/CordovaLib_Prefix-erenkgwcwhwkhbcidwkyqsxykrnk/CordovaLib_Prefix.pch -MMD -MT dependencies -MF /Users/colin/srv/event\ analyitics/smartphone/phonegap/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/NSArray+Comparisons.d --serialize-diagnostics /Users/colin/srv/event\ analyitics/smartphone/phonegap/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/NSArray+Comparisons.dia -c /Users/colin/srv/event\ analyitics/smartphone/phonegap/platforms/ios/CordovaLib/Classes/NSArray+Comparisons.m -o /Users/colin/srv/event\ analyitics/smartphone/phonegap/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/NSArray+Comparisons.o36"0B6596B6-80D9-4584-A7E9-6784D955505F-
+b6E23E51B-5993-4D70-A809-A5BADC5385CE
+
+CCompileC build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/NSData+Base64.o /Users/colin/srv/event\ analyitics/smartphone/phonegap/platforms/ios/CordovaLib/Classes/NSData+Base64.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s407298061.345734
+e407298061.393767
+r1
+xCompileC
+xbuild/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/NSData+Base64.o
+x/Users/colin/srv/event analyitics/smartphone/phonegap/platforms/ios/CordovaLib/Classes/NSData+Base64.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/colin/srv/event analyitics/smartphone/phonegap/platforms/ios/CordovaLib/Classes/NSData+Base64.m
+d/Users/colin/srv/event analyitics/smartphone/phonegap/platforms/ios/CordovaLib/Classes/NSData+Base64.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection110"Compile /Users/colin/srv/event analyitics/smartphone/phonegap/platforms/ios/CordovaLib/Classes/NSData+Base64.m193"CompileC build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/NSData+Base64.o Classes/NSData+Base64.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compilere4bf580de046b841^d8656c0de046b841^---0#0#1#-19%DVTDocumentLocation2@111"file:///Users/colin/srv/event%20analyitics/smartphone/phonegap/platforms/ios/CordovaLib/Classes/NSData+Base64.m0000000000000000^3779"CompileC build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/NSData+Base64.o Classes/NSData+Base64.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd "/Users/colin/srv/event analyitics/smartphone/phonegap/platforms/ios/CordovaLib"    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/X11/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=c99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -miphoneos-version-min=5.0 -iquote /Users/colin/srv/event\ analyitics/smartphone/phonegap/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Cordova-generated-files.hmap -I/Users/colin/srv/event\ analyitics/smartphone/phonegap/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Cordova-own-target-headers.hmap -I/Users/colin/srv/event\ analyitics/smartphone/phonegap/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Cordova-all-target-headers.hmap -iquote /Users/colin/srv/event\ analyitics/smartphone/phonegap/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Cordova-project-headers.hmap -I/Users/colin/srv/event\ analyitics/smartphone/phonegap/platforms/ios/build/device/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/colin/srv/event\ analyitics/smartphone/phonegap/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/DerivedSources/armv7 -I/Users/colin/srv/event\ analyitics/smartphone/phonegap/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/DerivedSources -F/Users/colin/srv/event\ analyitics/smartphone/phonegap/platforms/ios/build/device -DDEBUG -include /var/folders/hy/zyhhclmj3fg98nf3lhsc0jhm0000gn/C/com.apple.DeveloperTools/5.0.2-5A3005/Xcode/SharedPrecompiledHeaders/CordovaLib_Prefix-erenkgwcwhwkhbcidwkyqsxykrnk/CordovaLib_Prefix.pch -MMD -MT dependencies -MF /Users/colin/srv/event\ analyitics/smartphone/phonegap/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/NSData+Base64.d --serialize-diagnostics /Users/colin/srv/event\ analyitics/smartphone/phonegap/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/NSData+Base64.dia -c /Users/colin/srv/event\ analyitics/smartphone/phonegap/platforms/ios/CordovaLib/Classes/NSData+Base64.m -o /Users/colin/srv/event\ analyitics/smartphone/phonegap/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/NSData+Base64.o36"DE67CE64-D7A6-4396-80D8-21880EB50832-
+b6E23E51B-5993-4D70-A809-A5BADC5385CE
+
+CCompileC build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/NSDictionary+Extensions.o /Users/colin/srv/event\ analyitics/smartphone/phonegap/platforms/ios/CordovaLib/Classes/NSDictionary+Extensions.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s407298061.344745
+e407298061.403676
+r1
+xCompileC
+xbuild/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/NSDictionary+Extensions.o
+x/Users/colin/srv/event analyitics/smartphone/phonegap/platforms/ios/CordovaLib/Classes/NSDictionary+Extensions.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/colin/srv/event analyitics/smartphone/phonegap/platforms/ios/CordovaLib/Classes/NSDictionary+Extensions.m
+d/Users/colin/srv/event analyitics/smartphone/phonegap/platforms/ios/CordovaLib/Classes/NSDictionary+Extensions.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection120"Compile /Users/colin/srv/event analyitics/smartphone/phonegap/platforms/ios/CordovaLib/Classes/NSDictionary+Extensions.m213"CompileC build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/NSDictionary+Extensions.o Classes/NSDictionary+Extensions.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compilered83580de046b841^4c6e6c0de046b841^---0#0#1#-19%DVTDocumentLocation2@121"file:///Users/colin/srv/event%20analyitics/smartphone/phonegap/platforms/ios/CordovaLib/Classes/NSDictionary+Extensions.m0000000000000000^3839"CompileC build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/NSDictionary+Extensions.o Classes/NSDictionary+Extensions.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd "/Users/colin/srv/event analyitics/smartphone/phonegap/platforms/ios/CordovaLib"    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/X11/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=c99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -miphoneos-version-min=5.0 -iquote /Users/colin/srv/event\ analyitics/smartphone/phonegap/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Cordova-generated-files.hmap -I/Users/colin/srv/event\ analyitics/smartphone/phonegap/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Cordova-own-target-headers.hmap -I/Users/colin/srv/event\ analyitics/smartphone/phonegap/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Cordova-all-target-headers.hmap -iquote /Users/colin/srv/event\ analyitics/smartphone/phonegap/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Cordova-project-headers.hmap -I/Users/colin/srv/event\ analyitics/smartphone/phonegap/platforms/ios/build/device/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/colin/srv/event\ analyitics/smartphone/phonegap/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/DerivedSources/armv7 -I/Users/colin/srv/event\ analyitics/smartphone/phonegap/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/DerivedSources -F/Users/colin/srv/event\ analyitics/smartphone/phonegap/platforms/ios/build/device -DDEBUG -include /var/folders/hy/zyhhclmj3fg98nf3lhsc0jhm0000gn/C/com.apple.DeveloperTools/5.0.2-5A3005/Xcode/SharedPrecompiledHeaders/CordovaLib_Prefix-erenkgwcwhwkhbcidwkyqsxykrnk/CordovaLib_Prefix.pch -MMD -MT dependencies -MF /Users/colin/srv/event\ analyitics/smartphone/phonegap/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/NSDictionary+Extensions.d --serialize-diagnostics /Users/colin/srv/event\ analyitics/smartphone/phonegap/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/NSDictionary+Extensions.dia -c /Users/colin/srv/event\ analyitics/smartphone/phonegap/platforms/ios/CordovaLib/Classes/NSDictionary+Extensions.m -o /Users/colin/srv/event\ analyitics/smartphone/phonegap/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/NSDictionary+Extensions.o36"9ABDCD9C-B0DC-46F1-9619-6E872F7780FC-
+b6E23E51B-5993-4D70-A809-A5BADC5385CE
+
+CCompileC build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/NSMutableArray+QueueAdditions.o /Users/colin/srv/event\ analyitics/smartphone/phonegap/platforms/ios/CordovaLib/Classes/NSMutableArray+QueueAdditions.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s407298061.396548
+e407298061.438087
+r1
+xCompileC
+xbuild/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/NSMutableArray+QueueAdditions.o
+x/Users/colin/srv/event analyitics/smartphone/phonegap/platforms/ios/CordovaLib/Classes/NSMutableArray+QueueAdditions.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/colin/srv/event analyitics/smartphone/phonegap/platforms/ios/CordovaLib/Classes/NSMutableArray+QueueAdditions.m
+d/Users/colin/srv/event analyitics/smartphone/phonegap/platforms/ios/CordovaLib/Classes/NSMutableArray+QueueAdditions.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection126"Compile /Users/colin/srv/event analyitics/smartphone/phonegap/platforms/ios/CordovaLib/Classes/NSMutableArray+QueueAdditions.m225"CompileC build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/NSMutableArray+QueueAdditions.o Classes/NSMutableArray+QueueAdditions.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compilerdfbf650de046b841^8ece710de046b841^---0#0#1#-19%DVTDocumentLocation2@127"file:///Users/colin/srv/event%20analyitics/smartphone/phonegap/platforms/ios/CordovaLib/Classes/NSMutableArray+QueueAdditions.m0000000000000000^3875"CompileC build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/NSMutableArray+QueueAdditions.o Classes/NSMutableArray+QueueAdditions.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd "/Users/colin/srv/event analyitics/smartphone/phonegap/platforms/ios/CordovaLib"    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/X11/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=c99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -miphoneos-version-min=5.0 -iquote /Users/colin/srv/event\ analyitics/smartphone/phonegap/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Cordova-generated-files.hmap -I/Users/colin/srv/event\ analyitics/smartphone/phonegap/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Cordova-own-target-headers.hmap -I/Users/colin/srv/event\ analyitics/smartphone/phonegap/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Cordova-all-target-headers.hmap -iquote /Users/colin/srv/event\ analyitics/smartphone/phonegap/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Cordova-project-headers.hmap -I/Users/colin/srv/event\ analyitics/smartphone/phonegap/platforms/ios/build/device/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/colin/srv/event\ analyitics/smartphone/phonegap/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/DerivedSources/armv7 -I/Users/colin/srv/event\ analyitics/smartphone/phonegap/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/DerivedSources -F/Users/colin/srv/event\ analyitics/smartphone/phonegap/platforms/ios/build/device -DDEBUG -include /var/folders/hy/zyhhclmj3fg98nf3lhsc0jhm0000gn/C/com.apple.DeveloperTools/5.0.2-5A3005/Xcode/SharedPrecompiledHeaders/CordovaLib_Prefix-erenkgwcwhwkhbcidwkyqsxykrnk/CordovaLib_Prefix.pch -MMD -MT dependencies -MF /Users/colin/srv/event\ analyitics/smartphone/phonegap/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/NSMutableArray+QueueAdditions.d --serialize-diagnostics /Users/colin/srv/event\ analyitics/smartphone/phonegap/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/NSMutableArray+QueueAdditions.dia -c /Users/colin/srv/event\ analyitics/smartphone/phonegap/platforms/ios/CordovaLib/Classes/NSMutableArray+QueueAdditions.m -o /Users/colin/srv/event\ analyitics/smartphone/phonegap/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/NSMutableArray+QueueAdditions.o36"8F378B55-4718-4908-AD03-50D216A545D1-
+b6E23E51B-5993-4D70-A809-A5BADC5385CE
+
+CCompileC build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/UIDevice+Extensions.o /Users/colin/srv/event\ analyitics/smartphone/phonegap/platforms/ios/CordovaLib/Classes/UIDevice+Extensions.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s407298061.635515
+e407298061.834056
+r1
+xCompileC
+xbuild/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/UIDevice+Extensions.o
+x/Users/colin/srv/event analyitics/smartphone/phonegap/platforms/ios/CordovaLib/Classes/UIDevice+Extensions.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/colin/srv/event analyitics/smartphone/phonegap/platforms/ios/CordovaLib/Classes/UIDevice+Extensions.m
+d/Users/colin/srv/event analyitics/smartphone/phonegap/platforms/ios/CordovaLib/Classes/UIDevice+Extensions.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection116"Compile /Users/colin/srv/event analyitics/smartphone/phonegap/platforms/ios/CordovaLib/Classes/UIDevice+Extensions.m205"CompileC build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/UIDevice+Extensions.o Classes/UIDevice+Extensions.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler5dfba20de046b841^077dd50de046b841^---0#0#1#-19%DVTDocumentLocation2@117"file:///Users/colin/srv/event%20analyitics/smartphone/phonegap/platforms/ios/CordovaLib/Classes/UIDevice+Extensions.m0000000000000000^3815"CompileC build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/UIDevice+Extensions.o Classes/UIDevice+Extensions.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd "/Users/colin/srv/event analyitics/smartphone/phonegap/platforms/ios/CordovaLib"    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/X11/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=c99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -miphoneos-version-min=5.0 -iquote /Users/colin/srv/event\ analyitics/smartphone/phonegap/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Cordova-generated-files.hmap -I/Users/colin/srv/event\ analyitics/smartphone/phonegap/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Cordova-own-target-headers.hmap -I/Users/colin/srv/event\ analyitics/smartphone/phonegap/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Cordova-all-target-headers.hmap -iquote /Users/colin/srv/event\ analyitics/smartphone/phonegap/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Cordova-project-headers.hmap -I/Users/colin/srv/event\ analyitics/smartphone/phonegap/platforms/ios/build/device/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/colin/srv/event\ analyitics/smartphone/phonegap/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/DerivedSources/armv7 -I/Users/colin/srv/event\ analyitics/smartphone/phonegap/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/DerivedSources -F/Users/colin/srv/event\ analyitics/smartphone/phonegap/platforms/ios/build/device -DDEBUG -include /var/folders/hy/zyhhclmj3fg98nf3lhsc0jhm0000gn/C/com.apple.DeveloperTools/5.0.2-5A3005/Xcode/SharedPrecompiledHeaders/CordovaLib_Prefix-erenkgwcwhwkhbcidwkyqsxykrnk/CordovaLib_Prefix.pch -MMD -MT dependencies -MF /Users/colin/srv/event\ analyitics/smartphone/phonegap/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/UIDevice+Extensions.d --serialize-diagnostics /Users/colin/srv/event\ analyitics/smartphone/phonegap/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/UIDevice+Extensions.dia -c /Users/colin/srv/event\ analyitics/smartphone/phonegap/platforms/ios/CordovaLib/Classes/UIDevice+Extensions.m -o /Users/colin/srv/event\ analyitics/smartphone/phonegap/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/UIDevice+Extensions.o36"577C8DDC-2B42-4B5B-B976-32DC48E92EDF-
+b6E23E51B-5993-4D70-A809-A5BADC5385CE
+
+CCpHeader Classes/CDV.h /Users/colin/srv/event\ analyitics/smartphone/phonegap/platforms/ios/build/device/include/Cordova/CDV.h
+s407298061.332343
+e407298061.335261
+r1
+xCpHeader
+xClasses/CDV.h
+x/Users/colin/srv/event analyitics/smartphone/phonegap/platforms/ios/build/device/include/Cordova/CDV.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection107"Copy /Users/colin/srv/event analyitics/smartphone/phonegap/platforms/ios/build/device/include/Cordova/CDV.h126"CpHeader Classes/CDV.h /Users/colin/srv/event\ analyitics/smartphone/phonegap/platforms/ios/build/device/include/Cordova/CDV.had34550de046b841^21ad550de046b841^---0#0#1#-19%DVTDocumentLocation2@111"file:///Users/colin/srv/event%20analyitics/smartphone/phonegap/platforms/ios/build/device/include/Cordova/CDV.h00345484dfffdf42^735"CpHeader Classes/CDV.h /Users/colin/srv/event\ analyitics/smartphone/phonegap/platforms/ios/build/device/include/Cordova/CDV.h    cd "/Users/colin/srv/event analyitics/smartphone/phonegap/platforms/ios/CordovaLib"    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/X11/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/colin/srv/event\ analyitics/smartphone/phonegap/platforms/ios/CordovaLib/Classes/CDV.h /Users/colin/srv/event\ analyitics/smartphone/phonegap/platforms/ios/build/device/include/Cordova36"5F5A53F1-7CB6-4330-A89F-14CA205EE742-
+b6E23E51B-5993-4D70-A809-A5BADC5385CE
+
+CCpHeader Classes/CDVAvailability.h /Users/colin/srv/event\ analyitics/smartphone/phonegap/platforms/ios/build/device/include/Cordova/CDVAvailability.h
+s407298061.332734
+e407298061.335084
+r1
+xCpHeader
+xClasses/CDVAvailability.h
+x/Users/colin/srv/event analyitics/smartphone/phonegap/platforms/ios/build/device/include/Cordova/CDVAvailability.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection119"Copy /Users/colin/srv/event analyitics/smartphone/phonegap/platforms/ios/build/device/include/Cordova/CDVAvailability.h150"CpHeader Classes/CDVAvailability.h /Users/colin/srv/event\ analyitics/smartphone/phonegap/platforms/ios/build/device/include/Cordova/CDVAvailability.h556b550de046b841^c1c6550de046b841^---0#0#1#-19%DVTDocumentLocation2@123"file:///Users/colin/srv/event%20analyitics/smartphone/phonegap/platforms/ios/build/device/include/Cordova/CDVAvailability.h00345484dfffdf42^771"CpHeader Classes/CDVAvailability.h /Users/colin/srv/event\ analyitics/smartphone/phonegap/platforms/ios/build/device/include/Cordova/CDVAvailability.h    cd "/Users/colin/srv/event analyitics/smartphone/phonegap/platforms/ios/CordovaLib"    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/X11/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/colin/srv/event\ analyitics/smartphone/phonegap/platforms/ios/CordovaLib/Classes/CDVAvailability.h /Users/colin/srv/event\ analyitics/smartphone/phonegap/platforms/ios/build/device/include/Cordova36"F54FC0DD-07B0-48F0-8D21-4547116DA6F7-
+b6E23E51B-5993-4D70-A809-A5BADC5385CE
+
+CCpHeader Classes/CDVCommandDelegate.h /Users/colin/srv/event\ analyitics/smartphone/phonegap/platforms/ios/build/device/include/Cordova/CDVCommandDelegate.h
+s407298061.331836
+e407298061.335074
+r1
+xCpHeader
+xClasses/CDVCommandDelegate.h
+x/Users/colin/srv/event analyitics/smartphone/phonegap/platforms/ios/build/device/include/Cordova/CDVCommandDelegate.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection122"Copy /Users/colin/srv/event analyitics/smartphone/phonegap/platforms/ios/build/device/include/Cordova/CDVCommandDelegate.h156"CpHeader Classes/CDVCommandDelegate.h /Users/colin/srv/event\ analyitics/smartphone/phonegap/platforms/ios/build/device/include/Cordova/CDVCommandDelegate.h1139550de046b841^2cba550de046b841^---0#0#1#-19%DVTDocumentLocation2@126"file:///Users/colin/srv/event%20analyitics/smartphone/phonegap/platforms/ios/build/device/include/Cordova/CDVCommandDelegate.h00345484dfffdf42^780"CpHeader Classes/CDVCommandDelegate.h /Users/colin/srv/event\ analyitics/smartphone/phonegap/platforms/ios/build/device/include/Cordova/CDVCommandDelegate.h    cd "/Users/colin/srv/event analyitics/smartphone/phonegap/platforms/ios/CordovaLib"    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/X11/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/colin/srv/event\ analyitics/smartphone/phonegap/platforms/ios/CordovaLib/Classes/CDVCommandDelegate.h /Users/colin/srv/event\ analyitics/smartphone/phonegap/platforms/ios/build/device/include/Cordova36"48369E0C-52F2-4FCD-9DAB-4A249B3D3C0F-
+b6E23E51B-5993-4D70-A809-A5BADC5385CE
+
+CCpHeader Classes/CDVCommandDelegateImpl.h /Users/colin/srv/event\ analyitics/smartphone/phonegap/platforms/ios/build/device/include/Cordova/CDVCommandDelegateImpl.h
+s407298061.337055
+e407298061.338467
+r1
+xCpHeader
+xClasses/CDVCommandDelegateImpl.h
+x/Users/colin/srv/event analyitics/smartphone/phonegap/platforms/ios/build/device/include/Cordova/CDVCommandDelegateImpl.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection126"Copy /Users/colin/srv/event analyitics/smartphone/phonegap/platforms/ios/build/device/include/Cordova/CDVCommandDelegateImpl.h164"CpHeader Classes/CDVCommandDelegateImpl.h /Users/colin/srv/event\ analyitics/smartphone/phonegap/platforms/ios/build/device/include/Cordova/CDVCommandDelegateImpl.hcb66560de046b841^ddd2560de046b841^---0#0#1#-19%DVTDocumentLocation2@130"file:///Users/colin/srv/event%20analyitics/smartphone/phonegap/platforms/ios/build/device/include/Cordova/CDVCommandDelegateImpl.h00345484dfffdf42^792"CpHeader Classes/CDVCommandDelegateImpl.h /Users/colin/srv/event\ analyitics/smartphone/phonegap/platforms/ios/build/device/include/Cordova/CDVCommandDelegateImpl.h    cd "/Users/colin/srv/event analyitics/smartphone/phonegap/platforms/ios/CordovaLib"    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/X11/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/colin/srv/event\ analyitics/smartphone/phonegap/platforms/ios/CordovaLib/Classes/CDVCommandDelegateImpl.h /Users/colin/srv/event\ analyitics/smartphone/phonegap/platforms/ios/build/device/include/Cordova36"BDA34808-B5EC-47D0-900D-1B959A098958-
+b6E23E51B-5993-4D70-A809-A5BADC5385CE
+
+CCpHeader Classes/CDVCommandQueue.h /Users/colin/srv/event\ analyitics/smartphone/phonegap/platforms/ios/build/device/include/Cordova/CDVCommandQueue.h
+s407298061.336556
+e407298061.337672
+r1
+xCpHeader
+xClasses/CDVCommandQueue.h
+x/Users/colin/srv/event analyitics/smartphone/phonegap/platforms/ios/build/device/include/Cordova/CDVCommandQueue.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection119"Copy /Users/colin/srv/event analyitics/smartphone/phonegap/platforms/ios/build/device/include/Cordova/CDVCommandQueue.h150"CpHeader Classes/CDVCommandQueue.h /Users/colin/srv/event\ analyitics/smartphone/phonegap/platforms/ios/build/device/include/Cordova/CDVCommandQueue.h4240560de046b841^d28f560de046b841^---0#0#1#-19%DVTDocumentLocation2@123"file:///Users/colin/srv/event%20analyitics/smartphone/phonegap/platforms/ios/build/device/include/Cordova/CDVCommandQueue.h00345484dfffdf42^771"CpHeader Classes/CDVCommandQueue.h /Users/colin/srv/event\ analyitics/smartphone/phonegap/platforms/ios/build/device/include/Cordova/CDVCommandQueue.h    cd "/Users/colin/srv/event analyitics/smartphone/phonegap/platforms/ios/CordovaLib"    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/X11/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/colin/srv/event\ analyitics/smartphone/phonegap/platforms/ios/CordovaLib/Classes/CDVCommandQueue.h /Users/colin/srv/event\ analyitics/smartphone/phonegap/platforms/ios/build/device/include/Cordova36"80DD0A1A-B56D-4744-81A7-574F9C3DEBB4-
+b6E23E51B-5993-4D70-A809-A5BADC5385CE
+
+CCpHeader Classes/CDVConfigParser.h /Users/colin/srv/event\ analyitics/smartphone/phonegap/platforms/ios/build/device/include/Cordova/CDVConfigParser.h
+s407298061.338912
+e407298061.340697
+r1
+xCpHeader
+xClasses/CDVConfigParser.h
+x/Users/colin/srv/event analyitics/smartphone/phonegap/platforms/ios/build/device/include/Cordova/CDVConfigParser.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection119"Copy /Users/colin/srv/event analyitics/smartphone/phonegap/platforms/ios/build/device/include/Cordova/CDVConfigParser.h150"CpHeader Classes/CDVConfigParser.h /Users/colin/srv/event\ analyitics/smartphone/phonegap/platforms/ios/build/device/include/Cordova/CDVConfigParser.hc5e7560de046b841^e354570de046b841^---0#0#1#-19%DVTDocumentLocation2@123"file:///Users/colin/srv/event%20analyitics/smartphone/phonegap/platforms/ios/build/device/include/Cordova/CDVConfigParser.h00345484dfffdf42^771"CpHeader Classes/CDVConfigParser.h /Users/colin/srv/event\ analyitics/smartphone/phonegap/platforms/ios/build/device/include/Cordova/CDVConfigParser.h    cd "/Users/colin/srv/event analyitics/smartphone/phonegap/platforms/ios/CordovaLib"    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/X11/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/colin/srv/event\ analyitics/smartphone/phonegap/platforms/ios/CordovaLib/Classes/CDVConfigParser.h /Users/colin/srv/event\ analyitics/smartphone/phonegap/platforms/ios/build/device/include/Cordova36"4F378B45-D5FF-4DF3-9AE1-E790A2598E29-
+b6E23E51B-5993-4D70-A809-A5BADC5385CE
+
+CCpHeader Classes/CDVDebug.h /Users/colin/srv/event\ analyitics/smartphone/phonegap/platforms/ios/build/device/include/Cordova/CDVDebug.h
+s407298061.328152
+e407298061.330307
+r1
+xCpHeader
+xClasses/CDVDebug.h
+x/Users/colin/srv/event analyitics/smartphone/phonegap/platforms/ios/build/device/include/Cordova/CDVDebug.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection112"Copy /Users/colin/srv/event analyitics/smartphone/phonegap/platforms/ios/build/device/include/Cordova/CDVDebug.h136"CpHeader Classes/CDVDebug.h /Users/colin/srv/event\ analyitics/smartphone/phonegap/platforms/ios/build/device/include/Cordova/CDVDebug.hb038540de046b841^d5af540de046b841^---0#0#1#-19%DVTDocumentLocation2@116"file:///Users/colin/srv/event%20analyitics/smartphone/phonegap/platforms/ios/build/device/include/Cordova/CDVDebug.h00345484dfffdf42^750"CpHeader Classes/CDVDebug.h /Users/colin/srv/event\ analyitics/smartphone/phonegap/platforms/ios/build/device/include/Cordova/CDVDebug.h    cd "/Users/colin/srv/event analyitics/smartphone/phonegap/platforms/ios/CordovaLib"    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/X11/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/colin/srv/event\ analyitics/smartphone/phonegap/platforms/ios/CordovaLib/Classes/CDVDebug.h /Users/colin/srv/event\ analyitics/smartphone/phonegap/platforms/ios/build/device/include/Cordova36"74B653DC-D68C-40F6-B5E6-E8483B22E109-
+b6E23E51B-5993-4D70-A809-A5BADC5385CE
+
+CCpHeader Classes/CDVInvokedUrlCommand.h /Users/colin/srv/event\ analyitics/smartphone/phonegap/platforms/ios/build/device/include/Cordova/CDVInvokedUrlCommand.h
+s407298061.323946
+e407298061.326778
+r1
+xCpHeader
+xClasses/CDVInvokedUrlCommand.h
+x/Users/colin/srv/event analyitics/smartphone/phonegap/platforms/ios/build/device/include/Cordova/CDVInvokedUrlCommand.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection124"Copy /Users/colin/srv/event analyitics/smartphone/phonegap/platforms/ios/build/device/include/Cordova/CDVInvokedUrlCommand.h160"CpHeader Classes/CDVInvokedUrlCommand.h /Users/colin/srv/event\ analyitics/smartphone/phonegap/platforms/ios/build/device/include/Cordova/CDVInvokedUrlCommand.hb515530de046b841^32af530de046b841^---0#0#1#-19%DVTDocumentLocation2@128"file:///Users/colin/srv/event%20analyitics/smartphone/phonegap/platforms/ios/build/device/include/Cordova/CDVInvokedUrlCommand.h00345484dfffdf42^786"CpHeader Classes/CDVInvokedUrlCommand.h /Users/colin/srv/event\ analyitics/smartphone/phonegap/platforms/ios/build/device/include/Cordova/CDVInvokedUrlCommand.h    cd "/Users/colin/srv/event analyitics/smartphone/phonegap/platforms/ios/CordovaLib"    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/X11/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/colin/srv/event\ analyitics/smartphone/phonegap/platforms/ios/CordovaLib/Classes/CDVInvokedUrlCommand.h /Users/colin/srv/event\ analyitics/smartphone/phonegap/platforms/ios/build/device/include/Cordova36"0C9D5291-0277-4CE8-829C-A6B225DD571C-
+b6E23E51B-5993-4D70-A809-A5BADC5385CE
+
+CCpHeader Classes/CDVJSON.h /Users/colin/srv/event\ analyitics/smartphone/phonegap/platforms/ios/build/device/include/Cordova/CDVJSON.h
+s407298061.339967
+e407298061.341756
+r1
+xCpHeader
+xClasses/CDVJSON.h
+x/Users/colin/srv/event analyitics/smartphone/phonegap/platforms/ios/build/device/include/Cordova/CDVJSON.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection111"Copy /Users/colin/srv/event analyitics/smartphone/phonegap/platforms/ios/build/device/include/Cordova/CDVJSON.h134"CpHeader Classes/CDVJSON.h /Users/colin/srv/event\ analyitics/smartphone/phonegap/platforms/ios/build/device/include/Cordova/CDVJSON.h6420570de046b841^9984570de046b841^---0#0#1#-19%DVTDocumentLocation2@115"file:///Users/colin/srv/event%20analyitics/smartphone/phonegap/platforms/ios/build/device/include/Cordova/CDVJSON.h00345484dfffdf42^747"CpHeader Classes/CDVJSON.h /Users/colin/srv/event\ analyitics/smartphone/phonegap/platforms/ios/build/device/include/Cordova/CDVJSON.h    cd "/Users/colin/srv/event analyitics/smartphone/phonegap/platforms/ios/CordovaLib"    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/X11/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/colin/srv/event\ analyitics/smartphone/phonegap/platforms/ios/CordovaLib/Classes/CDVJSON.h /Users/colin/srv/event\ analyitics/smartphone/phonegap/platforms/ios/build/device/include/Cordova36"BA1D7508-122F-4283-9685-7A2CEC156492-
+b6E23E51B-5993-4D70-A809-A5BADC5385CE
+
+CCpHeader Classes/CDVLocalStorage.h /Users/colin/srv/event\ analyitics/smartphone/phonegap/platforms/ios/build/device/include/Cordova/CDVLocalStorage.h
+s407298061.334028
+e407298061.336911
+r1
+xCpHeader
+xClasses/CDVLocalStorage.h
+x/Users/colin/srv/event analyitics/smartphone/phonegap/platforms/ios/build/device/include/Cordova/CDVLocalStorage.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection119"Copy /Users/colin/srv/event analyitics/smartphone/phonegap/platforms/ios/build/device/include/Cordova/CDVLocalStorage.h150"CpHeader Classes/CDVLocalStorage.h /Users/colin/srv/event\ analyitics/smartphone/phonegap/platforms/ios/build/device/include/Cordova/CDVLocalStorage.h1edc550de046b841^aa47560de046b841^---0#0#1#-19%DVTDocumentLocation2@123"file:///Users/colin/srv/event%20analyitics/smartphone/phonegap/platforms/ios/build/device/include/Cordova/CDVLocalStorage.h00345484dfffdf42^771"CpHeader Classes/CDVLocalStorage.h /Users/colin/srv/event\ analyitics/smartphone/phonegap/platforms/ios/build/device/include/Cordova/CDVLocalStorage.h    cd "/Users/colin/srv/event analyitics/smartphone/phonegap/platforms/ios/CordovaLib"    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/X11/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/colin/srv/event\ analyitics/smartphone/phonegap/platforms/ios/CordovaLib/Classes/CDVLocalStorage.h /Users/colin/srv/event\ analyitics/smartphone/phonegap/platforms/ios/build/device/include/Cordova36"4954FF1B-05D4-488C-8BC7-53FEB4DE7DC8-
+b6E23E51B-5993-4D70-A809-A5BADC5385CE
+
+CCpHeader Classes/CDVPlugin.h /Users/colin/srv/event\ analyitics/smartphone/phonegap/platforms/ios/build/device/include/Cordova/CDVPlugin.h
+s407298061.327425
+e407298061.330054
+r1
+xCpHeader
+xClasses/CDVPlugin.h
+x/Users/colin/srv/event analyitics/smartphone/phonegap/platforms/ios/build/device/include/Cordova/CDVPlugin.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection113"Copy /Users/colin/srv/event analyitics/smartphone/phonegap/platforms/ios/build/device/include/Cordova/CDVPlugin.h138"CpHeader Classes/CDVPlugin.h /Users/colin/srv/event\ analyitics/smartphone/phonegap/platforms/ios/build/device/include/Cordova/CDVPlugin.h41f5530de046b841^fd87540de046b841^---0#0#1#-19%DVTDocumentLocation2@117"file:///Users/colin/srv/event%20analyitics/smartphone/phonegap/platforms/ios/build/device/include/Cordova/CDVPlugin.h00345484dfffdf42^753"CpHeader Classes/CDVPlugin.h /Users/colin/srv/event\ analyitics/smartphone/phonegap/platforms/ios/build/device/include/Cordova/CDVPlugin.h    cd "/Users/colin/srv/event analyitics/smartphone/phonegap/platforms/ios/CordovaLib"    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/X11/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/colin/srv/event\ analyitics/smartphone/phonegap/platforms/ios/CordovaLib/Classes/CDVPlugin.h /Users/colin/srv/event\ analyitics/smartphone/phonegap/platforms/ios/build/device/include/Cordova36"05474EE0-C2FE-4D03-BBAF-E6540CB96E60-
+b6E23E51B-5993-4D70-A809-A5BADC5385CE
+
+CCpHeader Classes/CDVPluginResult.h /Users/colin/srv/event\ analyitics/smartphone/phonegap/platforms/ios/build/device/include/Cordova/CDVPluginResult.h
+s407298061.324639
+e407298061.327446
+r1
+xCpHeader
+xClasses/CDVPluginResult.h
+x/Users/colin/srv/event analyitics/smartphone/phonegap/platforms/ios/build/device/include/Cordova/CDVPluginResult.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection119"Copy /Users/colin/srv/event analyitics/smartphone/phonegap/platforms/ios/build/device/include/Cordova/CDVPluginResult.h150"CpHeader Classes/CDVPluginResult.h /Users/colin/srv/event\ analyitics/smartphone/phonegap/platforms/ios/build/device/include/Cordova/CDVPluginResult.he63c530de046b841^90db530de046b841^---0#0#1#-19%DVTDocumentLocation2@123"file:///Users/colin/srv/event%20analyitics/smartphone/phonegap/platforms/ios/build/device/include/Cordova/CDVPluginResult.h00345484dfffdf42^771"CpHeader Classes/CDVPluginResult.h /Users/colin/srv/event\ analyitics/smartphone/phonegap/platforms/ios/build/device/include/Cordova/CDVPluginResult.h    cd "/Users/colin/srv/event analyitics/smartphone/phonegap/platforms/ios/CordovaLib"    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/X11/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/colin/srv/event\ analyitics/smartphone/phonegap/platforms/ios/CordovaLib/Classes/CDVPluginResult.h /Users/colin/srv/event\ analyitics/smartphone/phonegap/platforms/ios/build/device/include/Cordova36"5D8046B1-9B65-4393-95B2-BEF4EE86ADD4-
+b6E23E51B-5993-4D70-A809-A5BADC5385CE
+
+CCpHeader Classes/CDVScreenOrientationDelegate.h /Users/colin/srv/event\ analyitics/smartphone/phonegap/platforms/ios/build/device/include/Cordova/CDVScreenOrientationDelegate.h
+s407298061.338499
+e407298061.340223
+r1
+xCpHeader
+xClasses/CDVScreenOrientationDelegate.h
+x/Users/colin/srv/event analyitics/smartphone/phonegap/platforms/ios/build/device/include/Cordova/CDVScreenOrientationDelegate.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection132"Copy /Users/colin/srv/event analyitics/smartphone/phonegap/platforms/ios/build/device/include/Cordova/CDVScreenOrientationDelegate.h176"CpHeader Classes/CDVScreenOrientationDelegate.h /Users/colin/srv/event\ analyitics/smartphone/phonegap/platforms/ios/build/device/include/Cordova/CDVScreenOrientationDelegate.hbabf560de046b841^b724570de046b841^---0#0#1#-19%DVTDocumentLocation2@136"file:///Users/colin/srv/event%20analyitics/smartphone/phonegap/platforms/ios/build/device/include/Cordova/CDVScreenOrientationDelegate.h00345484dfffdf42^810"CpHeader Classes/CDVScreenOrientationDelegate.h /Users/colin/srv/event\ analyitics/smartphone/phonegap/platforms/ios/build/device/include/Cordova/CDVScreenOrientationDelegate.h    cd "/Users/colin/srv/event analyitics/smartphone/phonegap/platforms/ios/CordovaLib"    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/X11/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/colin/srv/event\ analyitics/smartphone/phonegap/platforms/ios/CordovaLib/Classes/CDVScreenOrientationDelegate.h /Users/colin/srv/event\ analyitics/smartphone/phonegap/platforms/ios/build/device/include/Cordova36"1216C922-DB55-4CC8-A2B7-1488466EBDAA-
+b6E23E51B-5993-4D70-A809-A5BADC5385CE
+
+CCpHeader Classes/CDVShared.h /Users/colin/srv/event\ analyitics/smartphone/phonegap/platforms/ios/build/device/include/Cordova/CDVShared.h
+s407298061.338030
+e407298061.340610
+r1
+xCpHeader
+xClasses/CDVShared.h
+x/Users/colin/srv/event analyitics/smartphone/phonegap/platforms/ios/build/device/include/Cordova/CDVShared.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection113"Copy /Users/colin/srv/event analyitics/smartphone/phonegap/platforms/ios/build/device/include/Cordova/CDVShared.h138"CpHeader Classes/CDVShared.h /Users/colin/srv/event\ analyitics/smartphone/phonegap/platforms/ios/build/device/include/Cordova/CDVShared.hbdc6560de046b841^793a570de046b841^---0#0#1#-19%DVTDocumentLocation2@117"file:///Users/colin/srv/event%20analyitics/smartphone/phonegap/platforms/ios/build/device/include/Cordova/CDVShared.h00345484dfffdf42^753"CpHeader Classes/CDVShared.h /Users/colin/srv/event\ analyitics/smartphone/phonegap/platforms/ios/build/device/include/Cordova/CDVShared.h    cd "/Users/colin/srv/event analyitics/smartphone/phonegap/platforms/ios/CordovaLib"    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/X11/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/colin/srv/event\ analyitics/smartphone/phonegap/platforms/ios/CordovaLib/Classes/CDVShared.h /Users/colin/srv/event\ analyitics/smartphone/phonegap/platforms/ios/build/device/include/Cordova36"CA08B743-9157-422F-9647-98B8CD8EF684-
+b6E23E51B-5993-4D70-A809-A5BADC5385CE
+
+CCpHeader Classes/CDVTimer.h /Users/colin/srv/event\ analyitics/smartphone/phonegap/platforms/ios/build/device/include/Cordova/CDVTimer.h
+s407298061.341702
+e407298061.343561
+r1
+xCpHeader
+xClasses/CDVTimer.h
+x/Users/colin/srv/event analyitics/smartphone/phonegap/platforms/ios/build/device/include/Cordova/CDVTimer.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection112"Copy /Users/colin/srv/event analyitics/smartphone/phonegap/platforms/ios/build/device/include/Cordova/CDVTimer.h136"CpHeader Classes/CDVTimer.h /Users/colin/srv/event\ analyitics/smartphone/phonegap/platforms/ios/build/device/include/Cordova/CDVTimer.ha395570de046b841^11556c0de046b841^---0#0#1#-19%DVTDocumentLocation2@116"file:///Users/colin/srv/event%20analyitics/smartphone/phonegap/platforms/ios/build/device/include/Cordova/CDVTimer.h00345484dfffdf42^750"CpHeader Classes/CDVTimer.h /Users/colin/srv/event\ analyitics/smartphone/phonegap/platforms/ios/build/device/include/Cordova/CDVTimer.h    cd "/Users/colin/srv/event analyitics/smartphone/phonegap/platforms/ios/CordovaLib"    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/X11/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/colin/srv/event\ analyitics/smartphone/phonegap/platforms/ios/CordovaLib/Classes/CDVTimer.h /Users/colin/srv/event\ analyitics/smartphone/phonegap/platforms/ios/build/device/include/Cordova36"8F4BBAEE-0A5D-4FC8-8674-4378B7D42C9C-
+b6E23E51B-5993-4D70-A809-A5BADC5385CE
+
+CCpHeader Classes/CDVURLProtocol.h /Users/colin/srv/event\ analyitics/smartphone/phonegap/platforms/ios/build/device/include/Cordova/CDVURLProtocol.h
+s407298061.330636
+e407298061.331877
+r1
+xCpHeader
+xClasses/CDVURLProtocol.h
+x/Users/colin/srv/event analyitics/smartphone/phonegap/platforms/ios/build/device/include/Cordova/CDVURLProtocol.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection118"Copy /Users/colin/srv/event analyitics/smartphone/phonegap/platforms/ios/build/device/include/Cordova/CDVURLProtocol.h148"CpHeader Classes/CDVURLProtocol.h /Users/colin/srv/event\ analyitics/smartphone/phonegap/platforms/ios/build/device/include/Cordova/CDVURLProtocol.h64c9540de046b841^c3f5540de046b841^---0#0#1#-19%DVTDocumentLocation2@122"file:///Users/colin/srv/event%20analyitics/smartphone/phonegap/platforms/ios/build/device/include/Cordova/CDVURLProtocol.h00345484dfffdf42^768"CpHeader Classes/CDVURLProtocol.h /Users/colin/srv/event\ analyitics/smartphone/phonegap/platforms/ios/build/device/include/Cordova/CDVURLProtocol.h    cd "/Users/colin/srv/event analyitics/smartphone/phonegap/platforms/ios/CordovaLib"    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/X11/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/colin/srv/event\ analyitics/smartphone/phonegap/platforms/ios/CordovaLib/Classes/CDVURLProtocol.h /Users/colin/srv/event\ analyitics/smartphone/phonegap/platforms/ios/build/device/include/Cordova36"1F248390-51EF-4C29-992A-0A34B627CA03-
+b6E23E51B-5993-4D70-A809-A5BADC5385CE
+
+CCpHeader Classes/CDVUserAgentUtil.h /Users/colin/srv/event\ analyitics/smartphone/phonegap/platforms/ios/build/device/include/Cordova/CDVUserAgentUtil.h
+s407298061.341080
+e407298061.342858
+r1
+xCpHeader
+xClasses/CDVUserAgentUtil.h
+x/Users/colin/srv/event analyitics/smartphone/phonegap/platforms/ios/build/device/include/Cordova/CDVUserAgentUtil.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection120"Copy /Users/colin/srv/event analyitics/smartphone/phonegap/platforms/ios/build/device/include/Cordova/CDVUserAgentUtil.h152"CpHeader Classes/CDVUserAgentUtil.h /Users/colin/srv/event\ analyitics/smartphone/phonegap/platforms/ios/build/device/include/Cordova/CDVUserAgentUtil.h7381570de046b841^18d0570de046b841^---0#0#1#-19%DVTDocumentLocation2@124"file:///Users/colin/srv/event%20analyitics/smartphone/phonegap/platforms/ios/build/device/include/Cordova/CDVUserAgentUtil.h00345484dfffdf42^774"CpHeader Classes/CDVUserAgentUtil.h /Users/colin/srv/event\ analyitics/smartphone/phonegap/platforms/ios/build/device/include/Cordova/CDVUserAgentUtil.h    cd "/Users/colin/srv/event analyitics/smartphone/phonegap/platforms/ios/CordovaLib"    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/X11/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/colin/srv/event\ analyitics/smartphone/phonegap/platforms/ios/CordovaLib/Classes/CDVUserAgentUtil.h /Users/colin/srv/event\ analyitics/smartphone/phonegap/platforms/ios/build/device/include/Cordova36"C1434F45-E535-4DAF-AC65-D862B3EFF351-
+b6E23E51B-5993-4D70-A809-A5BADC5385CE
+
+CCpHeader Classes/CDVViewController.h /Users/colin/srv/event\ analyitics/smartphone/phonegap/platforms/ios/build/device/include/Cordova/CDVViewController.h
+s407298061.331378
+e407298061.332603
+r1
+xCpHeader
+xClasses/CDVViewController.h
+x/Users/colin/srv/event analyitics/smartphone/phonegap/platforms/ios/build/device/include/Cordova/CDVViewController.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection121"Copy /Users/colin/srv/event analyitics/smartphone/phonegap/platforms/ios/build/device/include/Cordova/CDVViewController.h154"CpHeader Classes/CDVViewController.h /Users/colin/srv/event\ analyitics/smartphone/phonegap/platforms/ios/build/device/include/Cordova/CDVViewController.h91f1540de046b841^9336550de046b841^---0#0#1#-19%DVTDocumentLocation2@125"file:///Users/colin/srv/event%20analyitics/smartphone/phonegap/platforms/ios/build/device/include/Cordova/CDVViewController.h00345484dfffdf42^777"CpHeader Classes/CDVViewController.h /Users/colin/srv/event\ analyitics/smartphone/phonegap/platforms/ios/build/device/include/Cordova/CDVViewController.h    cd "/Users/colin/srv/event analyitics/smartphone/phonegap/platforms/ios/CordovaLib"    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/X11/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/colin/srv/event\ analyitics/smartphone/phonegap/platforms/ios/CordovaLib/Classes/CDVViewController.h /Users/colin/srv/event\ analyitics/smartphone/phonegap/platforms/ios/build/device/include/Cordova36"B259F124-E6F8-4A71-9155-F71DDA0729F4-
+b6E23E51B-5993-4D70-A809-A5BADC5385CE
+
+CCpHeader Classes/CDVWebViewDelegate.h /Users/colin/srv/event\ analyitics/smartphone/phonegap/platforms/ios/build/device/include/Cordova/CDVWebViewDelegate.h
+s407298061.341369
+e407298061.342995
+r1
+xCpHeader
+xClasses/CDVWebViewDelegate.h
+x/Users/colin/srv/event analyitics/smartphone/phonegap/platforms/ios/build/device/include/Cordova/CDVWebViewDelegate.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection122"Copy /Users/colin/srv/event analyitics/smartphone/phonegap/platforms/ios/build/device/include/Cordova/CDVWebViewDelegate.h156"CpHeader Classes/CDVWebViewDelegate.h /Users/colin/srv/event\ analyitics/smartphone/phonegap/platforms/ios/build/device/include/Cordova/CDVWebViewDelegate.hae7f570de046b841^efe4570de046b841^---0#0#1#-19%DVTDocumentLocation2@126"file:///Users/colin/srv/event%20analyitics/smartphone/phonegap/platforms/ios/build/device/include/Cordova/CDVWebViewDelegate.h00345484dfffdf42^780"CpHeader Classes/CDVWebViewDelegate.h /Users/colin/srv/event\ analyitics/smartphone/phonegap/platforms/ios/build/device/include/Cordova/CDVWebViewDelegate.h    cd "/Users/colin/srv/event analyitics/smartphone/phonegap/platforms/ios/CordovaLib"    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/X11/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/colin/srv/event\ analyitics/smartphone/phonegap/platforms/ios/CordovaLib/Classes/CDVWebViewDelegate.h /Users/colin/srv/event\ analyitics/smartphone/phonegap/platforms/ios/build/device/include/Cordova36"3F764972-D82E-4C5F-8484-D2BABA5F01D0-
+b6E23E51B-5993-4D70-A809-A5BADC5385CE
+
+CCpHeader Classes/CDVWhitelist.h /Users/colin/srv/event\ analyitics/smartphone/phonegap/platforms/ios/build/device/include/Cordova/CDVWhitelist.h
+s407298061.329172
+e407298061.330630
+r1
+xCpHeader
+xClasses/CDVWhitelist.h
+x/Users/colin/srv/event analyitics/smartphone/phonegap/platforms/ios/build/device/include/Cordova/CDVWhitelist.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection116"Copy /Users/colin/srv/event analyitics/smartphone/phonegap/platforms/ios/build/device/include/Cordova/CDVWhitelist.h144"CpHeader Classes/CDVWhitelist.h /Users/colin/srv/event\ analyitics/smartphone/phonegap/platforms/ios/build/device/include/Cordova/CDVWhitelist.hcf67540de046b841^f9be540de046b841^---0#0#1#-19%DVTDocumentLocation2@120"file:///Users/colin/srv/event%20analyitics/smartphone/phonegap/platforms/ios/build/device/include/Cordova/CDVWhitelist.h00345484dfffdf42^762"CpHeader Classes/CDVWhitelist.h /Users/colin/srv/event\ analyitics/smartphone/phonegap/platforms/ios/build/device/include/Cordova/CDVWhitelist.h    cd "/Users/colin/srv/event analyitics/smartphone/phonegap/platforms/ios/CordovaLib"    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/X11/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/colin/srv/event\ analyitics/smartphone/phonegap/platforms/ios/CordovaLib/Classes/CDVWhitelist.h /Users/colin/srv/event\ analyitics/smartphone/phonegap/platforms/ios/build/device/include/Cordova36"D1FAE304-3590-42AA-A7A5-09C68439D75F-
+b6E23E51B-5993-4D70-A809-A5BADC5385CE
+
+CCpHeader Classes/NSArray+Comparisons.h /Users/colin/srv/event\ analyitics/smartphone/phonegap/platforms/ios/build/device/include/Cordova/NSArray+Comparisons.h
+s407298061.335997
+e407298061.337682
+r1
+xCpHeader
+xClasses/NSArray+Comparisons.h
+x/Users/colin/srv/event analyitics/smartphone/phonegap/platforms/ios/build/device/include/Cordova/NSArray+Comparisons.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection123"Copy /Users/colin/srv/event analyitics/smartphone/phonegap/platforms/ios/build/device/include/Cordova/NSArray+Comparisons.h158"CpHeader Classes/NSArray+Comparisons.h /Users/colin/srv/event\ analyitics/smartphone/phonegap/platforms/ios/build/device/include/Cordova/NSArray+Comparisons.hcc28560de046b841^c79d560de046b841^---0#0#1#-19%DVTDocumentLocation2@127"file:///Users/colin/srv/event%20analyitics/smartphone/phonegap/platforms/ios/build/device/include/Cordova/NSArray+Comparisons.h00345484dfffdf42^783"CpHeader Classes/NSArray+Comparisons.h /Users/colin/srv/event\ analyitics/smartphone/phonegap/platforms/ios/build/device/include/Cordova/NSArray+Comparisons.h    cd "/Users/colin/srv/event analyitics/smartphone/phonegap/platforms/ios/CordovaLib"    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/X11/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/colin/srv/event\ analyitics/smartphone/phonegap/platforms/ios/CordovaLib/Classes/NSArray+Comparisons.h /Users/colin/srv/event\ analyitics/smartphone/phonegap/platforms/ios/build/device/include/Cordova36"9D10D717-FBD9-4160-B80A-5798316262B1-
+b6E23E51B-5993-4D70-A809-A5BADC5385CE
+
+CCpHeader Classes/NSData+Base64.h /Users/colin/srv/event\ analyitics/smartphone/phonegap/platforms/ios/build/device/include/Cordova/NSData+Base64.h
+s407298061.324223
+e407298061.327186
+r1
+xCpHeader
+xClasses/NSData+Base64.h
+x/Users/colin/srv/event analyitics/smartphone/phonegap/platforms/ios/build/device/include/Cordova/NSData+Base64.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection117"Copy /Users/colin/srv/event analyitics/smartphone/phonegap/platforms/ios/build/device/include/Cordova/NSData+Base64.h146"CpHeader Classes/NSData+Base64.h /Users/colin/srv/event\ analyitics/smartphone/phonegap/platforms/ios/build/device/include/Cordova/NSData+Base64.hf12a530de046b841^b2d7530de046b841^---0#0#1#-19%DVTDocumentLocation2@121"file:///Users/colin/srv/event%20analyitics/smartphone/phonegap/platforms/ios/build/device/include/Cordova/NSData+Base64.h00345484dfffdf42^765"CpHeader Classes/NSData+Base64.h /Users/colin/srv/event\ analyitics/smartphone/phonegap/platforms/ios/build/device/include/Cordova/NSData+Base64.h    cd "/Users/colin/srv/event analyitics/smartphone/phonegap/platforms/ios/CordovaLib"    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/X11/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/colin/srv/event\ analyitics/smartphone/phonegap/platforms/ios/CordovaLib/Classes/NSData+Base64.h /Users/colin/srv/event\ analyitics/smartphone/phonegap/platforms/ios/build/device/include/Cordova36"77EBC3B1-92ED-4D77-A517-99931055C11A-
+b6E23E51B-5993-4D70-A809-A5BADC5385CE
+
+CCpHeader Classes/NSDictionary+Extensions.h /Users/colin/srv/event\ analyitics/smartphone/phonegap/platforms/ios/build/device/include/Cordova/NSDictionary+Extensions.h
+s407298061.323841
+e407298061.327558
+r1
+xCpHeader
+xClasses/NSDictionary+Extensions.h
+x/Users/colin/srv/event analyitics/smartphone/phonegap/platforms/ios/build/device/include/Cordova/NSDictionary+Extensions.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection127"Copy /Users/colin/srv/event analyitics/smartphone/phonegap/platforms/ios/build/device/include/Cordova/NSDictionary+Extensions.h166"CpHeader Classes/NSDictionary+Extensions.h /Users/colin/srv/event\ analyitics/smartphone/phonegap/platforms/ios/build/device/include/Cordova/NSDictionary+Extensions.h3410530de046b841^3be3530de046b841^---0#0#1#-19%DVTDocumentLocation2@131"file:///Users/colin/srv/event%20analyitics/smartphone/phonegap/platforms/ios/build/device/include/Cordova/NSDictionary+Extensions.h00c0befed2fddf42^795"CpHeader Classes/NSDictionary+Extensions.h /Users/colin/srv/event\ analyitics/smartphone/phonegap/platforms/ios/build/device/include/Cordova/NSDictionary+Extensions.h    cd "/Users/colin/srv/event analyitics/smartphone/phonegap/platforms/ios/CordovaLib"    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/X11/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/colin/srv/event\ analyitics/smartphone/phonegap/platforms/ios/CordovaLib/Classes/NSDictionary+Extensions.h /Users/colin/srv/event\ analyitics/smartphone/phonegap/platforms/ios/build/device/include/Cordova36"A6805B5D-E43E-4A4D-83ED-B3CF0D758579-
+b6E23E51B-5993-4D70-A809-A5BADC5385CE
+
+CCpHeader Classes/NSMutableArray+QueueAdditions.h /Users/colin/srv/event\ analyitics/smartphone/phonegap/platforms/ios/build/device/include/Cordova/NSMutableArray+QueueAdditions.h
+s407298061.328340
+e407298061.330399
+r1
+xCpHeader
+xClasses/NSMutableArray+QueueAdditions.h
+x/Users/colin/srv/event analyitics/smartphone/phonegap/platforms/ios/build/device/include/Cordova/NSMutableArray+QueueAdditions.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection133"Copy /Users/colin/srv/event analyitics/smartphone/phonegap/platforms/ios/build/device/include/Cordova/NSMutableArray+QueueAdditions.h178"CpHeader Classes/NSMutableArray+QueueAdditions.h /Users/colin/srv/event\ analyitics/smartphone/phonegap/platforms/ios/build/device/include/Cordova/NSMutableArray+QueueAdditions.hfd32540de046b841^6fa0540de046b841^---0#0#1#-19%DVTDocumentLocation2@137"file:///Users/colin/srv/event%20analyitics/smartphone/phonegap/platforms/ios/build/device/include/Cordova/NSMutableArray+QueueAdditions.h00345484dfffdf42^813"CpHeader Classes/NSMutableArray+QueueAdditions.h /Users/colin/srv/event\ analyitics/smartphone/phonegap/platforms/ios/build/device/include/Cordova/NSMutableArray+QueueAdditions.h    cd "/Users/colin/srv/event analyitics/smartphone/phonegap/platforms/ios/CordovaLib"    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/X11/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/colin/srv/event\ analyitics/smartphone/phonegap/platforms/ios/CordovaLib/Classes/NSMutableArray+QueueAdditions.h /Users/colin/srv/event\ analyitics/smartphone/phonegap/platforms/ios/build/device/include/Cordova36"24798606-5DFB-4E09-82F1-CF08408F824E-
+b6E23E51B-5993-4D70-A809-A5BADC5385CE
+
+CCpHeader Classes/UIDevice+Extensions.h /Users/colin/srv/event\ analyitics/smartphone/phonegap/platforms/ios/build/device/include/Cordova/UIDevice+Extensions.h
+s407298061.335312
+e407298061.336874
+r1
+xCpHeader
+xClasses/UIDevice+Extensions.h
+x/Users/colin/srv/event analyitics/smartphone/phonegap/platforms/ios/build/device/include/Cordova/UIDevice+Extensions.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection123"Copy /Users/colin/srv/event analyitics/smartphone/phonegap/platforms/ios/build/device/include/Cordova/UIDevice+Extensions.h158"CpHeader Classes/UIDevice+Extensions.h /Users/colin/srv/event\ analyitics/smartphone/phonegap/platforms/ios/build/device/include/Cordova/UIDevice+Extensions.hdbfa550de046b841^2a3a560de046b841^---0#0#1#-19%DVTDocumentLocation2@127"file:///Users/colin/srv/event%20analyitics/smartphone/phonegap/platforms/ios/build/device/include/Cordova/UIDevice+Extensions.h00345484dfffdf42^783"CpHeader Classes/UIDevice+Extensions.h /Users/colin/srv/event\ analyitics/smartphone/phonegap/platforms/ios/build/device/include/Cordova/UIDevice+Extensions.h    cd "/Users/colin/srv/event analyitics/smartphone/phonegap/platforms/ios/CordovaLib"    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/X11/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/colin/srv/event\ analyitics/smartphone/phonegap/platforms/ios/CordovaLib/Classes/UIDevice+Extensions.h /Users/colin/srv/event\ analyitics/smartphone/phonegap/platforms/ios/build/device/include/Cordova36"2E59842C-A349-48BB-A562-015707929E6C-
+b6E23E51B-5993-4D70-A809-A5BADC5385CE
+
+CLibtool /Users/colin/srv/event\ analyitics/smartphone/phonegap/platforms/ios/build/device/libCordova.a normal armv7
+s407298062.232858
+e407298062.246054
+r1
+xLibtool
+x/Users/colin/srv/event analyitics/smartphone/phonegap/platforms/ios/build/device/libCordova.a
+xnormal
+xarmv7
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection115"Libtool /Users/colin/srv/event\ analyitics/smartphone/phonegap/platforms/ios/build/device/libCordova.a normal armv7115"Libtool /Users/colin/srv/event\ analyitics/smartphone/phonegap/platforms/ios/build/device/libCordova.a normal armv779ae3b0ee046b841^37003f0ee046b841^---0#0#1#--1069"Libtool /Users/colin/srv/event\ analyitics/smartphone/phonegap/platforms/ios/build/device/libCordova.a normal armv7    cd "/Users/colin/srv/event analyitics/smartphone/phonegap/platforms/ios/CordovaLib"    setenv IPHONEOS_DEPLOYMENT_TARGET 5.0    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/X11/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/libtool -static -arch_only armv7 -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk -L/Users/colin/srv/event\ analyitics/smartphone/phonegap/platforms/ios/build/device -filelist /Users/colin/srv/event\ analyitics/smartphone/phonegap/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/Cordova.LinkFileList -o /Users/colin/srv/event\ analyitics/smartphone/phonegap/platforms/ios/build/device/libCordova.a36"88ACC75B-A555-4939-BB24-1BE128852D17-
+b6E23E51B-5993-4D70-A809-A5BADC5385CE
+
+CProcessPCH /var/folders/hy/zyhhclmj3fg98nf3lhsc0jhm0000gn/C/com.apple.DeveloperTools/5.0.2-5A3005/Xcode/SharedPrecompiledHeaders/CordovaLib_Prefix-erenkgwcwhwkhbcidwkyqsxykrnk/CordovaLib_Prefix.pch.pch CordovaLib_Prefix.pch normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+

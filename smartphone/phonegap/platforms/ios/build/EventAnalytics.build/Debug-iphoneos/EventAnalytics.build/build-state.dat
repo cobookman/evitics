@@ -1,0 +1,796 @@
+TEventAnalytics
+v6
+r1
+cCheck dependencies
+cProcessInfoPlistFile /Users/colin/srv/event\ analyitics/smartphone/phonegap/platforms/ios/build/device/EventAnalytics.app/Info.plist /Users/colin/srv/event\ analyitics/smartphone/phonegap/platforms/ios/EventAnalytics/EventAnalytics-Info.plist
+cCpResource /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/ResourceRules.plist build/device/EventAnalytics.app/ResourceRules.plist
+cPhaseScriptExecution Copy\ www\ directory /Users/colin/srv/event\ analyitics/smartphone/phonegap/platforms/ios/build/EventAnalytics.build/Debug-iphoneos/EventAnalytics.build/Script-304B58A110DAC018002A0835.sh
+cCpResource EventAnalytics/config.xml build/device/EventAnalytics.app/config.xml
+cCopyPNGFile /Users/colin/srv/event\ analyitics/smartphone/phonegap/platforms/ios/build/device/EventAnalytics.app/icon-72.png EventAnalytics/Resources/icons/icon-72.png
+cCopyPNGFile /Users/colin/srv/event\ analyitics/smartphone/phonegap/platforms/ios/build/device/EventAnalytics.app/icon.png EventAnalytics/Resources/icons/icon.png
+cCopyPNGFile /Users/colin/srv/event\ analyitics/smartphone/phonegap/platforms/ios/build/device/EventAnalytics.app/icon@2x.png EventAnalytics/Resources/icons/icon@2x.png
+cCopyStringsFile /Users/colin/srv/event\ analyitics/smartphone/phonegap/platforms/ios/build/device/EventAnalytics.app/en.lproj/Localizable.strings EventAnalytics/Resources/en.lproj/Localizable.strings
+cCopyStringsFile /Users/colin/srv/event\ analyitics/smartphone/phonegap/platforms/ios/build/device/EventAnalytics.app/es.lproj/Localizable.strings EventAnalytics/Resources/es.lproj/Localizable.strings
+cCompileXIB /Users/colin/srv/event\ analyitics/smartphone/phonegap/platforms/ios/EventAnalytics/Classes/MainViewController.xib
+cCopyStringsFile /Users/colin/srv/event\ analyitics/smartphone/phonegap/platforms/ios/build/device/EventAnalytics.app/de.lproj/Localizable.strings EventAnalytics/Resources/de.lproj/Localizable.strings
+cCopyStringsFile /Users/colin/srv/event\ analyitics/smartphone/phonegap/platforms/ios/build/device/EventAnalytics.app/se.lproj/Localizable.strings EventAnalytics/Resources/se.lproj/Localizable.strings
+cCopyPNGFile /Users/colin/srv/event\ analyitics/smartphone/phonegap/platforms/ios/build/device/EventAnalytics.app/Default-Landscape@2x~ipad.png EventAnalytics/Resources/splash/Default-Landscape@2x~ipad.png
+cCopyPNGFile /Users/colin/srv/event\ analyitics/smartphone/phonegap/platforms/ios/build/device/EventAnalytics.app/Default-Landscape~ipad.png EventAnalytics/Resources/splash/Default-Landscape~ipad.png
+cCopyPNGFile /Users/colin/srv/event\ analyitics/smartphone/phonegap/platforms/ios/build/device/EventAnalytics.app/Default-Portrait@2x~ipad.png EventAnalytics/Resources/splash/Default-Portrait@2x~ipad.png
+cCopyPNGFile /Users/colin/srv/event\ analyitics/smartphone/phonegap/platforms/ios/build/device/EventAnalytics.app/Default-Portrait~ipad.png EventAnalytics/Resources/splash/Default-Portrait~ipad.png
+cCopyPNGFile /Users/colin/srv/event\ analyitics/smartphone/phonegap/platforms/ios/build/device/EventAnalytics.app/Default@2x~iphone.png EventAnalytics/Resources/splash/Default@2x~iphone.png
+cCopyPNGFile /Users/colin/srv/event\ analyitics/smartphone/phonegap/platforms/ios/build/device/EventAnalytics.app/Default~iphone.png EventAnalytics/Resources/splash/Default~iphone.png
+cCopyPNGFile /Users/colin/srv/event\ analyitics/smartphone/phonegap/platforms/ios/build/device/EventAnalytics.app/Default-568h@2x~iphone.png EventAnalytics/Resources/splash/Default-568h@2x~iphone.png
+cCopyPNGFile /Users/colin/srv/event\ analyitics/smartphone/phonegap/platforms/ios/build/device/EventAnalytics.app/icon-72@2x.png EventAnalytics/Resources/icons/icon-72@2x.png
+cProcessPCH /var/folders/hy/zyhhclmj3fg98nf3lhsc0jhm0000gn/C/com.apple.DeveloperTools/5.0.2-5A3005/Xcode/SharedPrecompiledHeaders/EventAnalytics-Prefix-cbiebvxwmhqcnrerbqdzxoagurze/EventAnalytics-Prefix.pch.pch EventAnalytics/EventAnalytics-Prefix.pch normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/EventAnalytics.build/Debug-iphoneos/EventAnalytics.build/Objects-normal/armv7/main.o /Users/colin/srv/event\ analyitics/smartphone/phonegap/platforms/ios/EventAnalytics/main.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/EventAnalytics.build/Debug-iphoneos/EventAnalytics.build/Objects-normal/armv7/AppDelegate.o /Users/colin/srv/event\ analyitics/smartphone/phonegap/platforms/ios/EventAnalytics/Classes/AppDelegate.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/EventAnalytics.build/Debug-iphoneos/EventAnalytics.build/Objects-normal/armv7/MainViewController.o /Users/colin/srv/event\ analyitics/smartphone/phonegap/platforms/ios/EventAnalytics/Classes/MainViewController.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/EventAnalytics.build/Debug-iphoneos/EventAnalytics.build/Objects-normal/armv7/MEGBluetoothSerial.o /Users/colin/srv/event\ analyitics/smartphone/phonegap/platforms/ios/EventAnalytics/Plugins/com.megster.cordova.BluetoothSerial/BluetoothSerial/MEGBluetoothSerial.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/EventAnalytics.build/Debug-iphoneos/EventAnalytics.build/Objects-normal/armv7/BLE.o /Users/colin/srv/event\ analyitics/smartphone/phonegap/platforms/ios/EventAnalytics/Plugins/com.megster.cordova.BluetoothSerial/BluetoothSerial/BLE.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cLd /Users/colin/srv/event\ analyitics/smartphone/phonegap/platforms/ios/build/device/EventAnalytics.app/EventAnalytics normal armv7
+cGenerateDSYMFile /Users/colin/srv/event\ analyitics/smartphone/phonegap/platforms/ios/build/device/EventAnalytics.app.dSYM /Users/colin/srv/event\ analyitics/smartphone/phonegap/platforms/ios/build/device/EventAnalytics.app/EventAnalytics
+cProcessProductPackaging /Users/colin/Library/MobileDevice/Provisioning\ Profiles/8BA91B94-EAF4-4ADE-AD9A-C7D406504844.mobileprovision /Users/colin/srv/event\ analyitics/smartphone/phonegap/platforms/ios/build/device/EventAnalytics.app/embedded.mobileprovision
+cTouch /Users/colin/srv/event\ analyitics/smartphone/phonegap/platforms/ios/build/device/EventAnalytics.app
+cProcessProductPackaging /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/Entitlements.plist /Users/colin/srv/event\ analyitics/smartphone/phonegap/platforms/ios/build/EventAnalytics.build/Debug-iphoneos/EventAnalytics.build/EventAnalytics.xcent
+cCodeSign /Users/colin/srv/event\ analyitics/smartphone/phonegap/platforms/ios/build/device/EventAnalytics.app
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk
+c0000000052823CAF0000000000000110
+t1384266927
+s272
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/Entitlements.plist
+c0000000052671AC30000000000000094
+t1382488771
+s148
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/ResourceRules.plist
+c0000000052671AC30000000000000096
+t1382488771
+s150
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/SDKSettings.plist
+c0000000052671AC3000000000000036B
+t1382488771
+s875
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/System/Library/CoreServices/SystemVersion.plist
+c0000000052671AC300000000000001A0
+t1382488771
+s416
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/System/Library/Frameworks/AssetsLibrary.framework/AssetsLibrary
+c0000000052671AC40000000000075BB0
+t1382488772
+s482224
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/System/Library/Frameworks/CoreBluetooth.framework/CoreBluetooth
+c0000000052671AC6000000000008DED0
+t1382488774
+s581328
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c0000000052671AC700000000004D63C0
+t1382488775
+s5071808
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/System/Library/Frameworks/CoreLocation.framework/CoreLocation
+c0000000052671AC70000000000146100
+t1382488775
+s1335552
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/System/Library/Frameworks/MobileCoreServices.framework/MobileCoreServices
+c0000000052671ACA0000000000210C80
+t1382488778
+s2165888
+
+N/Users/colin/Library/MobileDevice/Provisioning Profiles/8BA91B94-EAF4-4ADE-AD9A-C7D406504844.mobileprovision
+c000000005277B1110000000000001D0C
+t1383575825
+s7436
+
+N/Users/colin/srv/event analyitics/smartphone/phonegap/platforms/ios/EventAnalytics/Classes/AppDelegate.m
+c000000005289806800000000000013B3
+t1384743016
+s5043
+
+N/Users/colin/srv/event analyitics/smartphone/phonegap/platforms/ios/EventAnalytics/Classes/MainViewController.m
+c0000000052898068000000000000126F
+t1384743016
+s4719
+
+N/Users/colin/srv/event analyitics/smartphone/phonegap/platforms/ios/EventAnalytics/Classes/MainViewController.xib
+c00000000528980680000000000001759
+t1384743016
+s5977
+
+N/Users/colin/srv/event analyitics/smartphone/phonegap/platforms/ios/EventAnalytics/EventAnalytics-Info.plist
+c000000005296A88A000000000000074E
+t1385605258
+s1870
+
+N/Users/colin/srv/event analyitics/smartphone/phonegap/platforms/ios/EventAnalytics/EventAnalytics-Prefix.pch
+c000000005289806800000000000003CD
+t1384743016
+s973
+
+N/Users/colin/srv/event analyitics/smartphone/phonegap/platforms/ios/EventAnalytics/Plugins/com.megster.cordova.BluetoothSerial/BluetoothSerial/BLE.m
+c000000005296A4240000000000004D48
+t1385604132
+s19784
+
+N/Users/colin/srv/event analyitics/smartphone/phonegap/platforms/ios/EventAnalytics/Plugins/com.megster.cordova.BluetoothSerial/BluetoothSerial/MEGBluetoothSerial.m
+c000000005296A42400000000000037C8
+t1385604132
+s14280
+
+N/Users/colin/srv/event analyitics/smartphone/phonegap/platforms/ios/EventAnalytics/Resources/de.lproj/Localizable.strings
+c000000005289806800000000000004BF
+t1384743016
+s1215
+
+N/Users/colin/srv/event analyitics/smartphone/phonegap/platforms/ios/EventAnalytics/Resources/en.lproj/Localizable.strings
+c000000005289806800000000000004AA
+t1384743016
+s1194
+
+N/Users/colin/srv/event analyitics/smartphone/phonegap/platforms/ios/EventAnalytics/Resources/es.lproj/Localizable.strings
+c000000005289806800000000000004B7
+t1384743016
+s1207
+
+N/Users/colin/srv/event analyitics/smartphone/phonegap/platforms/ios/EventAnalytics/Resources/icons/icon-72.png
+c00000000528980680000000000001350
+t1384743016
+s4944
+
+N/Users/colin/srv/event analyitics/smartphone/phonegap/platforms/ios/EventAnalytics/Resources/icons/icon-72@2x.png
+c00000000528980680000000000002DBA
+t1384743016
+s11706
+
+N/Users/colin/srv/event analyitics/smartphone/phonegap/platforms/ios/EventAnalytics/Resources/icons/icon.png
+c00000000528980680000000000000F3E
+t1384743016
+s3902
+
+N/Users/colin/srv/event analyitics/smartphone/phonegap/platforms/ios/EventAnalytics/Resources/icons/icon@2x.png
+c00000000528980680000000000001EBD
+t1384743016
+s7869
+
+N/Users/colin/srv/event analyitics/smartphone/phonegap/platforms/ios/EventAnalytics/Resources/se.lproj/Localizable.strings
+c000000005289806800000000000004AB
+t1384743016
+s1195
+
+N/Users/colin/srv/event analyitics/smartphone/phonegap/platforms/ios/EventAnalytics/Resources/splash/Default-568h@2x~iphone.png
+c000000005289806800000000000085B1
+t1384743016
+s34225
+
+N/Users/colin/srv/event analyitics/smartphone/phonegap/platforms/ios/EventAnalytics/Resources/splash/Default-Landscape@2x~ipad.png
+c00000000528980680000000000012DF4
+t1384743016
+s77300
+
+N/Users/colin/srv/event analyitics/smartphone/phonegap/platforms/ios/EventAnalytics/Resources/splash/Default-Landscape~ipad.png
+c00000000528980680000000000008877
+t1384743016
+s34935
+
+N/Users/colin/srv/event analyitics/smartphone/phonegap/platforms/ios/EventAnalytics/Resources/splash/Default-Portrait@2x~ipad.png
+c00000000528980680000000000012B02
+t1384743016
+s76546
+
+N/Users/colin/srv/event analyitics/smartphone/phonegap/platforms/ios/EventAnalytics/Resources/splash/Default-Portrait~ipad.png
+c000000005289806800000000000085E6
+t1384743016
+s34278
+
+N/Users/colin/srv/event analyitics/smartphone/phonegap/platforms/ios/EventAnalytics/Resources/splash/Default@2x~iphone.png
+c00000000528980680000000000007323
+t1384743016
+s29475
+
+N/Users/colin/srv/event analyitics/smartphone/phonegap/platforms/ios/EventAnalytics/Resources/splash/Default~iphone.png
+c0000000052898068000000000000289A
+t1384743016
+s10394
+
+N/Users/colin/srv/event analyitics/smartphone/phonegap/platforms/ios/EventAnalytics/config.xml
+c000000005296A88A00000000000007A4
+t1385605258
+s1956
+
+N/Users/colin/srv/event analyitics/smartphone/phonegap/platforms/ios/EventAnalytics/main.m
+c00000000528980680000000000000460
+t1384743016
+s1120
+
+N/Users/colin/srv/event analyitics/smartphone/phonegap/platforms/ios/build/EventAnalytics.build/Debug-iphoneos/EventAnalytics.build/EventAnalytics.xcent
+t1385605263
+s436
+
+N/Users/colin/srv/event analyitics/smartphone/phonegap/platforms/ios/build/EventAnalytics.build/Debug-iphoneos/EventAnalytics.build/Objects-normal/armv7/AppDelegate.o
+t1385605263
+s78064
+
+N/Users/colin/srv/event analyitics/smartphone/phonegap/platforms/ios/build/EventAnalytics.build/Debug-iphoneos/EventAnalytics.build/Objects-normal/armv7/BLE.o
+t1385605263
+s78992
+
+N/Users/colin/srv/event analyitics/smartphone/phonegap/platforms/ios/build/EventAnalytics.build/Debug-iphoneos/EventAnalytics.build/Objects-normal/armv7/EventAnalytics.LinkFileList
+c000000005296A88E000000000000033D
+t1385605262
+s829
+
+N/Users/colin/srv/event analyitics/smartphone/phonegap/platforms/ios/build/EventAnalytics.build/Debug-iphoneos/EventAnalytics.build/Objects-normal/armv7/MEGBluetoothSerial.o
+t1385605263
+s95792
+
+N/Users/colin/srv/event analyitics/smartphone/phonegap/platforms/ios/build/EventAnalytics.build/Debug-iphoneos/EventAnalytics.build/Objects-normal/armv7/MainViewController.o
+t1385605263
+s53312
+
+N/Users/colin/srv/event analyitics/smartphone/phonegap/platforms/ios/build/EventAnalytics.build/Debug-iphoneos/EventAnalytics.build/Objects-normal/armv7/main.o
+t1385605263
+s3156
+
+N/Users/colin/srv/event analyitics/smartphone/phonegap/platforms/ios/build/EventAnalytics.build/Debug-iphoneos/EventAnalytics.build/Script-304B58A110DAC018002A0835.sh
+c000000005296A88E000000000000002D
+t1385605262
+s45
+
+N/Users/colin/srv/event analyitics/smartphone/phonegap/platforms/ios/build/device/EventAnalytics.app
+t1385605263
+s816
+
+N/Users/colin/srv/event analyitics/smartphone/phonegap/platforms/ios/build/device/EventAnalytics.app.dSYM
+t2
+s0
+
+N/Users/colin/srv/event analyitics/smartphone/phonegap/platforms/ios/build/device/EventAnalytics.app/Default-568h@2x~iphone.png
+t1385605263
+s61990
+
+N/Users/colin/srv/event analyitics/smartphone/phonegap/platforms/ios/build/device/EventAnalytics.app/Default-Landscape@2x~ipad.png
+t1385605263
+s143186
+
+N/Users/colin/srv/event analyitics/smartphone/phonegap/platforms/ios/build/device/EventAnalytics.app/Default-Landscape~ipad.png
+t1385605262
+s65305
+
+N/Users/colin/srv/event analyitics/smartphone/phonegap/platforms/ios/build/device/EventAnalytics.app/Default-Portrait@2x~ipad.png
+t1385605263
+s136924
+
+N/Users/colin/srv/event analyitics/smartphone/phonegap/platforms/ios/build/device/EventAnalytics.app/Default-Portrait~ipad.png
+t1385605262
+s63460
+
+N/Users/colin/srv/event analyitics/smartphone/phonegap/platforms/ios/build/device/EventAnalytics.app/Default@2x~iphone.png
+t1385605262
+s55319
+
+N/Users/colin/srv/event analyitics/smartphone/phonegap/platforms/ios/build/device/EventAnalytics.app/Default~iphone.png
+t1385605262
+s20021
+
+N/Users/colin/srv/event analyitics/smartphone/phonegap/platforms/ios/build/device/EventAnalytics.app/EventAnalytics
+t1385605263
+s347264
+
+N/Users/colin/srv/event analyitics/smartphone/phonegap/platforms/ios/build/device/EventAnalytics.app/Info.plist
+t1385605262
+s1376
+
+N/Users/colin/srv/event analyitics/smartphone/phonegap/platforms/ios/build/device/EventAnalytics.app/MainViewController.nib
+t1385605262
+s1332
+
+N/Users/colin/srv/event analyitics/smartphone/phonegap/platforms/ios/build/device/EventAnalytics.app/PkgInfo
+t2
+s0
+
+N/Users/colin/srv/event analyitics/smartphone/phonegap/platforms/ios/build/device/EventAnalytics.app/ResourceRules.plist
+t1385605262
+s150
+
+N/Users/colin/srv/event analyitics/smartphone/phonegap/platforms/ios/build/device/EventAnalytics.app/config.xml
+t1385605262
+s1956
+
+N/Users/colin/srv/event analyitics/smartphone/phonegap/platforms/ios/build/device/EventAnalytics.app/de.lproj/Localizable.strings
+t1385605262
+s280
+
+N/Users/colin/srv/event analyitics/smartphone/phonegap/platforms/ios/build/device/EventAnalytics.app/embedded.mobileprovision
+t1385605263
+s7436
+
+N/Users/colin/srv/event analyitics/smartphone/phonegap/platforms/ios/build/device/EventAnalytics.app/en.lproj/Localizable.strings
+t1385605262
+s166
+
+N/Users/colin/srv/event analyitics/smartphone/phonegap/platforms/ios/build/device/EventAnalytics.app/es.lproj/Localizable.strings
+t1385605262
+s334
+
+N/Users/colin/srv/event analyitics/smartphone/phonegap/platforms/ios/build/device/EventAnalytics.app/icon-72.png
+t1385605262
+s8045
+
+N/Users/colin/srv/event analyitics/smartphone/phonegap/platforms/ios/build/device/EventAnalytics.app/icon-72@2x.png
+t1385605263
+s17926
+
+N/Users/colin/srv/event analyitics/smartphone/phonegap/platforms/ios/build/device/EventAnalytics.app/icon.png
+t1385605262
+s5977
+
+N/Users/colin/srv/event analyitics/smartphone/phonegap/platforms/ios/build/device/EventAnalytics.app/icon@2x.png
+t1385605262
+s13012
+
+N/Users/colin/srv/event analyitics/smartphone/phonegap/platforms/ios/build/device/EventAnalytics.app/se.lproj/Localizable.strings
+t1385605262
+s283
+
+N/Users/colin/srv/event analyitics/smartphone/phonegap/platforms/ios/build/device/libCordova.a
+c000000005296A88E00000000000E3E08
+t1385605262
+s933384
+
+N/var/folders/hy/zyhhclmj3fg98nf3lhsc0jhm0000gn/C/com.apple.DeveloperTools/5.0.2-5A3005/Xcode/SharedPrecompiledHeaders/EventAnalytics-Prefix-cbiebvxwmhqcnrerbqdzxoagurze/EventAnalytics-Prefix.pch.pch
+t1384743028
+s5280480
+
+CCheck dependencies
+r0
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies18"Check dependencies29cb400ee046b841^9293410ee046b841^-237"warning: no rule to process file '/Users/colin/srv/event analyitics/smartphone/phonegap/platforms/ios/EventAnalytics/Plugins/com.megster.cordova.BluetoothSerial/BluetoothSerial/BLEDefines.h' of type sourcecode.c.h for architecture armv71(21%IDEActivityLogMessage2@236"Warning: no rule to process file '/Users/colin/srv/event analyitics/smartphone/phonegap/platforms/ios/EventAnalytics/Plugins/com.megster.cordova.BluetoothSerial/BluetoothSerial/BLEDefines.h' of type sourcecode.c.h for architecture armv7-407298062#18446744073709551615#0#-1#27"com.apple.dt.IDE.LogMessage-27"Dependency Analysis Warning--0#1#1#--18"Check dependencies36"A693C1B8-F18D-4C1B-8D97-A203D00CD573-
+
+CCodeSign /Users/colin/srv/event\ analyitics/smartphone/phonegap/platforms/ios/build/device/EventAnalytics.app
+s407298063.373619
+e407298063.525661
+r1
+xCodeSign
+x/Users/colin/srv/event analyitics/smartphone/phonegap/platforms/ios/build/device/EventAnalytics.app
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection40"CodeSign build/device/EventAnalytics.app40"CodeSign build/device/EventAnalytics.app34ba5f0fe046b841^aa9c860fe046b841^---0#0#1#-19%DVTDocumentLocation2@109"file:///Users/colin/srv/event%20analyitics/smartphone/phonegap/platforms/ios/build/device/EventAnalytics.app/0000000000000000^1122"CodeSign build/device/EventAnalytics.app    cd "/Users/colin/srv/event analyitics/smartphone/phonegap/platforms/ios"    setenv CODESIGN_ALLOCATE /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/codesign_allocate    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/X11/bin"    Using code signing identity "iPhone Developer: Colin Bookman (YAYD3LQ8NY)" and provisioning profile "iOS Team Provisioning Profile: *" (8BA91B94-EAF4-4ADE-AD9A-C7D406504844)    codesign --force --sign C781380C566AA6C4C037A6A5E420BEAE56B9754F --resource-rules=/Users/colin/srv/event\ analyitics/smartphone/phonegap/platforms/ios/build/device/EventAnalytics.app/ResourceRules.plist --entitlements /Users/colin/srv/event\ analyitics/smartphone/phonegap/platforms/ios/build/EventAnalytics.build/Debug-iphoneos/EventAnalytics.build/EventAnalytics.xcent /Users/colin/srv/event\ analyitics/smartphone/phonegap/platforms/ios/build/device/EventAnalytics.app36"84F846F8-9C26-4025-8E61-FED13D140F52-
+bDA833869-EFA0-46DE-B54B-788D96587FE8
+
+CCompileC build/EventAnalytics.build/Debug-iphoneos/EventAnalytics.build/Objects-normal/armv7/AppDelegate.o /Users/colin/srv/event\ analyitics/smartphone/phonegap/platforms/ios/EventAnalytics/Classes/AppDelegate.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s407298063.119141
+e407298063.216346
+r1
+xCompileC
+xbuild/EventAnalytics.build/Debug-iphoneos/EventAnalytics.build/Objects-normal/armv7/AppDelegate.o
+x/Users/colin/srv/event analyitics/smartphone/phonegap/platforms/ios/EventAnalytics/Classes/AppDelegate.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/colin/srv/event analyitics/smartphone/phonegap/platforms/ios/EventAnalytics/Classes/AppDelegate.m
+d/Users/colin/srv/event analyitics/smartphone/phonegap/platforms/ios/EventAnalytics/Classes/AppDelegate.h
+d/Users/colin/srv/event analyitics/smartphone/phonegap/platforms/ios/build/device/include/Cordova/CDVViewController.h
+d/Users/colin/srv/event analyitics/smartphone/phonegap/platforms/ios/build/device/include/Cordova/CDVAvailability.h
+d/Users/colin/srv/event analyitics/smartphone/phonegap/platforms/ios/build/device/include/Cordova/CDVInvokedUrlCommand.h
+d/Users/colin/srv/event analyitics/smartphone/phonegap/platforms/ios/build/device/include/Cordova/CDVCommandDelegate.h
+d/Users/colin/srv/event analyitics/smartphone/phonegap/platforms/ios/build/device/include/Cordova/CDVCommandQueue.h
+d/Users/colin/srv/event analyitics/smartphone/phonegap/platforms/ios/build/device/include/Cordova/CDVWhitelist.h
+d/Users/colin/srv/event analyitics/smartphone/phonegap/platforms/ios/build/device/include/Cordova/CDVScreenOrientationDelegate.h
+d/Users/colin/srv/event analyitics/smartphone/phonegap/platforms/ios/build/device/include/Cordova/CDVPlugin.h
+d/Users/colin/srv/event analyitics/smartphone/phonegap/platforms/ios/build/device/include/Cordova/CDVPluginResult.h
+d/Users/colin/srv/event analyitics/smartphone/phonegap/platforms/ios/build/device/include/Cordova/NSMutableArray+QueueAdditions.h
+d/Users/colin/srv/event analyitics/smartphone/phonegap/platforms/ios/EventAnalytics/Classes/MainViewController.h
+d/Users/colin/srv/event analyitics/smartphone/phonegap/platforms/ios/build/device/include/Cordova/CDVCommandDelegateImpl.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection112"Compile /Users/colin/srv/event analyitics/smartphone/phonegap/platforms/ios/EventAnalytics/Classes/AppDelegate.m212"CompileC build/EventAnalytics.build/Debug-iphoneos/EventAnalytics.build/Objects-normal/armv7/AppDelegate.o EventAnalytics/Classes/AppDelegate.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler11c71e0fe046b841^8462370fe046b841^---0#0#1#-19%DVTDocumentLocation2@113"file:///Users/colin/srv/event%20analyitics/smartphone/phonegap/platforms/ios/EventAnalytics/Classes/AppDelegate.m0000000000000000^4006"CompileC build/EventAnalytics.build/Debug-iphoneos/EventAnalytics.build/Objects-normal/armv7/AppDelegate.o EventAnalytics/Classes/AppDelegate.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd "/Users/colin/srv/event analyitics/smartphone/phonegap/platforms/ios"    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/X11/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=c99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -fvisibility=hidden -Wno-sign-conversion -miphoneos-version-min=5.0 -iquote /Users/colin/srv/event\ analyitics/smartphone/phonegap/platforms/ios/build/EventAnalytics.build/Debug-iphoneos/EventAnalytics.build/EventAnalytics-generated-files.hmap -I/Users/colin/srv/event\ analyitics/smartphone/phonegap/platforms/ios/build/EventAnalytics.build/Debug-iphoneos/EventAnalytics.build/EventAnalytics-own-target-headers.hmap -I/Users/colin/srv/event\ analyitics/smartphone/phonegap/platforms/ios/build/EventAnalytics.build/Debug-iphoneos/EventAnalytics.build/EventAnalytics-all-target-headers.hmap -iquote /Users/colin/srv/event\ analyitics/smartphone/phonegap/platforms/ios/build/EventAnalytics.build/Debug-iphoneos/EventAnalytics.build/EventAnalytics-project-headers.hmap -I/Users/colin/srv/event\ analyitics/smartphone/phonegap/platforms/ios/build/device/include -I/Users/colin/srv/event\ analyitics/smartphone/phonegap/platforms/ios/build/device/usr/local/lib/include -I/Users/colin/srv/event\ analyitics/smartphone/phonegap/platforms/ios/build/UninstalledProducts/include -I/Users/colin/srv/event\ analyitics/smartphone/phonegap/platforms/ios/build/device -I/Users/colin/srv/event\ analyitics/smartphone/phonegap/platforms/ios/build/EventAnalytics.build/Debug-iphoneos/EventAnalytics.build/DerivedSources/armv7 -I/Users/colin/srv/event\ analyitics/smartphone/phonegap/platforms/ios/build/EventAnalytics.build/Debug-iphoneos/EventAnalytics.build/DerivedSources -F/Users/colin/srv/event\ analyitics/smartphone/phonegap/platforms/ios/build/device -include /var/folders/hy/zyhhclmj3fg98nf3lhsc0jhm0000gn/C/com.apple.DeveloperTools/5.0.2-5A3005/Xcode/SharedPrecompiledHeaders/EventAnalytics-Prefix-cbiebvxwmhqcnrerbqdzxoagurze/EventAnalytics-Prefix.pch -MMD -MT dependencies -MF /Users/colin/srv/event\ analyitics/smartphone/phonegap/platforms/ios/build/EventAnalytics.build/Debug-iphoneos/EventAnalytics.build/Objects-normal/armv7/AppDelegate.d --serialize-diagnostics /Users/colin/srv/event\ analyitics/smartphone/phonegap/platforms/ios/build/EventAnalytics.build/Debug-iphoneos/EventAnalytics.build/Objects-normal/armv7/AppDelegate.dia -c /Users/colin/srv/event\ analyitics/smartphone/phonegap/platforms/ios/EventAnalytics/Classes/AppDelegate.m -o /Users/colin/srv/event\ analyitics/smartphone/phonegap/platforms/ios/build/EventAnalytics.build/Debug-iphoneos/EventAnalytics.build/Objects-normal/armv7/AppDelegate.o36"75FDA2E7-577E-422F-A6B0-9C49CF54EF36-
+bDA833869-EFA0-46DE-B54B-788D96587FE8
+
+CCompileC build/EventAnalytics.build/Debug-iphoneos/EventAnalytics.build/Objects-normal/armv7/BLE.o /Users/colin/srv/event\ analyitics/smartphone/phonegap/platforms/ios/EventAnalytics/Plugins/com.megster.cordova.BluetoothSerial/BluetoothSerial/BLE.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s407298063.146058
+e407298063.251951
+r1
+xCompileC
+xbuild/EventAnalytics.build/Debug-iphoneos/EventAnalytics.build/Objects-normal/armv7/BLE.o
+x/Users/colin/srv/event analyitics/smartphone/phonegap/platforms/ios/EventAnalytics/Plugins/com.megster.cordova.BluetoothSerial/BluetoothSerial/BLE.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/colin/srv/event analyitics/smartphone/phonegap/platforms/ios/EventAnalytics/Plugins/com.megster.cordova.BluetoothSerial/BluetoothSerial/BLE.m
+d/Users/colin/srv/event analyitics/smartphone/phonegap/platforms/ios/EventAnalytics/Plugins/com.megster.cordova.BluetoothSerial/BluetoothSerial/BLE.h
+d/Users/colin/srv/event analyitics/smartphone/phonegap/platforms/ios/EventAnalytics/Plugins/com.megster.cordova.BluetoothSerial/BluetoothSerial/BLEDefines.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection156"Compile /Users/colin/srv/event analyitics/smartphone/phonegap/platforms/ios/EventAnalytics/Plugins/com.megster.cordova.BluetoothSerial/BluetoothSerial/BLE.m248"CompileC build/EventAnalytics.build/Debug-iphoneos/EventAnalytics.build/Objects-normal/armv7/BLE.o EventAnalytics/Plugins/com.megster.cordova.BluetoothSerial/BluetoothSerial/BLE.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compilerb08c250fe046b841^b281400fe046b841^---0#0#1#-19%DVTDocumentLocation2@157"file:///Users/colin/srv/event%20analyitics/smartphone/phonegap/platforms/ios/EventAnalytics/Plugins/com.megster.cordova.BluetoothSerial/BluetoothSerial/BLE.m0000000000000000^4062"CompileC build/EventAnalytics.build/Debug-iphoneos/EventAnalytics.build/Objects-normal/armv7/BLE.o EventAnalytics/Plugins/com.megster.cordova.BluetoothSerial/BluetoothSerial/BLE.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd "/Users/colin/srv/event analyitics/smartphone/phonegap/platforms/ios"    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/X11/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=c99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -fvisibility=hidden -Wno-sign-conversion -miphoneos-version-min=5.0 -iquote /Users/colin/srv/event\ analyitics/smartphone/phonegap/platforms/ios/build/EventAnalytics.build/Debug-iphoneos/EventAnalytics.build/EventAnalytics-generated-files.hmap -I/Users/colin/srv/event\ analyitics/smartphone/phonegap/platforms/ios/build/EventAnalytics.build/Debug-iphoneos/EventAnalytics.build/EventAnalytics-own-target-headers.hmap -I/Users/colin/srv/event\ analyitics/smartphone/phonegap/platforms/ios/build/EventAnalytics.build/Debug-iphoneos/EventAnalytics.build/EventAnalytics-all-target-headers.hmap -iquote /Users/colin/srv/event\ analyitics/smartphone/phonegap/platforms/ios/build/EventAnalytics.build/Debug-iphoneos/EventAnalytics.build/EventAnalytics-project-headers.hmap -I/Users/colin/srv/event\ analyitics/smartphone/phonegap/platforms/ios/build/device/include -I/Users/colin/srv/event\ analyitics/smartphone/phonegap/platforms/ios/build/device/usr/local/lib/include -I/Users/colin/srv/event\ analyitics/smartphone/phonegap/platforms/ios/build/UninstalledProducts/include -I/Users/colin/srv/event\ analyitics/smartphone/phonegap/platforms/ios/build/device -I/Users/colin/srv/event\ analyitics/smartphone/phonegap/platforms/ios/build/EventAnalytics.build/Debug-iphoneos/EventAnalytics.build/DerivedSources/armv7 -I/Users/colin/srv/event\ analyitics/smartphone/phonegap/platforms/ios/build/EventAnalytics.build/Debug-iphoneos/EventAnalytics.build/DerivedSources -F/Users/colin/srv/event\ analyitics/smartphone/phonegap/platforms/ios/build/device -include /var/folders/hy/zyhhclmj3fg98nf3lhsc0jhm0000gn/C/com.apple.DeveloperTools/5.0.2-5A3005/Xcode/SharedPrecompiledHeaders/EventAnalytics-Prefix-cbiebvxwmhqcnrerbqdzxoagurze/EventAnalytics-Prefix.pch -MMD -MT dependencies -MF /Users/colin/srv/event\ analyitics/smartphone/phonegap/platforms/ios/build/EventAnalytics.build/Debug-iphoneos/EventAnalytics.build/Objects-normal/armv7/BLE.d --serialize-diagnostics /Users/colin/srv/event\ analyitics/smartphone/phonegap/platforms/ios/build/EventAnalytics.build/Debug-iphoneos/EventAnalytics.build/Objects-normal/armv7/BLE.dia -c /Users/colin/srv/event\ analyitics/smartphone/phonegap/platforms/ios/EventAnalytics/Plugins/com.megster.cordova.BluetoothSerial/BluetoothSerial/BLE.m -o /Users/colin/srv/event\ analyitics/smartphone/phonegap/platforms/ios/build/EventAnalytics.build/Debug-iphoneos/EventAnalytics.build/Objects-normal/armv7/BLE.o36"BD3BC282-833B-4B7D-83CF-6936263E6BE5-
+bDA833869-EFA0-46DE-B54B-788D96587FE8
+
+CCompileC build/EventAnalytics.build/Debug-iphoneos/EventAnalytics.build/Objects-normal/armv7/MEGBluetoothSerial.o /Users/colin/srv/event\ analyitics/smartphone/phonegap/platforms/ios/EventAnalytics/Plugins/com.megster.cordova.BluetoothSerial/BluetoothSerial/MEGBluetoothSerial.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s407298063.120463
+e407298063.248825
+r1
+xCompileC
+xbuild/EventAnalytics.build/Debug-iphoneos/EventAnalytics.build/Objects-normal/armv7/MEGBluetoothSerial.o
+x/Users/colin/srv/event analyitics/smartphone/phonegap/platforms/ios/EventAnalytics/Plugins/com.megster.cordova.BluetoothSerial/BluetoothSerial/MEGBluetoothSerial.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/colin/srv/event analyitics/smartphone/phonegap/platforms/ios/EventAnalytics/Plugins/com.megster.cordova.BluetoothSerial/BluetoothSerial/MEGBluetoothSerial.m
+d/Users/colin/srv/event analyitics/smartphone/phonegap/platforms/ios/EventAnalytics/Plugins/com.megster.cordova.BluetoothSerial/BluetoothSerial/MEGBluetoothSerial.h
+d/Users/colin/srv/event analyitics/smartphone/phonegap/platforms/ios/build/device/include/Cordova/CDV.h
+d/Users/colin/srv/event analyitics/smartphone/phonegap/platforms/ios/build/device/include/Cordova/CDVAvailability.h
+d/Users/colin/srv/event analyitics/smartphone/phonegap/platforms/ios/build/device/include/Cordova/CDVPlugin.h
+d/Users/colin/srv/event analyitics/smartphone/phonegap/platforms/ios/build/device/include/Cordova/CDVPluginResult.h
+d/Users/colin/srv/event analyitics/smartphone/phonegap/platforms/ios/build/device/include/Cordova/NSMutableArray+QueueAdditions.h
+d/Users/colin/srv/event analyitics/smartphone/phonegap/platforms/ios/build/device/include/Cordova/CDVCommandDelegate.h
+d/Users/colin/srv/event analyitics/smartphone/phonegap/platforms/ios/build/device/include/Cordova/CDVInvokedUrlCommand.h
+d/Users/colin/srv/event analyitics/smartphone/phonegap/platforms/ios/build/device/include/Cordova/CDVViewController.h
+d/Users/colin/srv/event analyitics/smartphone/phonegap/platforms/ios/build/device/include/Cordova/CDVCommandQueue.h
+d/Users/colin/srv/event analyitics/smartphone/phonegap/platforms/ios/build/device/include/Cordova/CDVWhitelist.h
+d/Users/colin/srv/event analyitics/smartphone/phonegap/platforms/ios/build/device/include/Cordova/CDVScreenOrientationDelegate.h
+d/Users/colin/srv/event analyitics/smartphone/phonegap/platforms/ios/build/device/include/Cordova/CDVURLProtocol.h
+d/Users/colin/srv/event analyitics/smartphone/phonegap/platforms/ios/build/device/include/Cordova/CDVDebug.h
+d/Users/colin/srv/event analyitics/smartphone/phonegap/platforms/ios/build/device/include/Cordova/CDVLocalStorage.h
+d/Users/colin/srv/event analyitics/smartphone/phonegap/platforms/ios/build/device/include/Cordova/CDVTimer.h
+d/Users/colin/srv/event analyitics/smartphone/phonegap/platforms/ios/build/device/include/Cordova/NSArray+Comparisons.h
+d/Users/colin/srv/event analyitics/smartphone/phonegap/platforms/ios/build/device/include/Cordova/NSData+Base64.h
+d/Users/colin/srv/event analyitics/smartphone/phonegap/platforms/ios/build/device/include/Cordova/NSDictionary+Extensions.h
+d/Users/colin/srv/event analyitics/smartphone/phonegap/platforms/ios/build/device/include/Cordova/UIDevice+Extensions.h
+d/Users/colin/srv/event analyitics/smartphone/phonegap/platforms/ios/build/device/include/Cordova/CDVJSON.h
+d/Users/colin/srv/event analyitics/smartphone/phonegap/platforms/ios/EventAnalytics/Plugins/com.megster.cordova.BluetoothSerial/BluetoothSerial/BLE.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection171"Compile /Users/colin/srv/event analyitics/smartphone/phonegap/platforms/ios/EventAnalytics/Plugins/com.megster.cordova.BluetoothSerial/BluetoothSerial/MEGBluetoothSerial.m278"CompileC build/EventAnalytics.build/Debug-iphoneos/EventAnalytics.build/Objects-normal/armv7/MEGBluetoothSerial.o EventAnalytics/Plugins/com.megster.cordova.BluetoothSerial/BluetoothSerial/MEGBluetoothSerial.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compilerf3031f0fe046b841^42b33f0fe046b841^---0#0#1#-19%DVTDocumentLocation2@172"file:///Users/colin/srv/event%20analyitics/smartphone/phonegap/platforms/ios/EventAnalytics/Plugins/com.megster.cordova.BluetoothSerial/BluetoothSerial/MEGBluetoothSerial.m0000000000000000^4152"CompileC build/EventAnalytics.build/Debug-iphoneos/EventAnalytics.build/Objects-normal/armv7/MEGBluetoothSerial.o EventAnalytics/Plugins/com.megster.cordova.BluetoothSerial/BluetoothSerial/MEGBluetoothSerial.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd "/Users/colin/srv/event analyitics/smartphone/phonegap/platforms/ios"    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/X11/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=c99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -fvisibility=hidden -Wno-sign-conversion -miphoneos-version-min=5.0 -iquote /Users/colin/srv/event\ analyitics/smartphone/phonegap/platforms/ios/build/EventAnalytics.build/Debug-iphoneos/EventAnalytics.build/EventAnalytics-generated-files.hmap -I/Users/colin/srv/event\ analyitics/smartphone/phonegap/platforms/ios/build/EventAnalytics.build/Debug-iphoneos/EventAnalytics.build/EventAnalytics-own-target-headers.hmap -I/Users/colin/srv/event\ analyitics/smartphone/phonegap/platforms/ios/build/EventAnalytics.build/Debug-iphoneos/EventAnalytics.build/EventAnalytics-all-target-headers.hmap -iquote /Users/colin/srv/event\ analyitics/smartphone/phonegap/platforms/ios/build/EventAnalytics.build/Debug-iphoneos/EventAnalytics.build/EventAnalytics-project-headers.hmap -I/Users/colin/srv/event\ analyitics/smartphone/phonegap/platforms/ios/build/device/include -I/Users/colin/srv/event\ analyitics/smartphone/phonegap/platforms/ios/build/device/usr/local/lib/include -I/Users/colin/srv/event\ analyitics/smartphone/phonegap/platforms/ios/build/UninstalledProducts/include -I/Users/colin/srv/event\ analyitics/smartphone/phonegap/platforms/ios/build/device -I/Users/colin/srv/event\ analyitics/smartphone/phonegap/platforms/ios/build/EventAnalytics.build/Debug-iphoneos/EventAnalytics.build/DerivedSources/armv7 -I/Users/colin/srv/event\ analyitics/smartphone/phonegap/platforms/ios/build/EventAnalytics.build/Debug-iphoneos/EventAnalytics.build/DerivedSources -F/Users/colin/srv/event\ analyitics/smartphone/phonegap/platforms/ios/build/device -include /var/folders/hy/zyhhclmj3fg98nf3lhsc0jhm0000gn/C/com.apple.DeveloperTools/5.0.2-5A3005/Xcode/SharedPrecompiledHeaders/EventAnalytics-Prefix-cbiebvxwmhqcnrerbqdzxoagurze/EventAnalytics-Prefix.pch -MMD -MT dependencies -MF /Users/colin/srv/event\ analyitics/smartphone/phonegap/platforms/ios/build/EventAnalytics.build/Debug-iphoneos/EventAnalytics.build/Objects-normal/armv7/MEGBluetoothSerial.d --serialize-diagnostics /Users/colin/srv/event\ analyitics/smartphone/phonegap/platforms/ios/build/EventAnalytics.build/Debug-iphoneos/EventAnalytics.build/Objects-normal/armv7/MEGBluetoothSerial.dia -c /Users/colin/srv/event\ analyitics/smartphone/phonegap/platforms/ios/EventAnalytics/Plugins/com.megster.cordova.BluetoothSerial/BluetoothSerial/MEGBluetoothSerial.m -o /Users/colin/srv/event\ analyitics/smartphone/phonegap/platforms/ios/build/EventAnalytics.build/Debug-iphoneos/EventAnalytics.build/Objects-normal/armv7/MEGBluetoothSerial.o36"65F35083-F3BD-4D80-BD27-DF720EF77F8E-
+bDA833869-EFA0-46DE-B54B-788D96587FE8
+
+CCompileC build/EventAnalytics.build/Debug-iphoneos/EventAnalytics.build/Objects-normal/armv7/MainViewController.o /Users/colin/srv/event\ analyitics/smartphone/phonegap/platforms/ios/EventAnalytics/Classes/MainViewController.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s407298063.119707
+e407298063.201515
+r1
+xCompileC
+xbuild/EventAnalytics.build/Debug-iphoneos/EventAnalytics.build/Objects-normal/armv7/MainViewController.o
+x/Users/colin/srv/event analyitics/smartphone/phonegap/platforms/ios/EventAnalytics/Classes/MainViewController.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/colin/srv/event analyitics/smartphone/phonegap/platforms/ios/EventAnalytics/Classes/MainViewController.m
+d/Users/colin/srv/event analyitics/smartphone/phonegap/platforms/ios/EventAnalytics/Classes/MainViewController.h
+d/Users/colin/srv/event analyitics/smartphone/phonegap/platforms/ios/build/device/include/Cordova/CDVViewController.h
+d/Users/colin/srv/event analyitics/smartphone/phonegap/platforms/ios/build/device/include/Cordova/CDVAvailability.h
+d/Users/colin/srv/event analyitics/smartphone/phonegap/platforms/ios/build/device/include/Cordova/CDVInvokedUrlCommand.h
+d/Users/colin/srv/event analyitics/smartphone/phonegap/platforms/ios/build/device/include/Cordova/CDVCommandDelegate.h
+d/Users/colin/srv/event analyitics/smartphone/phonegap/platforms/ios/build/device/include/Cordova/CDVCommandQueue.h
+d/Users/colin/srv/event analyitics/smartphone/phonegap/platforms/ios/build/device/include/Cordova/CDVWhitelist.h
+d/Users/colin/srv/event analyitics/smartphone/phonegap/platforms/ios/build/device/include/Cordova/CDVScreenOrientationDelegate.h
+d/Users/colin/srv/event analyitics/smartphone/phonegap/platforms/ios/build/device/include/Cordova/CDVPlugin.h
+d/Users/colin/srv/event analyitics/smartphone/phonegap/platforms/ios/build/device/include/Cordova/CDVPluginResult.h
+d/Users/colin/srv/event analyitics/smartphone/phonegap/platforms/ios/build/device/include/Cordova/NSMutableArray+QueueAdditions.h
+d/Users/colin/srv/event analyitics/smartphone/phonegap/platforms/ios/build/device/include/Cordova/CDVCommandDelegateImpl.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection119"Compile /Users/colin/srv/event analyitics/smartphone/phonegap/platforms/ios/EventAnalytics/Classes/MainViewController.m226"CompileC build/EventAnalytics.build/Debug-iphoneos/EventAnalytics.build/Objects-normal/armv7/MainViewController.o EventAnalytics/Classes/MainViewController.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compilera4e31e0fe046b841^27bd330fe046b841^---0#0#1#-19%DVTDocumentLocation2@120"file:///Users/colin/srv/event%20analyitics/smartphone/phonegap/platforms/ios/EventAnalytics/Classes/MainViewController.m0000000000000000^4048"CompileC build/EventAnalytics.build/Debug-iphoneos/EventAnalytics.build/Objects-normal/armv7/MainViewController.o EventAnalytics/Classes/MainViewController.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd "/Users/colin/srv/event analyitics/smartphone/phonegap/platforms/ios"    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/X11/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=c99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -fvisibility=hidden -Wno-sign-conversion -miphoneos-version-min=5.0 -iquote /Users/colin/srv/event\ analyitics/smartphone/phonegap/platforms/ios/build/EventAnalytics.build/Debug-iphoneos/EventAnalytics.build/EventAnalytics-generated-files.hmap -I/Users/colin/srv/event\ analyitics/smartphone/phonegap/platforms/ios/build/EventAnalytics.build/Debug-iphoneos/EventAnalytics.build/EventAnalytics-own-target-headers.hmap -I/Users/colin/srv/event\ analyitics/smartphone/phonegap/platforms/ios/build/EventAnalytics.build/Debug-iphoneos/EventAnalytics.build/EventAnalytics-all-target-headers.hmap -iquote /Users/colin/srv/event\ analyitics/smartphone/phonegap/platforms/ios/build/EventAnalytics.build/Debug-iphoneos/EventAnalytics.build/EventAnalytics-project-headers.hmap -I/Users/colin/srv/event\ analyitics/smartphone/phonegap/platforms/ios/build/device/include -I/Users/colin/srv/event\ analyitics/smartphone/phonegap/platforms/ios/build/device/usr/local/lib/include -I/Users/colin/srv/event\ analyitics/smartphone/phonegap/platforms/ios/build/UninstalledProducts/include -I/Users/colin/srv/event\ analyitics/smartphone/phonegap/platforms/ios/build/device -I/Users/colin/srv/event\ analyitics/smartphone/phonegap/platforms/ios/build/EventAnalytics.build/Debug-iphoneos/EventAnalytics.build/DerivedSources/armv7 -I/Users/colin/srv/event\ analyitics/smartphone/phonegap/platforms/ios/build/EventAnalytics.build/Debug-iphoneos/EventAnalytics.build/DerivedSources -F/Users/colin/srv/event\ analyitics/smartphone/phonegap/platforms/ios/build/device -include /var/folders/hy/zyhhclmj3fg98nf3lhsc0jhm0000gn/C/com.apple.DeveloperTools/5.0.2-5A3005/Xcode/SharedPrecompiledHeaders/EventAnalytics-Prefix-cbiebvxwmhqcnrerbqdzxoagurze/EventAnalytics-Prefix.pch -MMD -MT dependencies -MF /Users/colin/srv/event\ analyitics/smartphone/phonegap/platforms/ios/build/EventAnalytics.build/Debug-iphoneos/EventAnalytics.build/Objects-normal/armv7/MainViewController.d --serialize-diagnostics /Users/colin/srv/event\ analyitics/smartphone/phonegap/platforms/ios/build/EventAnalytics.build/Debug-iphoneos/EventAnalytics.build/Objects-normal/armv7/MainViewController.dia -c /Users/colin/srv/event\ analyitics/smartphone/phonegap/platforms/ios/EventAnalytics/Classes/MainViewController.m -o /Users/colin/srv/event\ analyitics/smartphone/phonegap/platforms/ios/build/EventAnalytics.build/Debug-iphoneos/EventAnalytics.build/Objects-normal/armv7/MainViewController.o36"BF372207-83BC-4C4C-A6B3-C7696CCCE3FA-
+bDA833869-EFA0-46DE-B54B-788D96587FE8
+
+CCompileC build/EventAnalytics.build/Debug-iphoneos/EventAnalytics.build/Objects-normal/armv7/main.o /Users/colin/srv/event\ analyitics/smartphone/phonegap/platforms/ios/EventAnalytics/main.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s407298063.118861
+e407298063.145419
+r1
+xCompileC
+xbuild/EventAnalytics.build/Debug-iphoneos/EventAnalytics.build/Objects-normal/armv7/main.o
+x/Users/colin/srv/event analyitics/smartphone/phonegap/platforms/ios/EventAnalytics/main.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/colin/srv/event analyitics/smartphone/phonegap/platforms/ios/EventAnalytics/main.m
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection97"Compile /Users/colin/srv/event analyitics/smartphone/phonegap/platforms/ios/EventAnalytics/main.m190"CompileC build/EventAnalytics.build/Debug-iphoneos/EventAnalytics.build/Objects-normal/armv7/main.o EventAnalytics/main.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compilerd78a1e0fe046b841^7426250fe046b841^---0#0#1#-19%DVTDocumentLocation2@98"file:///Users/colin/srv/event%20analyitics/smartphone/phonegap/platforms/ios/EventAnalytics/main.m0000000000000000^3948"CompileC build/EventAnalytics.build/Debug-iphoneos/EventAnalytics.build/Objects-normal/armv7/main.o EventAnalytics/main.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd "/Users/colin/srv/event analyitics/smartphone/phonegap/platforms/ios"    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/X11/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=c99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -fvisibility=hidden -Wno-sign-conversion -miphoneos-version-min=5.0 -iquote /Users/colin/srv/event\ analyitics/smartphone/phonegap/platforms/ios/build/EventAnalytics.build/Debug-iphoneos/EventAnalytics.build/EventAnalytics-generated-files.hmap -I/Users/colin/srv/event\ analyitics/smartphone/phonegap/platforms/ios/build/EventAnalytics.build/Debug-iphoneos/EventAnalytics.build/EventAnalytics-own-target-headers.hmap -I/Users/colin/srv/event\ analyitics/smartphone/phonegap/platforms/ios/build/EventAnalytics.build/Debug-iphoneos/EventAnalytics.build/EventAnalytics-all-target-headers.hmap -iquote /Users/colin/srv/event\ analyitics/smartphone/phonegap/platforms/ios/build/EventAnalytics.build/Debug-iphoneos/EventAnalytics.build/EventAnalytics-project-headers.hmap -I/Users/colin/srv/event\ analyitics/smartphone/phonegap/platforms/ios/build/device/include -I/Users/colin/srv/event\ analyitics/smartphone/phonegap/platforms/ios/build/device/usr/local/lib/include -I/Users/colin/srv/event\ analyitics/smartphone/phonegap/platforms/ios/build/UninstalledProducts/include -I/Users/colin/srv/event\ analyitics/smartphone/phonegap/platforms/ios/build/device -I/Users/colin/srv/event\ analyitics/smartphone/phonegap/platforms/ios/build/EventAnalytics.build/Debug-iphoneos/EventAnalytics.build/DerivedSources/armv7 -I/Users/colin/srv/event\ analyitics/smartphone/phonegap/platforms/ios/build/EventAnalytics.build/Debug-iphoneos/EventAnalytics.build/DerivedSources -F/Users/colin/srv/event\ analyitics/smartphone/phonegap/platforms/ios/build/device -include /var/folders/hy/zyhhclmj3fg98nf3lhsc0jhm0000gn/C/com.apple.DeveloperTools/5.0.2-5A3005/Xcode/SharedPrecompiledHeaders/EventAnalytics-Prefix-cbiebvxwmhqcnrerbqdzxoagurze/EventAnalytics-Prefix.pch -MMD -MT dependencies -MF /Users/colin/srv/event\ analyitics/smartphone/phonegap/platforms/ios/build/EventAnalytics.build/Debug-iphoneos/EventAnalytics.build/Objects-normal/armv7/main.d --serialize-diagnostics /Users/colin/srv/event\ analyitics/smartphone/phonegap/platforms/ios/build/EventAnalytics.build/Debug-iphoneos/EventAnalytics.build/Objects-normal/armv7/main.dia -c /Users/colin/srv/event\ analyitics/smartphone/phonegap/platforms/ios/EventAnalytics/main.m -o /Users/colin/srv/event\ analyitics/smartphone/phonegap/platforms/ios/build/EventAnalytics.build/Debug-iphoneos/EventAnalytics.build/Objects-normal/armv7/main.o36"E38A456E-7056-4620-B0B8-12D6A14B0EC8-
+bDA833869-EFA0-46DE-B54B-788D96587FE8
+
+CCompileXIB /Users/colin/srv/event\ analyitics/smartphone/phonegap/platforms/ios/EventAnalytics/Classes/MainViewController.xib
+s407298062.596113
+e407298062.619947
+r1
+xCompileXIB
+x/Users/colin/srv/event analyitics/smartphone/phonegap/platforms/ios/EventAnalytics/Classes/MainViewController.xib
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection123"Compiling /Users/colin/srv/event analyitics/smartphone/phonegap/platforms/ios/EventAnalytics/Classes/MainViewController.xib56"CompileXIB EventAnalytics/Classes/MainViewController.xib27c0980ee046b841^b8e69e0ee046b841^---0#0#1#-19%DVTDocumentLocation2@122"file:///Users/colin/srv/event%20analyitics/smartphone/phonegap/platforms/ios/EventAnalytics/Classes/MainViewController.xib0000000000000000^849"CompileXIB EventAnalytics/Classes/MainViewController.xib    cd "/Users/colin/srv/event analyitics/smartphone/phonegap/platforms/ios"    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/X11/bin"    setenv XCODE_DEVELOPER_USR_PATH /Applications/Xcode.app/Contents/Developer/usr/bin/..    /Applications/Xcode.app/Contents/Developer/usr/bin/ibtool --errors --warnings --notices --minimum-deployment-target 5.0 --output-format human-readable-text --compile /Users/colin/srv/event\ analyitics/smartphone/phonegap/platforms/ios/build/device/EventAnalytics.app/MainViewController.nib /Users/colin/srv/event\ analyitics/smartphone/phonegap/platforms/ios/EventAnalytics/Classes/MainViewController.xib36"61622A59-FC3D-43E3-8452-6A4CC2AEE453-
+bDA833869-EFA0-46DE-B54B-788D96587FE8
+
+CCopyPNGFile /Users/colin/srv/event\ analyitics/smartphone/phonegap/platforms/ios/build/device/EventAnalytics.app/Default-568h@2x~iphone.png EventAnalytics/Resources/splash/Default-568h@2x~iphone.png
+s407298062.895153
+e407298063.046552
+r1
+xCopyPNGFile
+x/Users/colin/srv/event analyitics/smartphone/phonegap/platforms/ios/build/device/EventAnalytics.app/Default-568h@2x~iphone.png
+xEventAnalytics/Resources/splash/Default-568h@2x~iphone.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection129"CopyPNGFile build/device/EventAnalytics.app/Default-568h@2x~iphone.png EventAnalytics/Resources/splash/Default-568h@2x~iphone.png129"CopyPNGFile build/device/EventAnalytics.app/Default-568h@2x~iphone.png EventAnalytics/Resources/splash/Default-568h@2x~iphone.png5740e50ee046b841^30f50b0fe046b841^---0#0#1#-19%DVTDocumentLocation2@135"file:///Users/colin/srv/event%20analyitics/smartphone/phonegap/platforms/ios/EventAnalytics/Resources/splash/Default-568h@2x~iphone.png0000000000000000^790"CopyPNGFile build/device/EventAnalytics.app/Default-568h@2x~iphone.png EventAnalytics/Resources/splash/Default-568h@2x~iphone.png    cd "/Users/colin/srv/event analyitics/smartphone/phonegap/platforms/ios"    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/X11/bin"    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/copypng -compress /Users/colin/srv/event\ analyitics/smartphone/phonegap/platforms/ios/EventAnalytics/Resources/splash/Default-568h@2x~iphone.png /Users/colin/srv/event\ analyitics/smartphone/phonegap/platforms/ios/build/device/EventAnalytics.app/Default-568h@2x~iphone.png36"378255B0-C980-498B-A3DB-F397F119D645-
+bDA833869-EFA0-46DE-B54B-788D96587FE8
+
+CCopyPNGFile /Users/colin/srv/event\ analyitics/smartphone/phonegap/platforms/ios/build/device/EventAnalytics.app/Default-Landscape@2x~ipad.png EventAnalytics/Resources/splash/Default-Landscape@2x~ipad.png
+s407298062.626645
+e407298063.117504
+r1
+xCopyPNGFile
+x/Users/colin/srv/event analyitics/smartphone/phonegap/platforms/ios/build/device/EventAnalytics.app/Default-Landscape@2x~ipad.png
+xEventAnalytics/Resources/splash/Default-Landscape@2x~ipad.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection135"CopyPNGFile build/device/EventAnalytics.app/Default-Landscape@2x~ipad.png EventAnalytics/Resources/splash/Default-Landscape@2x~ipad.png135"CopyPNGFile build/device/EventAnalytics.app/Default-Landscape@2x~ipad.png EventAnalytics/Resources/splash/Default-Landscape@2x~ipad.png3d81a00ee046b841^e0141e0fe046b841^---0#0#1#-19%DVTDocumentLocation2@138"file:///Users/colin/srv/event%20analyitics/smartphone/phonegap/platforms/ios/EventAnalytics/Resources/splash/Default-Landscape@2x~ipad.png0000000000000000^802"CopyPNGFile build/device/EventAnalytics.app/Default-Landscape@2x~ipad.png EventAnalytics/Resources/splash/Default-Landscape@2x~ipad.png    cd "/Users/colin/srv/event analyitics/smartphone/phonegap/platforms/ios"    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/X11/bin"    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/copypng -compress /Users/colin/srv/event\ analyitics/smartphone/phonegap/platforms/ios/EventAnalytics/Resources/splash/Default-Landscape@2x~ipad.png /Users/colin/srv/event\ analyitics/smartphone/phonegap/platforms/ios/build/device/EventAnalytics.app/Default-Landscape@2x~ipad.png36"1DDE537A-D5A0-4673-B0D4-7714B50EA724-
+bDA833869-EFA0-46DE-B54B-788D96587FE8
+
+CCopyPNGFile /Users/colin/srv/event\ analyitics/smartphone/phonegap/platforms/ios/build/device/EventAnalytics.app/Default-Landscape~ipad.png EventAnalytics/Resources/splash/Default-Landscape~ipad.png
+s407298062.630418
+e407298062.822854
+r1
+xCopyPNGFile
+x/Users/colin/srv/event analyitics/smartphone/phonegap/platforms/ios/build/device/EventAnalytics.app/Default-Landscape~ipad.png
+xEventAnalytics/Resources/splash/Default-Landscape~ipad.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection129"CopyPNGFile build/device/EventAnalytics.app/Default-Landscape~ipad.png EventAnalytics/Resources/splash/Default-Landscape~ipad.png129"CopyPNGFile build/device/EventAnalytics.app/Default-Landscape~ipad.png EventAnalytics/Resources/splash/Default-Landscape~ipad.pngcc7aa10ee046b841^98c3d20ee046b841^---0#0#1#-19%DVTDocumentLocation2@135"file:///Users/colin/srv/event%20analyitics/smartphone/phonegap/platforms/ios/EventAnalytics/Resources/splash/Default-Landscape~ipad.png0000000000000000^790"CopyPNGFile build/device/EventAnalytics.app/Default-Landscape~ipad.png EventAnalytics/Resources/splash/Default-Landscape~ipad.png    cd "/Users/colin/srv/event analyitics/smartphone/phonegap/platforms/ios"    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/X11/bin"    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/copypng -compress /Users/colin/srv/event\ analyitics/smartphone/phonegap/platforms/ios/EventAnalytics/Resources/splash/Default-Landscape~ipad.png /Users/colin/srv/event\ analyitics/smartphone/phonegap/platforms/ios/build/device/EventAnalytics.app/Default-Landscape~ipad.png36"DFD6963B-C844-48B8-A00C-FC6441E796E7-
+bDA833869-EFA0-46DE-B54B-788D96587FE8
+
+CCopyPNGFile /Users/colin/srv/event\ analyitics/smartphone/phonegap/platforms/ios/build/device/EventAnalytics.app/Default-Portrait@2x~ipad.png EventAnalytics/Resources/splash/Default-Portrait@2x~ipad.png
+s407298062.631992
+e407298063.098638
+r1
+xCopyPNGFile
+x/Users/colin/srv/event analyitics/smartphone/phonegap/platforms/ios/build/device/EventAnalytics.app/Default-Portrait@2x~ipad.png
+xEventAnalytics/Resources/splash/Default-Portrait@2x~ipad.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection133"CopyPNGFile build/device/EventAnalytics.app/Default-Portrait@2x~ipad.png EventAnalytics/Resources/splash/Default-Portrait@2x~ipad.png133"CopyPNGFile build/device/EventAnalytics.app/Default-Portrait@2x~ipad.png EventAnalytics/Resources/splash/Default-Portrait@2x~ipad.png7ae2a10ee046b841^1041190fe046b841^---0#0#1#-19%DVTDocumentLocation2@137"file:///Users/colin/srv/event%20analyitics/smartphone/phonegap/platforms/ios/EventAnalytics/Resources/splash/Default-Portrait@2x~ipad.png0000000000000000^798"CopyPNGFile build/device/EventAnalytics.app/Default-Portrait@2x~ipad.png EventAnalytics/Resources/splash/Default-Portrait@2x~ipad.png    cd "/Users/colin/srv/event analyitics/smartphone/phonegap/platforms/ios"    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/X11/bin"    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/copypng -compress /Users/colin/srv/event\ analyitics/smartphone/phonegap/platforms/ios/EventAnalytics/Resources/splash/Default-Portrait@2x~ipad.png /Users/colin/srv/event\ analyitics/smartphone/phonegap/platforms/ios/build/device/EventAnalytics.app/Default-Portrait@2x~ipad.png36"E2137A73-5A05-46F3-9961-E6A8FFC8537A-
+bDA833869-EFA0-46DE-B54B-788D96587FE8
+
+CCopyPNGFile /Users/colin/srv/event\ analyitics/smartphone/phonegap/platforms/ios/build/device/EventAnalytics.app/Default-Portrait~ipad.png EventAnalytics/Resources/splash/Default-Portrait~ipad.png
+s407298062.636173
+e407298062.819788
+r1
+xCopyPNGFile
+x/Users/colin/srv/event analyitics/smartphone/phonegap/platforms/ios/build/device/EventAnalytics.app/Default-Portrait~ipad.png
+xEventAnalytics/Resources/splash/Default-Portrait~ipad.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection127"CopyPNGFile build/device/EventAnalytics.app/Default-Portrait~ipad.png EventAnalytics/Resources/splash/Default-Portrait~ipad.png127"CopyPNGFile build/device/EventAnalytics.app/Default-Portrait~ipad.png EventAnalytics/Resources/splash/Default-Portrait~ipad.png12f5a20ee046b841^9cded10ee046b841^---0#0#1#-19%DVTDocumentLocation2@134"file:///Users/colin/srv/event%20analyitics/smartphone/phonegap/platforms/ios/EventAnalytics/Resources/splash/Default-Portrait~ipad.png0000000000000000^786"CopyPNGFile build/device/EventAnalytics.app/Default-Portrait~ipad.png EventAnalytics/Resources/splash/Default-Portrait~ipad.png    cd "/Users/colin/srv/event analyitics/smartphone/phonegap/platforms/ios"    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/X11/bin"    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/copypng -compress /Users/colin/srv/event\ analyitics/smartphone/phonegap/platforms/ios/EventAnalytics/Resources/splash/Default-Portrait~ipad.png /Users/colin/srv/event\ analyitics/smartphone/phonegap/platforms/ios/build/device/EventAnalytics.app/Default-Portrait~ipad.png36"F88A9227-DD4D-4D69-8BD5-E01377ABD712-
+bDA833869-EFA0-46DE-B54B-788D96587FE8
+
+CCopyPNGFile /Users/colin/srv/event\ analyitics/smartphone/phonegap/platforms/ios/build/device/EventAnalytics.app/Default@2x~iphone.png EventAnalytics/Resources/splash/Default@2x~iphone.png
+s407298062.820075
+e407298062.966476
+r1
+xCopyPNGFile
+x/Users/colin/srv/event analyitics/smartphone/phonegap/platforms/ios/build/device/EventAnalytics.app/Default@2x~iphone.png
+xEventAnalytics/Resources/splash/Default@2x~iphone.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection119"CopyPNGFile build/device/EventAnalytics.app/Default@2x~iphone.png EventAnalytics/Resources/splash/Default@2x~iphone.png119"CopyPNGFile build/device/EventAnalytics.app/Default@2x~iphone.png EventAnalytics/Resources/splash/Default@2x~iphone.png0309d20ee046b841^c367f70ee046b841^---0#0#1#-19%DVTDocumentLocation2@130"file:///Users/colin/srv/event%20analyitics/smartphone/phonegap/platforms/ios/EventAnalytics/Resources/splash/Default@2x~iphone.png0000000000000000^770"CopyPNGFile build/device/EventAnalytics.app/Default@2x~iphone.png EventAnalytics/Resources/splash/Default@2x~iphone.png    cd "/Users/colin/srv/event analyitics/smartphone/phonegap/platforms/ios"    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/X11/bin"    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/copypng -compress /Users/colin/srv/event\ analyitics/smartphone/phonegap/platforms/ios/EventAnalytics/Resources/splash/Default@2x~iphone.png /Users/colin/srv/event\ analyitics/smartphone/phonegap/platforms/ios/build/device/EventAnalytics.app/Default@2x~iphone.png36"744CB7D9-0962-41EA-B041-33322E16E306-
+bDA833869-EFA0-46DE-B54B-788D96587FE8
+
+CCopyPNGFile /Users/colin/srv/event\ analyitics/smartphone/phonegap/platforms/ios/build/device/EventAnalytics.app/Default~iphone.png EventAnalytics/Resources/splash/Default~iphone.png
+s407298062.823117
+e407298062.894822
+r1
+xCopyPNGFile
+x/Users/colin/srv/event analyitics/smartphone/phonegap/platforms/ios/build/device/EventAnalytics.app/Default~iphone.png
+xEventAnalytics/Resources/splash/Default~iphone.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection113"CopyPNGFile build/device/EventAnalytics.app/Default~iphone.png EventAnalytics/Resources/splash/Default~iphone.png113"CopyPNGFile build/device/EventAnalytics.app/Default~iphone.png EventAnalytics/Resources/splash/Default~iphone.png6d1ad30ee046b841^1a14e50ee046b841^---0#0#1#-19%DVTDocumentLocation2@127"file:///Users/colin/srv/event%20analyitics/smartphone/phonegap/platforms/ios/EventAnalytics/Resources/splash/Default~iphone.png0000000000000000^758"CopyPNGFile build/device/EventAnalytics.app/Default~iphone.png EventAnalytics/Resources/splash/Default~iphone.png    cd "/Users/colin/srv/event analyitics/smartphone/phonegap/platforms/ios"    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/X11/bin"    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/copypng -compress /Users/colin/srv/event\ analyitics/smartphone/phonegap/platforms/ios/EventAnalytics/Resources/splash/Default~iphone.png /Users/colin/srv/event\ analyitics/smartphone/phonegap/platforms/ios/build/device/EventAnalytics.app/Default~iphone.png36"01FEF9F5-57AC-4422-B2C4-0DD804EE1D63-
+bDA833869-EFA0-46DE-B54B-788D96587FE8
+
+CCopyPNGFile /Users/colin/srv/event\ analyitics/smartphone/phonegap/platforms/ios/build/device/EventAnalytics.app/icon-72.png EventAnalytics/Resources/icons/icon-72.png
+s407298062.587614
+e407298062.631536
+r1
+xCopyPNGFile
+x/Users/colin/srv/event analyitics/smartphone/phonegap/platforms/ios/build/device/EventAnalytics.app/icon-72.png
+xEventAnalytics/Resources/icons/icon-72.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection98"CopyPNGFile build/device/EventAnalytics.app/icon-72.png EventAnalytics/Resources/icons/icon-72.png98"CopyPNGFile build/device/EventAnalytics.app/icon-72.png EventAnalytics/Resources/icons/icon-72.png349c960ee046b841^6daba10ee046b841^---0#0#1#-19%DVTDocumentLocation2@119"file:///Users/colin/srv/event%20analyitics/smartphone/phonegap/platforms/ios/EventAnalytics/Resources/icons/icon-72.png0000000000000000^728"CopyPNGFile build/device/EventAnalytics.app/icon-72.png EventAnalytics/Resources/icons/icon-72.png    cd "/Users/colin/srv/event analyitics/smartphone/phonegap/platforms/ios"    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/X11/bin"    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/copypng -compress /Users/colin/srv/event\ analyitics/smartphone/phonegap/platforms/ios/EventAnalytics/Resources/icons/icon-72.png /Users/colin/srv/event\ analyitics/smartphone/phonegap/platforms/ios/build/device/EventAnalytics.app/icon-72.png36"CC5FB56B-360D-4B31-A037-DA5E45202B11-
+bDA833869-EFA0-46DE-B54B-788D96587FE8
+
+CCopyPNGFile /Users/colin/srv/event\ analyitics/smartphone/phonegap/platforms/ios/build/device/EventAnalytics.app/icon-72@2x.png EventAnalytics/Resources/icons/icon-72@2x.png
+s407298062.966857
+e407298063.014175
+r1
+xCopyPNGFile
+x/Users/colin/srv/event analyitics/smartphone/phonegap/platforms/ios/build/device/EventAnalytics.app/icon-72@2x.png
+xEventAnalytics/Resources/icons/icon-72@2x.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection104"CopyPNGFile build/device/EventAnalytics.app/icon-72@2x.png EventAnalytics/Resources/icons/icon-72@2x.png104"CopyPNGFile build/device/EventAnalytics.app/icon-72@2x.png EventAnalytics/Resources/icons/icon-72@2x.pngbb9bf70ee046b841^c0b1030fe046b841^---0#0#1#-19%DVTDocumentLocation2@122"file:///Users/colin/srv/event%20analyitics/smartphone/phonegap/platforms/ios/EventAnalytics/Resources/icons/icon-72@2x.png0000000000000000^740"CopyPNGFile build/device/EventAnalytics.app/icon-72@2x.png EventAnalytics/Resources/icons/icon-72@2x.png    cd "/Users/colin/srv/event analyitics/smartphone/phonegap/platforms/ios"    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/X11/bin"    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/copypng -compress /Users/colin/srv/event\ analyitics/smartphone/phonegap/platforms/ios/EventAnalytics/Resources/icons/icon-72@2x.png /Users/colin/srv/event\ analyitics/smartphone/phonegap/platforms/ios/build/device/EventAnalytics.app/icon-72@2x.png36"202D3C92-CA5D-444C-B616-A6EDBA1DB869-
+bDA833869-EFA0-46DE-B54B-788D96587FE8
+
+CCopyPNGFile /Users/colin/srv/event\ analyitics/smartphone/phonegap/platforms/ios/build/device/EventAnalytics.app/icon.png EventAnalytics/Resources/icons/icon.png
+s407298062.587872
+e407298062.630166
+r1
+xCopyPNGFile
+x/Users/colin/srv/event analyitics/smartphone/phonegap/platforms/ios/build/device/EventAnalytics.app/icon.png
+xEventAnalytics/Resources/icons/icon.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection92"CopyPNGFile build/device/EventAnalytics.app/icon.png EventAnalytics/Resources/icons/icon.png92"CopyPNGFile build/device/EventAnalytics.app/icon.png EventAnalytics/Resources/icons/icon.pngf5b9960ee046b841^cd91a10ee046b841^---0#0#1#-19%DVTDocumentLocation2@116"file:///Users/colin/srv/event%20analyitics/smartphone/phonegap/platforms/ios/EventAnalytics/Resources/icons/icon.png0000000000000000^716"CopyPNGFile build/device/EventAnalytics.app/icon.png EventAnalytics/Resources/icons/icon.png    cd "/Users/colin/srv/event analyitics/smartphone/phonegap/platforms/ios"    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/X11/bin"    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/copypng -compress /Users/colin/srv/event\ analyitics/smartphone/phonegap/platforms/ios/EventAnalytics/Resources/icons/icon.png /Users/colin/srv/event\ analyitics/smartphone/phonegap/platforms/ios/build/device/EventAnalytics.app/icon.png36"1D59968D-2429-4049-A78D-5C77252174D8-
+bDA833869-EFA0-46DE-B54B-788D96587FE8
+
+CCopyPNGFile /Users/colin/srv/event\ analyitics/smartphone/phonegap/platforms/ios/build/device/EventAnalytics.app/icon@2x.png EventAnalytics/Resources/icons/icon@2x.png
+s407298062.589632
+e407298062.635882
+r1
+xCopyPNGFile
+x/Users/colin/srv/event analyitics/smartphone/phonegap/platforms/ios/build/device/EventAnalytics.app/icon@2x.png
+xEventAnalytics/Resources/icons/icon@2x.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection98"CopyPNGFile build/device/EventAnalytics.app/icon@2x.png EventAnalytics/Resources/icons/icon@2x.png98"CopyPNGFile build/device/EventAnalytics.app/icon@2x.png EventAnalytics/Resources/icons/icon@2x.pnga609970ee046b841^7b13a30ee046b841^---0#0#1#-19%DVTDocumentLocation2@119"file:///Users/colin/srv/event%20analyitics/smartphone/phonegap/platforms/ios/EventAnalytics/Resources/icons/icon@2x.png0000000000000000^728"CopyPNGFile build/device/EventAnalytics.app/icon@2x.png EventAnalytics/Resources/icons/icon@2x.png    cd "/Users/colin/srv/event analyitics/smartphone/phonegap/platforms/ios"    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/X11/bin"    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/copypng -compress /Users/colin/srv/event\ analyitics/smartphone/phonegap/platforms/ios/EventAnalytics/Resources/icons/icon@2x.png /Users/colin/srv/event\ analyitics/smartphone/phonegap/platforms/ios/build/device/EventAnalytics.app/icon@2x.png36"4D88D523-D670-4AD3-9D99-0F49DEE5F871-
+bDA833869-EFA0-46DE-B54B-788D96587FE8
+
+CCopyStringsFile /Users/colin/srv/event\ analyitics/smartphone/phonegap/platforms/ios/build/device/EventAnalytics.app/de.lproj/Localizable.strings EventAnalytics/Resources/de.lproj/Localizable.strings
+s407298062.620216
+e407298062.624019
+r1
+xCopyStringsFile
+x/Users/colin/srv/event analyitics/smartphone/phonegap/platforms/ios/build/device/EventAnalytics.app/de.lproj/Localizable.strings
+xEventAnalytics/Resources/de.lproj/Localizable.strings
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection58"Copy EventAnalytics/Resources/de.lproj/Localizable.strings130"CopyStringsFile build/device/EventAnalytics.app/de.lproj/Localizable.strings EventAnalytics/Resources/de.lproj/Localizable.strings33de9e0ee046b841^69c99f0ee046b841^---0#0#1#-19%DVTDocumentLocation2@130"file:///Users/colin/srv/event%20analyitics/smartphone/phonegap/platforms/ios/EventAnalytics/Resources/de.lproj/Localizable.strings0000000000000000^681"CopyStringsFile build/device/EventAnalytics.app/de.lproj/Localizable.strings EventAnalytics/Resources/de.lproj/Localizable.strings    cd "/Users/colin/srv/event analyitics/smartphone/phonegap/platforms/ios"    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/X11/bin"    builtin-copyStrings --validate --inputencoding utf-8 --outputencoding binary --outdir /Users/colin/srv/event\ analyitics/smartphone/phonegap/platforms/ios/build/device/EventAnalytics.app/de.lproj -- EventAnalytics/Resources/de.lproj/Localizable.strings36"6F5EE68B-CBA9-48A2-B09E-D5CF7CDC9837-
+bDA833869-EFA0-46DE-B54B-788D96587FE8
+
+CCopyStringsFile /Users/colin/srv/event\ analyitics/smartphone/phonegap/platforms/ios/build/device/EventAnalytics.app/en.lproj/Localizable.strings EventAnalytics/Resources/en.lproj/Localizable.strings
+s407298062.590558
+e407298062.592681
+r1
+xCopyStringsFile
+x/Users/colin/srv/event analyitics/smartphone/phonegap/platforms/ios/build/device/EventAnalytics.app/en.lproj/Localizable.strings
+xEventAnalytics/Resources/en.lproj/Localizable.strings
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection58"Copy EventAnalytics/Resources/en.lproj/Localizable.strings130"CopyStringsFile build/device/EventAnalytics.app/en.lproj/Localizable.strings EventAnalytics/Resources/en.lproj/Localizable.stringse657970ee046b841^56f4970ee046b841^---0#0#1#-19%DVTDocumentLocation2@130"file:///Users/colin/srv/event%20analyitics/smartphone/phonegap/platforms/ios/EventAnalytics/Resources/en.lproj/Localizable.strings0000000000000000^681"CopyStringsFile build/device/EventAnalytics.app/en.lproj/Localizable.strings EventAnalytics/Resources/en.lproj/Localizable.strings    cd "/Users/colin/srv/event analyitics/smartphone/phonegap/platforms/ios"    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/X11/bin"    builtin-copyStrings --validate --inputencoding utf-8 --outputencoding binary --outdir /Users/colin/srv/event\ analyitics/smartphone/phonegap/platforms/ios/build/device/EventAnalytics.app/en.lproj -- EventAnalytics/Resources/en.lproj/Localizable.strings36"4F75A262-807B-40B3-9427-6820235B685A-
+bDA833869-EFA0-46DE-B54B-788D96587FE8
+
+CCopyStringsFile /Users/colin/srv/event\ analyitics/smartphone/phonegap/platforms/ios/build/device/EventAnalytics.app/es.lproj/Localizable.strings EventAnalytics/Resources/es.lproj/Localizable.strings
+s407298062.592904
+e407298062.595301
+r1
+xCopyStringsFile
+x/Users/colin/srv/event analyitics/smartphone/phonegap/platforms/ios/build/device/EventAnalytics.app/es.lproj/Localizable.strings
+xEventAnalytics/Resources/es.lproj/Localizable.strings
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection58"Copy EventAnalytics/Resources/es.lproj/Localizable.strings130"CopyStringsFile build/device/EventAnalytics.app/es.lproj/Localizable.strings EventAnalytics/Resources/es.lproj/Localizable.strings4aeb970ee046b841^8066980ee046b841^---0#0#1#-19%DVTDocumentLocation2@130"file:///Users/colin/srv/event%20analyitics/smartphone/phonegap/platforms/ios/EventAnalytics/Resources/es.lproj/Localizable.strings0000000000000000^681"CopyStringsFile build/device/EventAnalytics.app/es.lproj/Localizable.strings EventAnalytics/Resources/es.lproj/Localizable.strings    cd "/Users/colin/srv/event analyitics/smartphone/phonegap/platforms/ios"    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/X11/bin"    builtin-copyStrings --validate --inputencoding utf-8 --outputencoding binary --outdir /Users/colin/srv/event\ analyitics/smartphone/phonegap/platforms/ios/build/device/EventAnalytics.app/es.lproj -- EventAnalytics/Resources/es.lproj/Localizable.strings36"74EAC41A-2D91-4736-AA8C-CD35A427FD66-
+bDA833869-EFA0-46DE-B54B-788D96587FE8
+
+CCopyStringsFile /Users/colin/srv/event\ analyitics/smartphone/phonegap/platforms/ios/build/device/EventAnalytics.app/se.lproj/Localizable.strings EventAnalytics/Resources/se.lproj/Localizable.strings
+s407298062.624455
+e407298062.626162
+r1
+xCopyStringsFile
+x/Users/colin/srv/event analyitics/smartphone/phonegap/platforms/ios/build/device/EventAnalytics.app/se.lproj/Localizable.strings
+xEventAnalytics/Resources/se.lproj/Localizable.strings
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection58"Copy EventAnalytics/Resources/se.lproj/Localizable.strings130"CopyStringsFile build/device/EventAnalytics.app/se.lproj/Localizable.strings EventAnalytics/Resources/se.lproj/Localizable.strings4ef29f0ee046b841^c652a00ee046b841^---0#0#1#-19%DVTDocumentLocation2@130"file:///Users/colin/srv/event%20analyitics/smartphone/phonegap/platforms/ios/EventAnalytics/Resources/se.lproj/Localizable.strings0000000000000000^681"CopyStringsFile build/device/EventAnalytics.app/se.lproj/Localizable.strings EventAnalytics/Resources/se.lproj/Localizable.strings    cd "/Users/colin/srv/event analyitics/smartphone/phonegap/platforms/ios"    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/X11/bin"    builtin-copyStrings --validate --inputencoding utf-8 --outputencoding binary --outdir /Users/colin/srv/event\ analyitics/smartphone/phonegap/platforms/ios/build/device/EventAnalytics.app/se.lproj -- EventAnalytics/Resources/se.lproj/Localizable.strings36"80DCFABE-A1E8-4440-A271-1005716F04B3-
+bDA833869-EFA0-46DE-B54B-788D96587FE8
+
+CCpResource /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/ResourceRules.plist build/device/EventAnalytics.app/ResourceRules.plist
+s407298062.259497
+e407298062.260374
+r1
+xCpResource
+x/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/ResourceRules.plist
+xbuild/device/EventAnalytics.app/ResourceRules.plist
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection56"Copy build/device/EventAnalytics.app/ResourceRules.plist184"CpResource /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/ResourceRules.plist build/device/EventAnalytics.app/ResourceRules.plist467d420ee046b841^b9a8420ee046b841^---0#0#1#-19%DVTDocumentLocation2@128"file:///Users/colin/srv/event%20analyitics/smartphone/phonegap/platforms/ios/build/device/EventAnalytics.app/ResourceRules.plist00345484dfffdf42^813"CpResource /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/ResourceRules.plist build/device/EventAnalytics.app/ResourceRules.plist    cd "/Users/colin/srv/event analyitics/smartphone/phonegap/platforms/ios"    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/X11/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/ResourceRules.plist /Users/colin/srv/event\ analyitics/smartphone/phonegap/platforms/ios/build/device/EventAnalytics.app36"00E7FD35-D82A-48B1-B26A-D12A61FE6E0D-
+bDA833869-EFA0-46DE-B54B-788D96587FE8
+
+CCpResource EventAnalytics/config.xml build/device/EventAnalytics.app/config.xml
+s407298062.587039
+e407298062.590090
+r1
+xCpResource
+xEventAnalytics/config.xml
+xbuild/device/EventAnalytics.app/config.xml
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection47"Copy build/device/EventAnalytics.app/config.xml79"CpResource EventAnalytics/config.xml build/device/EventAnalytics.app/config.xml7766960ee046b841^0b29970ee046b841^---0#0#1#-19%DVTDocumentLocation2@119"file:///Users/colin/srv/event%20analyitics/smartphone/phonegap/platforms/ios/build/device/EventAnalytics.app/config.xml00345484dfffdf42^681"CpResource EventAnalytics/config.xml build/device/EventAnalytics.app/config.xml    cd "/Users/colin/srv/event analyitics/smartphone/phonegap/platforms/ios"    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/X11/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/colin/srv/event\ analyitics/smartphone/phonegap/platforms/ios/EventAnalytics/config.xml /Users/colin/srv/event\ analyitics/smartphone/phonegap/platforms/ios/build/device/EventAnalytics.app36"F8C0B542-B6D8-423D-9574-1E2BFFB06489-
+bDA833869-EFA0-46DE-B54B-788D96587FE8
+
+CGenerateDSYMFile /Users/colin/srv/event\ analyitics/smartphone/phonegap/platforms/ios/build/device/EventAnalytics.app.dSYM /Users/colin/srv/event\ analyitics/smartphone/phonegap/platforms/ios/build/device/EventAnalytics.app/EventAnalytics
+s407298063.324185
+e407298063.364449
+r1
+xGenerateDSYMFile
+x/Users/colin/srv/event analyitics/smartphone/phonegap/platforms/ios/build/device/EventAnalytics.app.dSYM
+x/Users/colin/srv/event analyitics/smartphone/phonegap/platforms/ios/build/device/EventAnalytics.app/EventAnalytics
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection113"Generate /Users/colin/srv/event analyitics/smartphone/phonegap/platforms/ios/build/device/EventAnalytics.app.dSYM100"GenerateDSYMFile build/device/EventAnalytics.app.dSYM build/device/EventAnalytics.app/EventAnalytics630d530fe046b841^6e4e5d0fe046b841^---0#0#1#-19%DVTDocumentLocation2@113"file:///Users/colin/srv/event%20analyitics/smartphone/phonegap/platforms/ios/build/device/EventAnalytics.app.dSYM00345484dfffdf42^719"GenerateDSYMFile build/device/EventAnalytics.app.dSYM build/device/EventAnalytics.app/EventAnalytics    cd "/Users/colin/srv/event analyitics/smartphone/phonegap/platforms/ios"    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/X11/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/dsymutil /Users/colin/srv/event\ analyitics/smartphone/phonegap/platforms/ios/build/device/EventAnalytics.app/EventAnalytics -o /Users/colin/srv/event\ analyitics/smartphone/phonegap/platforms/ios/build/device/EventAnalytics.app.dSYM36"3473636D-A66F-41C0-BC06-F24B57AFD962-
+bDA833869-EFA0-46DE-B54B-788D96587FE8
+
+CLd /Users/colin/srv/event\ analyitics/smartphone/phonegap/platforms/ios/build/device/EventAnalytics.app/EventAnalytics normal armv7
+s407298063.252885
+e407298063.323350
+r1
+xLd
+x/Users/colin/srv/event analyitics/smartphone/phonegap/platforms/ios/build/device/EventAnalytics.app/EventAnalytics
+xnormal
+xarmv7
+d/Users/colin/srv/event analyitics/smartphone/phonegap/platforms/ios/build/EventAnalytics.build/Debug-iphoneos/EventAnalytics.build/Objects-normal/armv7/EventAnalytics.LinkFileList
+d/Users/colin/srv/event analyitics/smartphone/phonegap/platforms/ios/build/device/libCordova.a
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/crt1.3.1.o
+d/Users/colin/srv/event analyitics/smartphone/phonegap/platforms/ios/build/EventAnalytics.build/Debug-iphoneos/EventAnalytics.build/Objects-normal/armv7/main.o
+d/Users/colin/srv/event analyitics/smartphone/phonegap/platforms/ios/build/EventAnalytics.build/Debug-iphoneos/EventAnalytics.build/Objects-normal/armv7/AppDelegate.o
+d/Users/colin/srv/event analyitics/smartphone/phonegap/platforms/ios/build/EventAnalytics.build/Debug-iphoneos/EventAnalytics.build/Objects-normal/armv7/MainViewController.o
+d/Users/colin/srv/event analyitics/smartphone/phonegap/platforms/ios/build/EventAnalytics.build/Debug-iphoneos/EventAnalytics.build/Objects-normal/armv7/MEGBluetoothSerial.o
+d/Users/colin/srv/event analyitics/smartphone/phonegap/platforms/ios/build/EventAnalytics.build/Debug-iphoneos/EventAnalytics.build/Objects-normal/armv7/BLE.o
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/System/Library/Frameworks/AVFoundation.framework/AVFoundation
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/System/Library/Frameworks/CoreMedia.framework/CoreMedia
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/libSystem.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/System/Library/Frameworks/AssetsLibrary.framework/AssetsLibrary
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/System/Library/Frameworks/MobileCoreServices.framework/MobileCoreServices
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/System/Library/Frameworks/CoreLocation.framework/CoreLocation
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/System/Library/Frameworks/CoreBluetooth.framework/CoreBluetooth
+d/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/arc/libarclite_iphoneos.a
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/libobjc.dylib
+d/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/5.0/lib/darwin/libclang_rt.ios.a
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libcache.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libcommonCrypto.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libcompiler_rt.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libcopyfile.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libcorecrypto.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libdispatch.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libdyld.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libkeymgr.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/liblaunch.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libmacho.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libremovefile.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libsystem_asl.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libsystem_blocks.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libsystem_c.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libsystem_configuration.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libsystem_dnssd.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libsystem_info.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libsystem_kernel.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libsystem_m.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libsystem_malloc.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libsystem_network.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libsystem_notify.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libsystem_platform.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libsystem_pthread.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libsystem_sandbox.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libsystem_stats.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libunwind.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libxpc.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/System/Library/PrivateFrameworks/UIFoundation.framework/UIFoundation
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/System/Library/Frameworks/AVFoundation.framework/libAVFAudio.dylib
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection119"Link /Users/colin/srv/event analyitics/smartphone/phonegap/platforms/ios/build/device/EventAnalytics.app/EventAnalytics62"Ld build/device/EventAnalytics.app/EventAnalytics normal armv778d0400fe046b841^fcc7520fe046b841^---0#0#1#--1848"Ld build/device/EventAnalytics.app/EventAnalytics normal armv7    cd "/Users/colin/srv/event analyitics/smartphone/phonegap/platforms/ios"    setenv IPHONEOS_DEPLOYMENT_TARGET 5.0    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/X11/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -arch armv7 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk -L/Users/colin/srv/event\ analyitics/smartphone/phonegap/platforms/ios/build/device -F/Users/colin/srv/event\ analyitics/smartphone/phonegap/platforms/ios/build/device -filelist /Users/colin/srv/event\ analyitics/smartphone/phonegap/platforms/ios/build/EventAnalytics.build/Debug-iphoneos/EventAnalytics.build/Objects-normal/armv7/EventAnalytics.LinkFileList -dead_strip -weak_framework CoreFoundation -weak_framework UIKit -weak_framework AVFoundation -weak_framework CoreMedia -weak-lSystem -force_load /Users/colin/srv/event\ analyitics/smartphone/phonegap/platforms/ios/build/device/libCordova.a -ObjC -fobjc-arc -fobjc-link-runtime -miphoneos-version-min=5.0 -framework AssetsLibrary /Users/colin/srv/event\ analyitics/smartphone/phonegap/platforms/ios/build/device/libCordova.a -framework CoreGraphics -framework MobileCoreServices -framework CoreLocation -framework CoreBluetooth -Xlinker -dependency_info -Xlinker /Users/colin/srv/event\ analyitics/smartphone/phonegap/platforms/ios/build/EventAnalytics.build/Debug-iphoneos/EventAnalytics.build/Objects-normal/armv7/EventAnalytics_dependency_info.dat -o /Users/colin/srv/event\ analyitics/smartphone/phonegap/platforms/ios/build/device/EventAnalytics.app/EventAnalytics36"E9731E68-7AD6-47EE-ACDE-E3290DE76AFE-
+bDA833869-EFA0-46DE-B54B-788D96587FE8
+
+CPhaseScriptExecution Copy\ www\ directory /Users/colin/srv/event\ analyitics/smartphone/phonegap/platforms/ios/build/EventAnalytics.build/Debug-iphoneos/EventAnalytics.build/Script-304B58A110DAC018002A0835.sh
+s407298062.261389
+e407298062.586532
+r1
+xPhaseScriptExecution
+xCopy www directory
+x/Users/colin/srv/event analyitics/smartphone/phonegap/platforms/ios/build/EventAnalytics.build/Debug-iphoneos/EventAnalytics.build/Script-304B58A110DAC018002A0835.sh
+o
+oreal	0m0.298s
+ouser	0m0.127s
+osys	0m0.167s
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection44"Run custom shell script 'Copy www directory'139"PhaseScriptExecution Copy\ www\ directory build/EventAnalytics.build/Debug-iphoneos/EventAnalytics.build/Script-304B58A110DAC018002A0835.shc11d440ee046b841^8c2b960ee046b841^-42"real	0m0.298suser	0m0.127ssys	0m0.167s3(21%IDEActivityLogMessage2@14"real	0m0.298s-407298062#1#14#-0#-----2@14"user	0m0.127s-407298062#15#14#-0#-----2@13"sys	0m0.167s-407298062#29#13#-0#-----0#0#1#--23566"PhaseScriptExecution Copy\ www\ directory build/EventAnalytics.build/Debug-iphoneos/EventAnalytics.build/Script-304B58A110DAC018002A0835.sh    cd "/Users/colin/srv/event analyitics/smartphone/phonegap/platforms/ios"    setenv ACTION build    setenv AD_HOC_CODE_SIGNING_ALLOWED NO    setenv ALTERNATE_GROUP staff    setenv ALTERNATE_MODE u+w,go-w,a+rX    setenv ALTERNATE_OWNER colin    setenv ALWAYS_SEARCH_USER_PATHS NO    setenv ALWAYS_USE_SEPARATE_HEADERMAPS YES    setenv APPLE_INTERNAL_DEVELOPER_DIR /AppleInternal/Developer    setenv APPLE_INTERNAL_DIR /AppleInternal    setenv APPLE_INTERNAL_DOCUMENTATION_DIR /AppleInternal/Documentation    setenv APPLE_INTERNAL_LIBRARY_DIR /AppleInternal/Library    setenv APPLE_INTERNAL_TOOLS /AppleInternal/Developer/Tools    setenv APPLY_RULES_IN_COPY_FILES NO    setenv ARCHS armv7    setenv ARCHS_STANDARD "armv7 armv7s"    setenv ARCHS_STANDARD_32_64_BIT "armv7 armv7s"    setenv ARCHS_STANDARD_32_BIT "armv7 armv7s"    setenv ARCHS_STANDARD_64_BIT arm64    setenv ARCHS_STANDARD_INCLUDING_64_BIT "armv7 armv7s arm64"    setenv ARCHS_UNIVERSAL_IPHONE_OS "armv7 armv7s"    setenv AVAILABLE_PLATFORMS "iphonesimulator macosx iphoneos"    setenv BUILD_COMPONENTS "headers build"    setenv BUILD_DIR "/Users/colin/srv/event analyitics/smartphone/phonegap/platforms/ios/build"    setenv BUILD_ROOT "/Users/colin/srv/event analyitics/smartphone/phonegap/platforms/ios/build"    setenv BUILD_STYLE     setenv BUILD_VARIANTS normal    setenv BUILT_PRODUCTS_DIR "/Users/colin/srv/event analyitics/smartphone/phonegap/platforms/ios/build/device"    setenv CACHE_ROOT /var/folders/hy/zyhhclmj3fg98nf3lhsc0jhm0000gn/C/com.apple.DeveloperTools/5.0.2-5A3005/Xcode    setenv CCHROOT /var/folders/hy/zyhhclmj3fg98nf3lhsc0jhm0000gn/C/com.apple.DeveloperTools/5.0.2-5A3005/Xcode    setenv CHMOD /bin/chmod    setenv CHOWN /usr/sbin/chown    setenv CLANG_ENABLE_OBJC_ARC YES    setenv CLANG_WARN_BOOL_CONVERSION YES    setenv CLANG_WARN_CONSTANT_CONVERSION YES    setenv CLANG_WARN_EMPTY_BODY YES    setenv CLANG_WARN_ENUM_CONVERSION YES    setenv CLANG_WARN_INT_CONVERSION YES    setenv CLANG_WARN__DUPLICATE_METHOD_MATCH YES    setenv CLASS_FILE_DIR "/Users/colin/srv/event analyitics/smartphone/phonegap/platforms/ios/build/EventAnalytics.build/Debug-iphoneos/EventAnalytics.build/JavaClasses"    setenv CLEAN_PRECOMPS YES    setenv CLONE_HEADERS NO    setenv CODESIGNING_FOLDER_PATH "/Users/colin/srv/event analyitics/smartphone/phonegap/platforms/ios/build/device/EventAnalytics.app"    setenv CODE_SIGNING_ALLOWED YES    setenv CODE_SIGNING_REQUIRED YES    setenv CODE_SIGN_CONTEXT_CLASS XCiPhoneOSCodeSignContext    setenv CODE_SIGN_IDENTITY "iPhone Developer"    setenv COLOR_DIAGNOSTICS NO    setenv COMBINE_HIDPI_IMAGES NO    setenv COMMAND_MODE legacy    setenv COMPOSITE_SDK_DIRS /var/folders/hy/zyhhclmj3fg98nf3lhsc0jhm0000gn/C/com.apple.DeveloperTools/5.0.2-5A3005/Xcode/CompositeSDKs    setenv COMPRESS_PNG_FILES YES    setenv CONFIGURATION Debug    setenv CONFIGURATION_BUILD_DIR "/Users/colin/srv/event analyitics/smartphone/phonegap/platforms/ios/build/device"    setenv CONFIGURATION_TEMP_DIR "/Users/colin/srv/event analyitics/smartphone/phonegap/platforms/ios/build/EventAnalytics.build/Debug-iphoneos"    setenv CONTENTS_FOLDER_PATH EventAnalytics.app    setenv COPYING_PRESERVES_HFS_DATA NO    setenv COPY_PHASE_STRIP NO    setenv COPY_RESOURCES_FROM_STATIC_FRAMEWORKS YES    setenv CP /bin/cp    setenv CREATE_INFOPLIST_SECTION_IN_BINARY NO    setenv CURRENT_ARCH armv7    setenv CURRENT_VARIANT normal    setenv DEAD_CODE_STRIPPING YES    setenv DEBUGGING_SYMBOLS YES    setenv DEBUG_INFORMATION_FORMAT dwarf-with-dsym    setenv DEFAULT_COMPILER com.apple.compilers.llvm.clang.1_0    setenv DEFAULT_KEXT_INSTALL_PATH /System/Library/Extensions    setenv DEPLOYMENT_LOCATION NO    setenv DEPLOYMENT_POSTPROCESSING NO    setenv DERIVED_FILES_DIR "/Users/colin/srv/event analyitics/smartphone/phonegap/platforms/ios/build/EventAnalytics.build/Debug-iphoneos/EventAnalytics.build/DerivedSources"    setenv DERIVED_FILE_DIR "/Users/colin/srv/event analyitics/smartphone/phonegap/platforms/ios/build/EventAnalytics.build/Debug-iphoneos/EventAnalytics.build/DerivedSources"    setenv DERIVED_SOURCES_DIR "/Users/colin/srv/event analyitics/smartphone/phonegap/platforms/ios/build/EventAnalytics.build/Debug-iphoneos/EventAnalytics.build/DerivedSources"    setenv DEVELOPER_APPLICATIONS_DIR /Applications/Xcode.app/Contents/Developer/Applications    setenv DEVELOPER_BIN_DIR /Applications/Xcode.app/Contents/Developer/usr/bin    setenv DEVELOPER_DIR /Applications/Xcode.app/Contents/Developer    setenv DEVELOPER_FRAMEWORKS_DIR /Applications/Xcode.app/Contents/Developer/Library/Frameworks    setenv DEVELOPER_FRAMEWORKS_DIR_QUOTED /Applications/Xcode.app/Contents/Developer/Library/Frameworks    setenv DEVELOPER_LIBRARY_DIR /Applications/Xcode.app/Contents/Developer/Library    setenv DEVELOPER_SDK_DIR /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs    setenv DEVELOPER_TOOLS_DIR /Applications/Xcode.app/Contents/Developer/Tools    setenv DEVELOPER_USR_DIR /Applications/Xcode.app/Contents/Developer/usr    setenv DEVELOPMENT_LANGUAGE English    setenv DOCUMENTATION_FOLDER_PATH EventAnalytics.app/English.lproj/Documentation    setenv DO_HEADER_SCANNING_IN_JAM NO    setenv DSTROOT /tmp/EventAnalytics.dst    setenv DT_TOOLCHAIN_DIR /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain    setenv DWARF_DSYM_FILE_NAME EventAnalytics.app.dSYM    setenv DWARF_DSYM_FILE_SHOULD_ACCOMPANY_PRODUCT NO    setenv DWARF_DSYM_FOLDER_PATH "/Users/colin/srv/event analyitics/smartphone/phonegap/platforms/ios/build/device"    setenv EFFECTIVE_PLATFORM_NAME -iphoneos    setenv EMBEDDED_PROFILE_NAME embedded.mobileprovision    setenv ENABLE_HEADER_DEPENDENCIES YES    setenv ENTITLEMENTS_ALLOWED YES    setenv ENTITLEMENTS_REQUIRED YES    setenv EXCLUDED_INSTALLSRC_SUBDIRECTORY_PATTERNS ".DS_Store .svn .git .hg CVS"    setenv EXCLUDED_RECURSIVE_SEARCH_PATH_SUBDIRECTORIES "*.nib *.lproj *.framework *.gch (*) .DS_Store CVS .svn .git .hg *.xcodeproj *.xcode *.pbproj *.pbxproj"    setenv EXECUTABLES_FOLDER_PATH EventAnalytics.app/Executables    setenv EXECUTABLE_FOLDER_PATH EventAnalytics.app    setenv EXECUTABLE_NAME EventAnalytics    setenv EXECUTABLE_PATH EventAnalytics.app/EventAnalytics    setenv FILE_LIST "/Users/colin/srv/event analyitics/smartphone/phonegap/platforms/ios/build/EventAnalytics.build/Debug-iphoneos/EventAnalytics.build/Objects/LinkFileList"    setenv FIXED_FILES_DIR "/Users/colin/srv/event analyitics/smartphone/phonegap/platforms/ios/build/EventAnalytics.build/Debug-iphoneos/EventAnalytics.build/FixedFiles"    setenv FRAMEWORKS_FOLDER_PATH EventAnalytics.app/Frameworks    setenv FRAMEWORK_FLAG_PREFIX -framework    setenv FRAMEWORK_SEARCH_PATHS "/Users/colin/srv/event analyitics/smartphone/phonegap/platforms/ios/build/device "    setenv FRAMEWORK_VERSION A    setenv FULL_PRODUCT_NAME EventAnalytics.app    setenv GCC3_VERSION 3.3    setenv GCC_C_LANGUAGE_STANDARD c99    setenv GCC_DYNAMIC_NO_PIC NO    setenv GCC_INLINES_ARE_PRIVATE_EXTERN YES    setenv GCC_OPTIMIZATION_LEVEL 0    setenv GCC_PFE_FILE_C_DIALECTS "c objective-c c++ objective-c++"    setenv GCC_PRECOMPILE_PREFIX_HEADER YES    setenv GCC_PREFIX_HEADER EventAnalytics/EventAnalytics-Prefix.pch    setenv GCC_SYMBOLS_PRIVATE_EXTERN YES    setenv GCC_THUMB_SUPPORT NO    setenv GCC_TREAT_WARNINGS_AS_ERRORS NO    setenv GCC_VERSION com.apple.compilers.llvm.clang.1_0    setenv GCC_VERSION_IDENTIFIER com_apple_compilers_llvm_clang_1_0    setenv GCC_WARN_ABOUT_RETURN_TYPE YES    setenv GCC_WARN_UNDECLARED_SELECTOR YES    setenv GCC_WARN_UNINITIALIZED_AUTOS YES    setenv GCC_WARN_UNUSED_FUNCTION YES    setenv GCC_WARN_UNUSED_VARIABLE YES    setenv GENERATE_MASTER_OBJECT_FILE NO    setenv GENERATE_PKGINFO_FILE YES    setenv GENERATE_PROFILING_CODE NO    setenv GID 20    setenv GROUP staff    setenv HEADERMAP_INCLUDES_FLAT_ENTRIES_FOR_TARGET_BEING_BUILT YES    setenv HEADERMAP_INCLUDES_FRAMEWORK_ENTRIES_FOR_ALL_PRODUCT_TYPES YES    setenv HEADERMAP_INCLUDES_NONPUBLIC_NONPRIVATE_HEADERS YES    setenv HEADERMAP_INCLUDES_PROJECT_HEADERS YES    setenv HEADER_SEARCH_PATHS "/Users/colin/srv/event analyitics/smartphone/phonegap/platforms/ios/build/device/include \"/Users/colin/srv/event analyitics/smartphone/phonegap/platforms/ios/build/device/usr/local/lib/include\" \"/Users/colin/srv/event analyitics/smartphone/phonegap/platforms/ios/build/UninstalledProducts/include\" \"/Users/colin/srv/event analyitics/smartphone/phonegap/platforms/ios/build/device\""    setenv ICONV /usr/bin/iconv    setenv INFOPLIST_EXPAND_BUILD_SETTINGS YES    setenv INFOPLIST_FILE EventAnalytics/EventAnalytics-Info.plist    setenv INFOPLIST_OUTPUT_FORMAT binary    setenv INFOPLIST_PATH EventAnalytics.app/Info.plist    setenv INFOPLIST_PREPROCESS NO    setenv INFOSTRINGS_PATH EventAnalytics.app/English.lproj/InfoPlist.strings    setenv INSTALL_DIR /tmp/EventAnalytics.dst/Applications    setenv INSTALL_GROUP staff    setenv INSTALL_MODE_FLAG u+w,go-w,a+rX    setenv INSTALL_OWNER colin    setenv INSTALL_PATH /Applications    setenv INSTALL_ROOT /tmp/EventAnalytics.dst    setenv IPHONEOS_DEPLOYMENT_TARGET 5.0    setenv JAVAC_DEFAULT_FLAGS "-J-Xms64m -J-XX:NewSize=4M -J-Dfile.encoding=UTF8"    setenv JAVA_APP_STUB /System/Library/Frameworks/JavaVM.framework/Resources/MacOS/JavaApplicationStub    setenv JAVA_ARCHIVE_CLASSES YES    setenv JAVA_ARCHIVE_TYPE JAR    setenv JAVA_COMPILER /usr/bin/javac    setenv JAVA_FOLDER_PATH EventAnalytics.app/Java    setenv JAVA_FRAMEWORK_RESOURCES_DIRS Resources    setenv JAVA_JAR_FLAGS cv    setenv JAVA_SOURCE_SUBDIR .    setenv JAVA_USE_DEPENDENCIES YES    setenv JAVA_ZIP_FLAGS -urg    setenv JIKES_DEFAULT_FLAGS "+E +OLDCSO"    setenv KEEP_PRIVATE_EXTERNS NO    setenv LD_DEPENDENCY_INFO_FILE "/Users/colin/srv/event analyitics/smartphone/phonegap/platforms/ios/build/EventAnalytics.build/Debug-iphoneos/EventAnalytics.build/Objects-normal/armv7/EventAnalytics_dependency_info.dat"    setenv LD_GENERATE_MAP_FILE NO    setenv LD_MAP_FILE_PATH "/Users/colin/srv/event analyitics/smartphone/phonegap/platforms/ios/build/EventAnalytics.build/Debug-iphoneos/EventAnalytics.build/EventAnalytics-LinkMap-normal-armv7.txt"    setenv LD_NO_PIE NO    setenv LD_QUOTE_LINKER_ARGUMENTS_FOR_COMPILER_DRIVER YES    setenv LEGACY_DEVELOPER_DIR /Applications/Xcode.app/Contents/PlugIns/Xcode3Core.ideplugin/Contents/SharedSupport/Developer    setenv LEX lex    setenv LIBRARY_FLAG_NOSPACE YES    setenv LIBRARY_FLAG_PREFIX -l    setenv LIBRARY_KEXT_INSTALL_PATH /Library/Extensions    setenv LIBRARY_SEARCH_PATHS "/Users/colin/srv/event analyitics/smartphone/phonegap/platforms/ios/build/device "    setenv LINKER_DISPLAYS_MANGLED_NAMES NO    setenv LINK_FILE_LIST_normal_armv7 "/Users/colin/srv/event analyitics/smartphone/phonegap/platforms/ios/build/EventAnalytics.build/Debug-iphoneos/EventAnalytics.build/Objects-normal/armv7/EventAnalytics.LinkFileList"    setenv LINK_WITH_STANDARD_LIBRARIES YES    setenv LOCALIZED_RESOURCES_FOLDER_PATH EventAnalytics.app/English.lproj    setenv LOCAL_ADMIN_APPS_DIR /Applications/Utilities    setenv LOCAL_APPS_DIR /Applications    setenv LOCAL_DEVELOPER_DIR /Library/Developer    setenv LOCAL_LIBRARY_DIR /Library    setenv MACH_O_TYPE mh_execute    setenv MAC_OS_X_PRODUCT_BUILD_VERSION 13A603    setenv MAC_OS_X_VERSION_ACTUAL 1090    setenv MAC_OS_X_VERSION_MAJOR 1090    setenv MAC_OS_X_VERSION_MINOR 0900    setenv MODULE_CACHE_DIR /var/folders/hy/zyhhclmj3fg98nf3lhsc0jhm0000gn/C/com.apple.DeveloperTools/5.0.2-5A3005/Xcode/ModuleCache    setenv NATIVE_ARCH armv7    setenv NATIVE_ARCH_32_BIT i386    setenv NATIVE_ARCH_64_BIT x86_64    setenv NATIVE_ARCH_ACTUAL x86_64    setenv NO_COMMON YES    setenv OBJECT_FILE_DIR "/Users/colin/srv/event analyitics/smartphone/phonegap/platforms/ios/build/EventAnalytics.build/Debug-iphoneos/EventAnalytics.build/Objects"    setenv OBJECT_FILE_DIR_normal "/Users/colin/srv/event analyitics/smartphone/phonegap/platforms/ios/build/EventAnalytics.build/Debug-iphoneos/EventAnalytics.build/Objects-normal"    setenv OBJROOT "/Users/colin/srv/event analyitics/smartphone/phonegap/platforms/ios/build"    setenv ONLY_ACTIVE_ARCH YES    setenv OPTIMIZATION_LEVEL 0    setenv OS MACOS    setenv OSAC /usr/bin/osacompile    setenv OTHER_LDFLAGS "-weak_framework CoreFoundation -weak_framework UIKit -weak_framework AVFoundation -weak_framework CoreMedia -weak-lSystem -force_load \"/Users/colin/srv/event analyitics/smartphone/phonegap/platforms/ios/build/device/libCordova.a\" -ObjC"    setenv PACKAGE_TYPE com.apple.package-type.wrapper.application    setenv PASCAL_STRINGS YES    setenv PATH "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin:/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/libexec:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/local/bin:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/usr/bin:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/usr/local/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/local/bin:/Applications/Xcode.app/Contents/Developer/Tools:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/X11/bin"    setenv PATH_PREFIXES_EXCLUDED_FROM_HEADER_DEPENDENCIES "/usr/include /usr/local/include /System/Library/Frameworks /System/Library/PrivateFrameworks /Applications/Xcode.app/Contents/Developer/Headers /Applications/Xcode.app/Contents/Developer/SDKs /Applications/Xcode.app/Contents/Developer/Platforms"    setenv PBDEVELOPMENTPLIST_PATH EventAnalytics.app/pbdevelopment.plist    setenv PFE_FILE_C_DIALECTS objective-c    setenv PKGINFO_FILE_PATH "/Users/colin/srv/event analyitics/smartphone/phonegap/platforms/ios/build/EventAnalytics.build/Debug-iphoneos/EventAnalytics.build/PkgInfo"    setenv PKGINFO_PATH EventAnalytics.app/PkgInfo    setenv PLATFORM_DEVELOPER_APPLICATIONS_DIR /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/Applications    setenv PLATFORM_DEVELOPER_BIN_DIR /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin    setenv PLATFORM_DEVELOPER_LIBRARY_DIR /Applications/Xcode.app/Contents/PlugIns/Xcode3Core.ideplugin/Contents/SharedSupport/Developer/Library    setenv PLATFORM_DEVELOPER_SDK_DIR /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs    setenv PLATFORM_DEVELOPER_TOOLS_DIR /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/Tools    setenv PLATFORM_DEVELOPER_USR_DIR /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr    setenv PLATFORM_DIR /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform    setenv PLATFORM_NAME iphoneos    setenv PLATFORM_PREFERRED_ARCH arm64    setenv PLATFORM_PRODUCT_BUILD_VERSION 11B508    setenv PLIST_FILE_OUTPUT_FORMAT binary    setenv PLUGINS_FOLDER_PATH EventAnalytics.app/PlugIns    setenv PRECOMPS_INCLUDE_HEADERS_FROM_BUILT_PRODUCTS_DIR YES    setenv PRECOMP_DESTINATION_DIR "/Users/colin/srv/event analyitics/smartphone/phonegap/platforms/ios/build/EventAnalytics.build/Debug-iphoneos/EventAnalytics.build/PrefixHeaders"    setenv PRESERVE_DEAD_CODE_INITS_AND_TERMS NO    setenv PRIVATE_HEADERS_FOLDER_PATH EventAnalytics.app/PrivateHeaders    setenv PRODUCT_NAME EventAnalytics    setenv PRODUCT_SETTINGS_PATH "/Users/colin/srv/event analyitics/smartphone/phonegap/platforms/ios/EventAnalytics/EventAnalytics-Info.plist"    setenv PRODUCT_TYPE com.apple.product-type.application    setenv PROFILING_CODE NO    setenv PROJECT EventAnalytics    setenv PROJECT_DERIVED_FILE_DIR "/Users/colin/srv/event analyitics/smartphone/phonegap/platforms/ios/build/EventAnalytics.build/DerivedSources"    setenv PROJECT_DIR "/Users/colin/srv/event analyitics/smartphone/phonegap/platforms/ios"    setenv PROJECT_FILE_PATH "/Users/colin/srv/event analyitics/smartphone/phonegap/platforms/ios/EventAnalytics.xcodeproj"    setenv PROJECT_NAME EventAnalytics    setenv PROJECT_TEMP_DIR "/Users/colin/srv/event analyitics/smartphone/phonegap/platforms/ios/build/EventAnalytics.build"    setenv PROJECT_TEMP_ROOT "/Users/colin/srv/event analyitics/smartphone/phonegap/platforms/ios/build"    setenv PROVISIONING_PROFILE_REQUIRED YES    setenv PUBLIC_HEADERS_FOLDER_PATH EventAnalytics.app/Headers    setenv RECURSIVE_SEARCH_PATHS_FOLLOW_SYMLINKS YES    setenv REMOVE_CVS_FROM_RESOURCES YES    setenv REMOVE_GIT_FROM_RESOURCES YES    setenv REMOVE_HG_FROM_RESOURCES YES    setenv REMOVE_SVN_FROM_RESOURCES YES    setenv RESOURCE_RULES_REQUIRED YES    setenv REZ_COLLECTOR_DIR "/Users/colin/srv/event analyitics/smartphone/phonegap/platforms/ios/build/EventAnalytics.build/Debug-iphoneos/EventAnalytics.build/ResourceManagerResources"    setenv REZ_OBJECTS_DIR "/Users/colin/srv/event analyitics/smartphone/phonegap/platforms/ios/build/EventAnalytics.build/Debug-iphoneos/EventAnalytics.build/ResourceManagerResources/Objects"    setenv REZ_SEARCH_PATHS "/Users/colin/srv/event analyitics/smartphone/phonegap/platforms/ios/build/device "    setenv SCAN_ALL_SOURCE_FILES_FOR_INCLUDES NO    setenv SCRIPTS_FOLDER_PATH EventAnalytics.app/Scripts    setenv SCRIPT_INPUT_FILE_COUNT 0    setenv SCRIPT_OUTPUT_FILE_COUNT 0    setenv SDKROOT /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk    setenv SDK_DIR /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk    setenv SDK_NAME iphoneos7.0    setenv SDK_PRODUCT_BUILD_VERSION 11B508    setenv SED /usr/bin/sed    setenv SEPARATE_STRIP NO    setenv SEPARATE_SYMBOL_EDIT NO    setenv SET_DIR_MODE_OWNER_GROUP YES    setenv SET_FILE_MODE_OWNER_GROUP NO    setenv SHALLOW_BUNDLE YES    setenv SHARED_DERIVED_FILE_DIR "/Users/colin/srv/event analyitics/smartphone/phonegap/platforms/ios/build/device/DerivedSources"    setenv SHARED_FRAMEWORKS_FOLDER_PATH EventAnalytics.app/SharedFrameworks    setenv SHARED_PRECOMPS_DIR /var/folders/hy/zyhhclmj3fg98nf3lhsc0jhm0000gn/C/com.apple.DeveloperTools/5.0.2-5A3005/Xcode/SharedPrecompiledHeaders    setenv SHARED_SUPPORT_FOLDER_PATH EventAnalytics.app/SharedSupport    setenv SKIP_INSTALL NO    setenv SOURCE_ROOT "/Users/colin/srv/event analyitics/smartphone/phonegap/platforms/ios"    setenv SRCROOT "/Users/colin/srv/event analyitics/smartphone/phonegap/platforms/ios"    setenv STRINGS_FILE_OUTPUT_ENCODING binary    setenv STRIP_INSTALLED_PRODUCT YES    setenv STRIP_STYLE all    setenv SUPPORTED_DEVICE_FAMILIES 1,2    setenv SUPPORTED_PLATFORMS "iphonesimulator iphoneos"    setenv SYMROOT "/Users/colin/srv/event analyitics/smartphone/phonegap/platforms/ios/build"    setenv SYSTEM_ADMIN_APPS_DIR /Applications/Utilities    setenv SYSTEM_APPS_DIR /Applications    setenv SYSTEM_CORE_SERVICES_DIR /System/Library/CoreServices    setenv SYSTEM_DEMOS_DIR /Applications/Extras    setenv SYSTEM_DEVELOPER_APPS_DIR /Applications/Xcode.app/Contents/Developer/Applications    setenv SYSTEM_DEVELOPER_BIN_DIR /Applications/Xcode.app/Contents/Developer/usr/bin    setenv SYSTEM_DEVELOPER_DEMOS_DIR "/Applications/Xcode.app/Contents/Developer/Applications/Utilities/Built Examples"    setenv SYSTEM_DEVELOPER_DIR /Applications/Xcode.app/Contents/Developer    setenv SYSTEM_DEVELOPER_DOC_DIR "/Applications/Xcode.app/Contents/Developer/ADC Reference Library"    setenv SYSTEM_DEVELOPER_GRAPHICS_TOOLS_DIR "/Applications/Xcode.app/Contents/Developer/Applications/Graphics Tools"    setenv SYSTEM_DEVELOPER_JAVA_TOOLS_DIR "/Applications/Xcode.app/Contents/Developer/Applications/Java Tools"    setenv SYSTEM_DEVELOPER_PERFORMANCE_TOOLS_DIR "/Applications/Xcode.app/Contents/Developer/Applications/Performance Tools"    setenv SYSTEM_DEVELOPER_RELEASENOTES_DIR "/Applications/Xcode.app/Contents/Developer/ADC Reference Library/releasenotes"    setenv SYSTEM_DEVELOPER_TOOLS /Applications/Xcode.app/Contents/Developer/Tools    setenv SYSTEM_DEVELOPER_TOOLS_DOC_DIR "/Applications/Xcode.app/Contents/Developer/ADC Reference Library/documentation/DeveloperTools"    setenv SYSTEM_DEVELOPER_TOOLS_RELEASENOTES_DIR "/Applications/Xcode.app/Contents/Developer/ADC Reference Library/releasenotes/DeveloperTools"    setenv SYSTEM_DEVELOPER_USR_DIR /Applications/Xcode.app/Contents/Developer/usr    setenv SYSTEM_DEVELOPER_UTILITIES_DIR /Applications/Xcode.app/Contents/Developer/Applications/Utilities    setenv SYSTEM_DOCUMENTATION_DIR /Library/Documentation    setenv SYSTEM_KEXT_INSTALL_PATH /System/Library/Extensions    setenv SYSTEM_LIBRARY_DIR /System/Library    setenv TARGETED_DEVICE_FAMILY 1,2    setenv TARGETNAME EventAnalytics    setenv TARGET_BUILD_DIR "/Users/colin/srv/event analyitics/smartphone/phonegap/platforms/ios/build/device"    setenv TARGET_NAME EventAnalytics    setenv TARGET_TEMP_DIR "/Users/colin/srv/event analyitics/smartphone/phonegap/platforms/ios/build/EventAnalytics.build/Debug-iphoneos/EventAnalytics.build"    setenv TEMP_DIR "/Users/colin/srv/event analyitics/smartphone/phonegap/platforms/ios/build/EventAnalytics.build/Debug-iphoneos/EventAnalytics.build"    setenv TEMP_FILES_DIR "/Users/colin/srv/event analyitics/smartphone/phonegap/platforms/ios/build/EventAnalytics.build/Debug-iphoneos/EventAnalytics.build"    setenv TEMP_FILE_DIR "/Users/colin/srv/event analyitics/smartphone/phonegap/platforms/ios/build/EventAnalytics.build/Debug-iphoneos/EventAnalytics.build"    setenv TEMP_ROOT "/Users/colin/srv/event analyitics/smartphone/phonegap/platforms/ios/build"    setenv TOOLCHAINS com.apple.dt.toolchain.XcodeDefault    setenv UID 501    setenv UNLOCALIZED_RESOURCES_FOLDER_PATH EventAnalytics.app    setenv UNSTRIPPED_PRODUCT NO    setenv USER colin    setenv USER_APPS_DIR /Users/colin/Applications    setenv USER_LIBRARY_DIR /Users/colin/Library    setenv USE_DYNAMIC_NO_PIC YES    setenv USE_HEADERMAP YES    setenv USE_HEADER_SYMLINKS NO    setenv VALIDATE_PRODUCT NO    setenv VALID_ARCHS "armv7 armv7s"    setenv VERBOSE_PBXCP NO    setenv VERSIONPLIST_PATH EventAnalytics.app/version.plist    setenv VERSION_INFO_BUILDER colin    setenv VERSION_INFO_FILE EventAnalytics_vers.c    setenv VERSION_INFO_STRING "\"@(#)PROGRAM:EventAnalytics  PROJECT:EventAnalytics-\""    setenv WRAPPER_EXTENSION app    setenv WRAPPER_NAME EventAnalytics.app    setenv WRAPPER_SUFFIX .app    setenv XCODE_APP_SUPPORT_DIR /Applications/Xcode.app/Contents/Developer/Library/Xcode    setenv XCODE_PRODUCT_BUILD_VERSION 5A3005    setenv XCODE_VERSION_ACTUAL 0502    setenv XCODE_VERSION_MAJOR 0500    setenv XCODE_VERSION_MINOR 0500    setenv XPCSERVICES_FOLDER_PATH EventAnalytics.app/XPCServices    setenv YACC yacc    setenv arch armv7    setenv variant normal    /bin/sh -c \"/Users/colin/srv/event\ analyitics/smartphone/phonegap/platforms/ios/build/EventAnalytics.build/Debug-iphoneos/EventAnalytics.build/Script-304B58A110DAC018002A0835.sh\"36"B6D1BD71-E48B-4232-91D4-339B7AC2E458-
+bDA833869-EFA0-46DE-B54B-788D96587FE8
+
+CProcessInfoPlistFile /Users/colin/srv/event\ analyitics/smartphone/phonegap/platforms/ios/build/device/EventAnalytics.app/Info.plist /Users/colin/srv/event\ analyitics/smartphone/phonegap/platforms/ios/EventAnalytics/EventAnalytics-Info.plist
+s407298062.256933
+e407298062.259051
+r1
+xProcessInfoPlistFile
+x/Users/colin/srv/event analyitics/smartphone/phonegap/platforms/ios/build/device/EventAnalytics.app/Info.plist
+x/Users/colin/srv/event analyitics/smartphone/phonegap/platforms/ios/EventAnalytics/EventAnalytics-Info.plist
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection116"Process /Users/colin/srv/event analyitics/smartphone/phonegap/platforms/ios/EventAnalytics/EventAnalytics-Info.plist104"ProcessInfoPlistFile build/device/EventAnalytics.app/Info.plist EventAnalytics/EventAnalytics-Info.pliste7e0410ee046b841^f052420ee046b841^---0#0#1#-19%DVTDocumentLocation2@117"file:///Users/colin/srv/event%20analyitics/smartphone/phonegap/platforms/ios/EventAnalytics/EventAnalytics-Info.plist0000000000000000^968"ProcessInfoPlistFile build/device/EventAnalytics.app/Info.plist EventAnalytics/EventAnalytics-Info.plist    cd "/Users/colin/srv/event analyitics/smartphone/phonegap/platforms/ios"    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/X11/bin"    builtin-infoPlistUtility /Users/colin/srv/event\ analyitics/smartphone/phonegap/platforms/ios/EventAnalytics/EventAnalytics-Info.plist -genpkginfo /Users/colin/srv/event\ analyitics/smartphone/phonegap/platforms/ios/build/device/EventAnalytics.app/PkgInfo -expandbuildsettings -format binary -platform iphoneos -resourcerulesfile /Users/colin/srv/event\ analyitics/smartphone/phonegap/platforms/ios/build/device/EventAnalytics.app/ResourceRules.plist -o /Users/colin/srv/event\ analyitics/smartphone/phonegap/platforms/ios/build/device/EventAnalytics.app/Info.plist36"BA0F9318-62DA-4119-9ED8-9AE1504760DD-
+bDA833869-EFA0-46DE-B54B-788D96587FE8
+
+CProcessPCH /var/folders/hy/zyhhclmj3fg98nf3lhsc0jhm0000gn/C/com.apple.DeveloperTools/5.0.2-5A3005/Xcode/SharedPrecompiledHeaders/EventAnalytics-Prefix-cbiebvxwmhqcnrerbqdzxoagurze/EventAnalytics-Prefix.pch.pch EventAnalytics/EventAnalytics-Prefix.pch normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CProcessProductPackaging /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/Entitlements.plist /Users/colin/srv/event\ analyitics/smartphone/phonegap/platforms/ios/build/EventAnalytics.build/Debug-iphoneos/EventAnalytics.build/EventAnalytics.xcent
+s407298063.371817
+e407298063.373231
+r1
+xProcessProductPackaging
+x/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/Entitlements.plist
+x/Users/colin/srv/event analyitics/smartphone/phonegap/platforms/ios/build/EventAnalytics.build/Debug-iphoneos/EventAnalytics.build/EventAnalytics.xcent
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection228"ProcessProductPackaging /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/Entitlements.plist build/EventAnalytics.build/Debug-iphoneos/EventAnalytics.build/EventAnalytics.xcent228"ProcessProductPackaging /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/Entitlements.plist build/EventAnalytics.build/Debug-iphoneos/EventAnalytics.build/EventAnalytics.xcent103f5f0fe046b841^938d5f0fe046b841^---0#0#1#-19%DVTDocumentLocation2@160"file:///Users/colin/srv/event%20analyitics/smartphone/phonegap/platforms/ios/build/EventAnalytics.build/Debug-iphoneos/EventAnalytics.build/EventAnalytics.xcent00345484dfffdf42^861"ProcessProductPackaging /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/Entitlements.plist build/EventAnalytics.build/Debug-iphoneos/EventAnalytics.build/EventAnalytics.xcent    cd "/Users/colin/srv/event analyitics/smartphone/phonegap/platforms/ios"    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/X11/bin"    builtin-productPackagingUtility /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/Entitlements.plist -entitlements -format xml -o /Users/colin/srv/event\ analyitics/smartphone/phonegap/platforms/ios/build/EventAnalytics.build/Debug-iphoneos/EventAnalytics.build/EventAnalytics.xcent36"85356037-C035-4477-AE13-446F1052DB52-
+bDA833869-EFA0-46DE-B54B-788D96587FE8
+
+CProcessProductPackaging /Users/colin/Library/MobileDevice/Provisioning\ Profiles/8BA91B94-EAF4-4ADE-AD9A-C7D406504844.mobileprovision /Users/colin/srv/event\ analyitics/smartphone/phonegap/platforms/ios/build/device/EventAnalytics.app/embedded.mobileprovision
+s407298063.364978
+e407298063.366096
+r1
+xProcessProductPackaging
+x/Users/colin/Library/MobileDevice/Provisioning Profiles/8BA91B94-EAF4-4ADE-AD9A-C7D406504844.mobileprovision
+x/Users/colin/srv/event analyitics/smartphone/phonegap/platforms/ios/build/device/EventAnalytics.app/embedded.mobileprovision
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection190"ProcessProductPackaging /Users/colin/Library/MobileDevice/Provisioning\ Profiles/8BA91B94-EAF4-4ADE-AD9A-C7D406504844.mobileprovision build/device/EventAnalytics.app/embedded.mobileprovision190"ProcessProductPackaging /Users/colin/Library/MobileDevice/Provisioning\ Profiles/8BA91B94-EAF4-4ADE-AD9A-C7D406504844.mobileprovision build/device/EventAnalytics.app/embedded.mobileprovision847f5d0fe046b841^e9b95d0fe046b841^---0#0#1#-19%DVTDocumentLocation2@133"file:///Users/colin/srv/event%20analyitics/smartphone/phonegap/platforms/ios/build/device/EventAnalytics.app/embedded.mobileprovision00345484dfffdf42^759"ProcessProductPackaging /Users/colin/Library/MobileDevice/Provisioning\ Profiles/8BA91B94-EAF4-4ADE-AD9A-C7D406504844.mobileprovision build/device/EventAnalytics.app/embedded.mobileprovision    cd "/Users/colin/srv/event analyitics/smartphone/phonegap/platforms/ios"    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/X11/bin"    builtin-productPackagingUtility /Users/colin/Library/MobileDevice/Provisioning\ Profiles/8BA91B94-EAF4-4ADE-AD9A-C7D406504844.mobileprovision -o /Users/colin/srv/event\ analyitics/smartphone/phonegap/platforms/ios/build/device/EventAnalytics.app/embedded.mobileprovision36"49FE2976-A044-4675-9049-DD05B71E8388-
+bDA833869-EFA0-46DE-B54B-788D96587FE8
+
+CTouch /Users/colin/srv/event\ analyitics/smartphone/phonegap/platforms/ios/build/device/EventAnalytics.app
+s407298063.367205
+e407298063.371380
+r1
+xTouch
+x/Users/colin/srv/event analyitics/smartphone/phonegap/platforms/ios/build/device/EventAnalytics.app
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection105"Touch /Users/colin/srv/event analyitics/smartphone/phonegap/platforms/ios/build/device/EventAnalytics.app37"Touch build/device/EventAnalytics.appa9115e0fe046b841^16135f0fe046b841^---0#0#1#--454"Touch build/device/EventAnalytics.app    cd "/Users/colin/srv/event analyitics/smartphone/phonegap/platforms/ios"    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/X11/bin"    /usr/bin/touch -c /Users/colin/srv/event\ analyitics/smartphone/phonegap/platforms/ios/build/device/EventAnalytics.app36"65FC6DEF-E4A9-46E3-8EDD-10BDBE8610CB-
+bDA833869-EFA0-46DE-B54B-788D96587FE8
+

@@ -115,7 +115,7 @@ var app = {
        } else {
            app.enable(connectButton);                      
            listButton.style.display = "none";
-           app.setStatus("Found " + devices.length + " device" + (devices.length === 1 ? "." : "s."));           
+           app.setStatus("Found " + devices.length + " device" + (devices.length === 1 ? "." : "s."));
        }
     },
     onconnect: function() {
