@@ -1,0 +1,28 @@
+<article id="eventChooser-bar" class="component">
+  <div class="row">
+    <div class="small-10 small-push-1 columns">
+      <header>
+        <h2>Choose an Event</h2>
+      </header>
+      <select id="evList">
+    		<option value="">New Event</option>
+      </select>
+      <footer>
+      </footer>
+      <button id="go" onclick="controller.go();">Go</button>
+    </div>
+  </div>
+</article>
+
+<script type="text/javascript" src="js/controllers/eventChooser.js"></script>
+<script>
+/* Populate dropdown */
+(function() {
+  var html = "";
+  for(var ev in eventList) {
+   html+='<option value="'+ev+'">'+eventList[ev].name+'</option>\n';
+  }
+  var evList = document.getElementById('evList');
+  evList.innerHTML = html + evList.innerHTML;
+})();
+</script>

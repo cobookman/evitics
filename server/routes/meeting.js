@@ -10,21 +10,20 @@ exports.put = function(req, res) {
   }
   var doc = {};
   doc.name = req.body.name.replace(/[^\w\s]/g,'');
-
-  var evID = req.params.eventID.replace(/[^\w\s-]/g,'');
-  if(evID.length < 1 || doc.name.length < 1) {
-    return res.jsonp({"error" : "Event ID and Name must be specified"});
+  if(doc.name.length < 1) {
+    return res.jsonp({"error" : "Event Name must be specified"});
   }
+
   if(req.body.hasOwnProperty('description') && req.body.description.length > 1) {
     doc.description = req.body.description;
   }
 
   doc.createdate = new Date();
-  meetings.save(evID, doc, function(err, data) {
+  meetings.save(doc, function(err, data) {
     if(err) {
       res.jsonp({"error": err});
     } else {
-      res.jsonp({"created event" : evID});
+      res.jsonp(data);
     }
   });
 };

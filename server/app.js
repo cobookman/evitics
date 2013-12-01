@@ -30,8 +30,8 @@ if ('development' == app.get('env')) {
 */
 var meeting = require('./routes/meeting.js');
 //Create new event
-app.post('/api/:eventID', meeting.put);
-app.put('/api/:eventID', meeting.put);
+app.post('/api/newmeeting', meeting.put);
+app.put('/api/newmeeting', meeting.put);
 //Get event information
 app.get('/api/:eventID', meeting.get);
 //Delete event

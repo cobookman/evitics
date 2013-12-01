@@ -16,18 +16,4 @@
   </div>
 </article>
 
-<script>
-var controller = {
-  success: function() {
-    /*  Load setup template */
-    template.load('setup');
-  },
-  failure : function() {
-    var errmsgDiv = document.querySelector("#errmsg");
-    if(errmsgDiv.classList.contains('hide')) {
-      errmsgDiv.classList.toggle('hide');
-    }
-    errmsgDiv.innerHTML = "Wrong login credential<br>this is your: " + user.attempts + " attempt";
-  }
-};   
-</script>
+<script type="text/javascript" src="js/controllers/login.js"></script>

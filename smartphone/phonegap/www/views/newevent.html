@@ -1,47 +1,28 @@
 <article id="newevent-bar" class="component">
-  <header>
-    <h2>New Event</h2>
-  </header>
-  <form class="newevent-form" onsubmit="return false;">
-    <div class="errmsg"><!-- ERROR MESSAGE HERE --> </div>
-    <input id="name" type="text" placeholder="Event Name">
-    <select id="organization" class="docNav">
-        <option value="">--Select a Club--</option>
-        <option value="ECE4894">ECE 4894</option>
-        <option value="ECE4011">ECE 4011</option>
-        <option value="IEEE">IEEE</option>
-        <option value="SGA">SGA</option>
-        <option value="other">Other</option>
-    </select>
-    <!-- TODO GUEST LIST STUFFS -->
-    <input id="guestList" type="text" placeholder="Guest list in format of: [134, 234, 234]">
-    <!--                        -->
-    <button onclick="newevent.submit();" >Create Event</button>
-  </form>
-  <footer>
-  </footer>
+  <div class="row">
+    <div class="small-10 small-push-1 columns">
+      <header>
+        <h2>New Event</h2>
+      </header>
+      <form class="newevent-form" onsubmit="return false;">
+        <div class="errmsg"><!-- ERROR MESSAGE HERE --> </div>
+        <input id="name" type="text" placeholder="Event Name" >
+        <select id="organization" class="docNav">
+            <option value="">--Select a Club--</option>
+            <option value="ECE4894">ECE 4894</option>
+            <option value="ECE4011">ECE 4011</option>
+            <option value="IEEE">IEEE</option>
+            <option value="SGA">SGA</option>
+            <option value="">Other</option>
+        </select>
+        <!-- TODO GUEST LIST STUFFS -->
+        <input id="guestList" type="text" placeholder="Guest list in format of: [134, 234, 234]">
+        <!--                        -->
+        <button id="createEvent" onclick="controller.newevent.create();">Create Event and Go</button>
+      </form>
+      <footer>
+      </footer>
+    </div>
+  </div>
 </article>
-
-<!--
-    New Event View specific code
--->
-<script>
-var newevent = {
-  submit : function() {
-    alert("received submisison - todo");
-  }
-}
-
-/*
-  Add text input when organization = other
-*/
-var organization = document.getElementById('organization');
-organization.onchange = function(ev) {
-  var newOrganization = document.getElementById('new-organization');
-  if(organization.value === 'other' &&  newOrganization === null) {
-    $(organization).after('<input id="new-organization" type="text" class="topcoat-text-input--large" placeholder="Other Organiziation Name">');
-  } else if(organization.value !== 'other' && newOrganization !== null) {
-    newOrganization.outerHTML = "";
-  }
-}
-</script>
+<script type="text/javascript" src="js/controllers/newevent.js"></script>
