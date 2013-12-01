@@ -1,7 +1,7 @@
 var cradle = require('cradle');
 var meetings = new(cradle.Connection)().database('meetings');
 
-//app.put('/api/:eventID', meeting.put);
+//app.put('/api/meeting', meeting.put);
 exports.put = function(req, res) {
   //Sanatize eventID
 
@@ -28,7 +28,7 @@ exports.put = function(req, res) {
   });
 };
 
-//app.get('/api/:eventID', meeting.get);
+//app.get('/api/meeting/:eventID', meeting.get);
 exports.get = function(req, res) {
   var evID = req.params.eventID.replace(/[^\w\s-]/g,'');
   meetings.get(evID, function(err, doc) {
@@ -39,10 +39,21 @@ exports.get = function(req, res) {
     }
   });
 };
-// app.delete('/api/:eventID', meeting.delete);
+
+//app.get('/api/meeting', meeting.list);
+exports.list = function(req, res) {
+  meetings.all(function(err, docs) {
+    if(err) {
+      res.jsonp({"error" : err});
+    } else {
+      res.jsonp(docs);
+    }
+  });
+};
+// app.delete('/api/meeting/:eventID', meeting.delete);
 exports.delete = function(req, res) {
   var evID = req.params.eventID.replace(/[^\w\s-]/g,'');
-  var db = new(cradle.Connection)({cache: false}).database(evID);
+  var db = new(cradle.Connection)({cache: false}).database('ev' + evID);
   db.destroy();
   meetings.get(evID, function(err, doc) {
     if(err) {
@@ -65,8 +76,8 @@ exports.checkinGuest = function(req, res) {
   if(guestID.length < 1) {
     return res.jsonp({"error" : "guestID not specified"});
   }
-
-  var db = new(cradle.Connection)({cache: false}).database(evID);
+  console.log(evID);
+  var db = new(cradle.Connection)({cache: false}).database('ev' + evID);
   db.exists(function (err, exists) {
     if (err) {
       res.jsonp({"error" : err});
