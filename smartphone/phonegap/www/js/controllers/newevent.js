@@ -3,38 +3,41 @@ if(!controller) {
 }
 controller.newevent = {
   create : function() {
-    
-    var guestList ='';
-    try {
-      guestList = document.getElementById('guestList').value.trim();
-      guestList = guestList.replace(/\[|\]/g,'').replace(/,\s+/g,',');
-      guestList = guestList.split(/\s|,/);
-      if(guestList[0] === "") {
-        guestList = [];
-      }
+    var newEv = genEv();
 
-    } catch(e) {
-      alert("ERROR: " + e);
-    }
-
-    var newEv = {
-      name : document.getElementById('name').value.trim(),
-      organization : document.getElementById('organization').value.trim(),
-      guestList : guestList
-    };
-
-    if(newEv.name.length > 1 && newEv.organization.length > 1) {
-      this.pushnewEv('asdf', newEv, function(err, doc) {
-        if(err) {
-          alert("ERROR!!!");
-        } else {
-          eventList['asdf'] = newEv;
-          controller.go(newEv);
-        }
-      });
-    } else {
+    if(newEv.name.length < 1 || newEv.organization.length < 1) {
       alert("Please specifiy an event name and organization");
       return false;
+    } else {
+      this.pushnewEv(newEv, pushed);
+    }
+
+    function genEv() {
+      var guestList ='';
+      try {
+        guestList = document.getElementById('guestList').value.trim();
+        guestList = guestList.replace(/\[|\]/g,'').replace(/,\s+/g,',');
+        guestList = guestList.split(/\s|,/);
+        if(guestList[0] === "") {
+          guestList = [];
+        }
+      } catch(e) {
+        alert("ERROR: " + e);
+      }
+      return {
+        name : document.getElementById('name').value.trim(),
+        organization : document.getElementById('organization').value.trim(),
+        guestList : guestList
+      };
+    }
+    function pushed(err, doc) {
+      if(err) {
+        alert("ERROR!!!");
+        alert(JSON.stringify(err));
+      } else {
+        eventList[doc.id] = newEv;
+        controller.go(doc.id);
+      }
     }
   },
   isOtherOrganization : function() {
@@ -45,10 +48,10 @@ controller.newevent = {
       return false;
     }
   },
-  pushnewEv : function(id, ev, callback) {
+  pushnewEv : function(ev, callback) {
     //callback(null, id)
     $.ajax({
-      url : 'http://burdellanswers.com:3000/api/' + id,
+      url : 'http://burdellanswers.com:3000/api/newmeeting',
       type : 'POST',
       data : ev,
       success: function(data) {

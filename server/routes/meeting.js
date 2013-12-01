@@ -21,7 +21,7 @@ exports.put = function(req, res) {
   doc.createdate = new Date();
   meetings.save(doc, function(err, data) {
     if(err) {
-      res.jsonp({"error": err});
+      res.jsonp(err);
     } else {
       res.jsonp(data);
     }
@@ -33,7 +33,7 @@ exports.get = function(req, res) {
   var evID = req.params.eventID.replace(/[^\w\s-]/g,'');
   meetings.get(evID, function(err, doc) {
     if(err) {
-      res.jsonp({"error" : err});
+      res.jsonp(err);
     } else {
       res.jsonp(doc);
     }
@@ -77,22 +77,28 @@ exports.checkinGuest = function(req, res) {
     return res.jsonp({"error" : "guestID not specified"});
   }
   console.log(evID);
-  var db = new(cradle.Connection)({cache: false}).database('ev' + evID);
+  var db = new cradle.Connection().database('ev' + evID);
   db.exists(function (err, exists) {
     if (err) {
-      res.jsonp({"error" : err});
+      console.log(err);
+      res.jsonp(err);
     } else if (exists) {
       checkin();
     } else {
-      db.create();
-      checkin();
+      db.create(function(err, msg) {
+        if(err) {
+          res.jsonp(err);
+        } else {
+          checkin();
+        }
+      });
     }
   });
 
   function checkin() {
     db.save(guestID, { "create_date" : new Date()}, function(err, doc) {
       if(err) {
-        res.jsonp({"error" : err});
+        res.jsonp(err);
       } else {
         res.jsonp({"checked in" : guestID});
       }

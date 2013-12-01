@@ -17,11 +17,11 @@ var controller = {
 			$('#template-content').append(data);
 		});
 	},
-	go : function(index) {
+	go : function(evIndex) {
 		if(typeof index === 'undefined') {
 			index = evList.value;
 		}
-		alert(JSON.stringify(eventList[index]));
+		eventList[index];
 	}
 };
 $(controller.evList).change(controller.onEvListChange);
