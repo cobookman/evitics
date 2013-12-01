@@ -81,11 +81,11 @@
 }
 
 - (void)subscribe:(CDVInvokedUrlCommand*)command {
-    NSLog(@"subscribe!!!!!!!!!!!");
-
+    NSLog(@"subscribe");
+    
     CDVPluginResult *pluginResult = nil;
     NSString *delimiter = [command.arguments objectAtIndex:0];
-    NSLog(@"Subscrive delimiter: %@", delimiter);    
+    
     if (delimiter != nil) {
         pluginResult = [CDVPluginResult resultWithStatus:CDVCommandStatus_NO_RESULT];
         [pluginResult setKeepCallbackAsBool:TRUE];
